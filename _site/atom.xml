@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>The blog of Kevin Guebert</title>
+ <link href="http://example.com/atom.xml" rel="self"/>
+ <link href="http://example.com"/>
+ <updated>2018-01-02T11:33:26-07:00</updated>
+ <id>http://example.com</id>
+ <author>
+   <name>Kevin Guebert</name>
+   <email>kguebert93@gmail.com</email>
+ </author>
+
+ 
+ 
+</feed>
