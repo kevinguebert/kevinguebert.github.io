@@ -1,17 +1,8 @@
 <nav>
-  <h1>Hi.</h1>
-  <a href="/">
-<!--     {% if site.data.theme.social.gravatar %}
-    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
-    {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
-    {% endif %}
- -->  </a>
-  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
+  <h1 class="name">Howdy, <br / />I'm <a href="/">{{ site.data.theme.name }}</a>.</h1>
   <div id="bio">
-    <p>A brief bio or something witty.</p>
-    <p>
-      Update me in <code>_includes/sidebar.html</code>
+    <p>Tagline for 2018:<br />
+      <strong>{{ site.data.theme.tagline }}</strong>
     </p>
   </div>
   {% if site.data.theme.show_social_and_feed %}
@@ -22,5 +13,9 @@
 
   <div id="tags">
     {% include tags.html %}
+  </div>
+
+  <div id="books">
+    {% include books.html %}
   </div>
 </nav>

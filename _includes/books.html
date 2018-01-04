@@ -1,0 +1,22 @@
+<h3>Books of 2018</h3>
+<p>
+  <strong>Currently reading:</strong>
+  {% for book in site.data.theme.book_names %}
+    {{book[site.data.theme.book_current]}}
+  {% endfor %}
+</p>
+<h4>
+  Previous Books:
+</h4>
+<ul>
+  {% for book in site.data.theme.book_names %}
+    <li>
+      {% for urls in site.data.theme.book_urls %}
+        <a href="{{ urls[forloop.index0] }}" rel="book">
+      {% endfor %}
+      {{book[forloop.index0]}}
+      </a>
+    </li>
+  {% endfor %}
+
+</span>

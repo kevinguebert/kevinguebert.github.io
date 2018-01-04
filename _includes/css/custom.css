@@ -1,9 +1,47 @@
+h3 {
+  font-size:18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+  nav {
+    width:auto;
+  }
+}
 .container {
   height: 100%;
 }
 
-/*.footer {
-  position: absolute;
-  bottom: 0;
+.name {
+  font-size: 28px;
 }
-*/
+
+/* .sidebar {
+  border-right: 1px solid #DDD;
+  padding-right: 40px;
+}
+
+.content {
+  border-left: none;
+} */
+
+#tags {
+  margin-top:0;
+  border-top:none;
+  margin-bottom: 0;
+}
+#books {
+  border-top: dotted #ddd;
+  border-width: 1px 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 13px;
+  padding-top: 15px;
+}
+
+#books li {
+  list-style: decimal-leading-zero;
+}

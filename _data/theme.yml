@@ -20,9 +20,9 @@ social:
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: Kevin Guebert
+name: Kevin
 email: kguebert93@gmail.com
-tagline: "weak opinions, strongly held"
+tagline: "Don't skip 2 days in a row."
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-xxxx-x
@@ -32,3 +32,20 @@ show_disclaimer: true
 
 # Toggle link/icon to view atom feed (/atom.xml) in sidebar
 show_atom_feed: false
+
+book_current: 1
+
+book_names: [
+  0: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+  1: "Disciple Equals Freedom Field Manual"
+]
+
+book_authors: [
+  0: Ashley Vance,
+  1: Jocko Willink
+]
+
+book_urls: [
+  0: "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233",
+  1: ""
+]
