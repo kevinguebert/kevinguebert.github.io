@@ -2,6 +2,7 @@
 layout: post
 title: Sample post
 tags: [code, jekyll]
+published: false
 categories:
 - blog
 ---
