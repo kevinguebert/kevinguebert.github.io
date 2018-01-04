@@ -4,13 +4,46 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-03T21:09:33-07:00</updated>
+ <updated>2018-01-04T06:51:11-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Stoicism & Discipline Equals Freedom</title>
+   <link href="http://localhost:4000/blog/2017/01/04/the-best-for-yourself.html"/>
+   <updated>2017-01-04T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/04/the-best-for-yourself</id>
+   <content type="html">&lt;p&gt;I am one day in and 39 pages deep into &lt;strong&gt;Discipline Equals Freedom Field Manual&lt;/strong&gt;, and I would already highly recommend it to anyone. This morning I came across a couple passages that I wanted to share that I believe relate very much to Stoicism.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How long are you going to wait before you demand the best for yourself? - Epictetus&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The above question is short and simple, but initiates a deeper question and conversation I can have with myself. Jocko Willink, author of &lt;strong&gt;Discipline Equals Freedom Field Manual&lt;/strong&gt; goes even deeper into these types of questions. He states that “knowledge is the ultimate weapon” (28) and the path to gaining knowledge is to “Question &lt;em&gt;everything&lt;/em&gt;. Don’t accept anything as truth.” The rest of the page talks then about external questions that we may face every day - words we don’t know, concepts we may not understand, etc. But, the more important questions are the ones like the quote above. Jocko shares it as “Question yourself every day.” All the time, question my actions, my thoughts, my progress, my learning. Question everything about me. And they are very simple questions, but like above, very powerful. Below is my favorite excerpt from this chapter.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Is &lt;em&gt;this&lt;/em&gt; what I want to be? &lt;em&gt;This&lt;/em&gt;? Is &lt;em&gt;this&lt;/em&gt; all I’ve got – is this everything I can give? Is &lt;em&gt;this&lt;/em&gt; going to be &lt;em&gt;my&lt;/em&gt; life? Do I &lt;em&gt;accept&lt;/em&gt; that? - Jocko Willink (29)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What bombshells of questions. Why? Well because we all know that we can do better. I could feel it in myself while reading those questions that I am not giving it all I’ve got. I know I can do better and Jocko challenges us to fight back and not accept it.&lt;/p&gt;
+
+&lt;p&gt;Ten pages later, Jocko provides us hope with these questions. I am not going to lie, after reading &lt;strong&gt;Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future&lt;/strong&gt;, I actually felt a bit discouraged. Elon Musk seems to be so far and above everyone else that some people even revere him in a god-like way. Reading about all his accomplishments, his challenges, and his successes, I couldn’t help but reflect on myself a little and compare some of what I’ve done to him. Foolish, I know, but still in the back of my mind, and also a very negative exercise. In his chapter on “Nature vs. Nurture,” Jocko simplifies it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is not about nature or nuture: It is about choice. The people who are successful &lt;em&gt;decide&lt;/em&gt; they are going to be successful. They make that choice. - Jocko Willink (39)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And he provides more hope - “It is never too late to make that choice…Choose to make yourself smarter and stronger and healthier…Don’t let nature or nuture make you. Choose to Make. Your. Self.” (39) Next time then when I start comparing myself to others, start looking at successful people, I have to remind myself that it is a choice. A choice that I can also make.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://photos.app.goo.gl/tztrT92NxOAY3PiL2&quot;&gt;Download Epictetus Wallpaper&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Behat and JS? Go CasperJS</title>

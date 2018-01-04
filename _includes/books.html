@@ -12,7 +12,7 @@
       {% for urls in site.data.theme.book_urls %}
         <a href="{{ urls[forloop.index0] }}" rel="book">
       {% endfor %}
-      {{book[forloop.index0]}}
+      {% if book[forloop.index0] == site.data.theme.book_current.name %}*{% endif %}{{book[forloop.index0]}}
       </a>
     </li>
   {% endfor %}
