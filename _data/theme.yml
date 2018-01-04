@@ -33,7 +33,9 @@ show_disclaimer: true
 # Toggle link/icon to view atom feed (/atom.xml) in sidebar
 show_atom_feed: false
 
-book_current: 1
+book_current:
+  name: "Disciple Equals Freedom Field Manual"
+  author: Jocko Willink
 
 book_names: [
   0: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",

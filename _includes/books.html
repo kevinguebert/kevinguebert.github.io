@@ -1,9 +1,7 @@
 <h3>Books of 2018</h3>
 <p>
   <strong>Currently reading:</strong>
-  {% for book in site.data.theme.book_names %}
-    {{book[site.data.theme.book_current]}}
-  {% endfor %}
+  {{site.data.theme.book_current.name}} by {{site.data.theme.book_current.author}}
 </p>
 <h4>
   Previous Books:

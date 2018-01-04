@@ -6,10 +6,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kevin - code</title>
+  <title>Kevin - Behat and JS? Go CasperJS</title>
   <meta name="author" content="Kevin" />
   <meta name="description" content="The blog of Kevin" />
-  <link rel="canonical" href="http://localhost:4000/tag/code.html" />
+  <link rel="canonical" href="http://localhost:4000/blog/2017/01/03/behat-and-casper.html" />
 
   <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="/favicon.png">
@@ -93,20 +93,56 @@
     </div>
 
     <div class="ten columns content">
-       
-   
+      <p class="meta">
+  January 03, 2017
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
 
-<div id="home">
-  <h2><i class="fa fa-bookmark"></i> Code Posts </h2> 
-  <ul id="blog-posts" class="posts">
-       
-      
-     
-      
-    
+<h1 class="title">Behat and JS? Go CasperJS</h1>
 
-  </ul>
+<div id="post">
+  <p>Today while writing tests (shocking, I know), I came across an interesting and unknown (at the time) scenario. For the site, I wanted to test and make sure a certain element was showing up on the page. At the time, I was writing Behat tests to do some functionality and the tests are very simple to write, so I decided to try and create a simple test for my element. <em>Usually</em> this is pretty straightforward:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Given I am on "/" #the homepage
+Then I should see ".ad-block" element
+</code></pre></div></div>
+
+<p>As you can see above, I am checking to make sure an ad is showing up on the page. <em>However</em> the problem is that the ads do not populate on first page load. They have to send a request to get the ads and populate them. So, this means for Behat, it is <strong>not waiting</strong> for those ads to load! The driver I am using is the Goutte driver, so any chance at creating a FeatureContext is not possible with javascript. Example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Given I am on "/"
+And I wait 4 seconds
+</code></pre></div></div>
+
+<p>That’s what I learned today! Luckily, Behat is our <strong>Behavior Driven Development</strong> testing framework, but we also use CasperJS for our testing. In fact, there were already tests written for other ads on the site. The more you know!</p>
+
 </div>
+
+<div id="related">
+  <h3>Related Posts</h3>
+  <ul class="posts">
+    
+    <li>
+      <span>02 Jan 2017 &raquo;</span> <a href="/blog/2017/01/02/elon-musk.html">Elon Musk in the Wizard of Oz</a>
+    </li>
+    
+  </ul>
+
+  <h3>Tags :</h3>
+  <span>
+    
+      <a href="/tag/drupal.html" rel="tag">
+         drupal,
+      </a>
+
+      <a href="/tag/coding.html" rel="tag">
+         coding
+      </a>
+
+  </span>
+</div>
+
 
       <div class="footer">
         <div class="disclaimer">
