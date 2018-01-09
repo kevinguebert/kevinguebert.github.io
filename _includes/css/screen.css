@@ -48,17 +48,17 @@ ul {
 }
 
 a {
-  color: {{ site.data.theme.highlight_color }};
+  color: #bf360c;
   text-decoration: none;
 }
 
 a:hover {
-  color: {{ site.data.theme.highlight_color }};
+  color: #bf360cde;
   text-decoration: underline;
 }
 
 a:visited {
-  color: {{ site.data.theme.highlight_color }};
+  color: #bf360cde;
 }
 
 table {
