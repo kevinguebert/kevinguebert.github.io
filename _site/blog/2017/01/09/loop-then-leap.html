@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin - Look-Then-Leap Rule - Explained</title>
+  <meta name="author" content="Kevin" />
+  <meta name="description" content="The blog of Kevin" />
+  <link rel="canonical" href="http://localhost:4000/blog/2017/01/09/loop-then-leap.html" />
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="Kevin" href="http://localhost:4000/atom.xml" />
+
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="five columns sidebar">
+      <nav>
+  <h1 class="name">Howdy, <br / />I'm <a href="/">Kevin</a>.</h1>
+  <div id="bio">
+    <p>Tagline for 2018:<br />
+      <strong>Don't skip 2 days in a row.</strong>
+    </p>
+  </div>
+  
+
+  <div id="tags">
+    <span>
+  Topics:
+  
+
+  
+    <a href="/tag/algorithms.html" rel="tag">
+      algorithms,
+    </a>
+  
+    <a href="/tag/books.html" rel="tag">
+      books,
+    </a>
+  
+    <a href="/tag/code.html" rel="tag">
+      code,
+    </a>
+  
+    <a href="/tag/coding.html" rel="tag">
+      coding,
+    </a>
+  
+    <a href="/tag/drupal.html" rel="tag">
+      drupal,
+    </a>
+  
+    <a href="/tag/health.html" rel="tag">
+      health,
+    </a>
+  
+    <a href="/tag/personal-growth.html" rel="tag">
+      personal-growth,
+    </a>
+  
+    <a href="/tag/sleep.html" rel="tag">
+      sleep,
+    </a>
+  
+    <a href="/tag/stoicism.html" rel="tag">
+      stoicism
+    </a>
+  
+
+</span>
+
+  </div>
+
+  <div id="books">
+    <h3>Books of 2018</h3>
+<p>
+  Currently reading:<br />
+  <strong>Algorithms to Live By</strong> by Brian Christian and Tom Griffiths
+</p>
+<h4>
+  Previous Books:
+</h4>
+<ul>
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233" rel="book">
+      
+        <a href="" rel="book">
+      
+      
+      Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future
+      </a>
+    </li>
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233" rel="book">
+      
+        <a href="" rel="book">
+      
+      
+      Disciple Equals Freedom Field Manual
+      </a>
+    </li>
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233" rel="book">
+      
+        <a href="" rel="book">
+      
+      *
+      Algorithms to Live By
+      </a>
+    </li>
+  
+
+</span>
+
+  </div>
+</nav>
+
+    </div>
+
+    <div class="ten columns content">
+      <p class="meta">
+  January 09, 2017
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
+
+<h1 class="title">Look-Then-Leap Rule - Explained</h1>
+
+<div id="post">
+  <p>Post inspired from: <strong>Algorithms to Live By</strong> by Brian Christian and Tom Griffiths</p>
+
+<blockquote>
+  <p><strong>Loop-Then-Leap Rule:</strong> “You set a predetermined amount of time for ‘looking’ - that is, exploring your options, gathering data - in which you categorically don’t choose anyone, no matter how impressive. After that point, you enter the ‘leap’ phase, prepared to instantly commit to anyone who outshines the best applicant you saw in the look phase.” (13)</p>
+</blockquote>
+
+<h2 id="explanation">Explanation</h2>
+
+<p>Scenario: You are interviewing for a new secretary and want to pick the best applicant. Once you have passed on a candidate, you cannot go back and pick them. You are interviewing at random.</p>
+
+<h4 id="1-applicants">1 Applicants</h4>
+
+<p>Hire them!</p>
+
+<h4 id="2-applicants">2 Applicants</h4>
+
+<p>For 2 applicants, you have a 50/50 shot at hiring the best one. Either pick the first one, or, if you don’t, you have to pick the second one.</p>
+
+<h4 id="3-applicants">3 Applicants</h4>
+
+<p>Let’s say you have 3 applicants, ranked as the best being 1, second best being 2, and worst being 3. With 3 applicants, there are 6 possible scenarios in which you can interview:</p>
+
+<p>1-2-3 (that is: best, second best, worst)<br />
+1-3-2<br />
+2-1-3<br />
+2-3-1<br />
+3-1-2<br />
+3-2-1<br /></p>
+
+<p>With the 3 applicants, <em>we can actually do just as well as we did with just 2 applicants - a 50/50 shot.</em></p>
+
+<p>How?</p>
+
+<p>When we see the first applicant, we don’t have any baseline information so we pass up on them to gather more data (the “look”) phase. When we see the final applicant, we only have one person so we have to pick them.</p>
+
+<p>With the second option, there is more room. With the “Look-Then-Leap” Rule - <strong>if the second option is better than the first one, then you leap. If it is not, then you move to the next one.</strong></p>
+
+<p>Let’s visualize this - remember, you are on the second candidate because the first candidate was your “look” - or information gathering:</p>
+
+<div style="text-align:center;"><strong>1 -<u> 2 </u>- 3</strong></div>
+<p>In this scenario, we have already passed up on the best candidate (1), so this would be a Failure.
+<br /></p>
+<div style="text-align:center;"><strong>1 -<u> 3 </u>- 2</strong></div>
+<p>Similar to the one above, we have already passed up on the best candidate (1), so also a Failure.
+<br /></p>
+<div style="text-align:center;"><strong>2 -<u> 1 </u>- 3</strong></div>
+<p>In this scenario, the second candidate is better than the first one (1 is better than 2), so you would leap on this candidate - Success!
+<br /></p>
+<div style="text-align:center;"><strong>2 -<u> 3 </u>- 1</strong></div>
+<p>The second candidate is <em>not</em> better than the first one (3 is worse than 2), so you would then move on to the 3rd candidate. The 3rd candidate is better than the first one, so you would then leap - Success!
+<br /></p>
+<div style="text-align:center;"><strong>3 -<u> 1 </u>- 2</strong></div>
+<p>In this scenario, the second candidate is better than the first one (1 is better than 3), so you would leap on this candidate - Success!
+<br /></p>
+<div style="text-align:center;"><strong>3 -<u> 2 </u>- 1</strong></div>
+<p>In this last scenario, the second candidate is better than the first candidate (2 is better than 3), so that means we would leap by the rules. Unfortunately that means we miss out on the last candidate, the 1 - Failure.</p>
+
+<p>Looking at the data above we have 3 successes and 3 failures - thus a 50/50 chance when we have 3 candidates - tada!</p>
+
+<p>Successes: [2,1,3], [2,3,1], [3,1,2]<br />
+Failures: [1,2,3], [1,3,2], [3,2,1]</p>
+
+<hr />
+<p>To continue on an enumerate more candidates - 4, 5, 6, etc. - the place where you end up drawing the line between looking and leaping is actually 37% (the 37% Rule).</p>
+
+<h4 id="37-rule">37% Rule</h4>
+<p>When choosing the best candidate, you only have a 37% chance of hiring the best possible applicant.</p>
+
+<p><strong>How it works:</strong> You look at the first 37% of the applicants, not choosing any of them, then after that, leap for anyone that is better than all those you have seen so far.</p>
+
+<hr />
+<p>Next time you are making a decision over a large amount of data and you are trying to decide the “best”, it may be worth it to consider this algorithm!</p>
+
+</div>
+
+<div id="related">
+  <h3>Related Posts</h3>
+  <ul class="posts">
+    
+    <li>
+      <span>08 Jan 2017 &raquo;</span> <a href="/blog/2017/01/08/whos-fault-is-it.html">Who's Fault Is It?</a>
+    </li>
+    
+    <li>
+      <span>07 Jan 2017 &raquo;</span> <a href="/blog/2017/01/07/using-sleep-full-potential.html">Sleep & Discipline</a>
+    </li>
+    
+    <li>
+      <span>04 Jan 2017 &raquo;</span> <a href="/blog/2017/01/04/the-best-for-yourself.html">Stoicism & Discipline Equals Freedom</a>
+    </li>
+    
+  </ul>
+
+  <h3>Tags :</h3>
+  <span>
+    
+      <a href="/tag/algorithms.html" rel="tag">
+         algorithms,
+      </a>
+
+      <a href="/tag/code.html" rel="tag">
+         code,
+      </a>
+
+      <a href="/tag/books.html" rel="tag">
+         books
+      </a>
+
+  </span>
+</div>
+
+
+      <div class="footer">
+        <div class="disclaimer">
+  
+  <p>
+    The postings on this site are my own and don't necessarily represent my 
+    employer’s positions, strategies or opinions.
+  </p>
+  
+
+  <p>
+    © Kevin, 2018 &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom">Lagom theme</a>
+  </p>
+</div>
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
