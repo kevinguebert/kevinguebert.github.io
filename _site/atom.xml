@@ -4,13 +4,82 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-10T07:16:54-07:00</updated>
+ <updated>2018-01-12T06:26:52-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Finding Your Peak Time - My Morning Routine</title>
+   <link href="http://localhost:4000/blog/2017/01/12/morning-routine.html"/>
+   <updated>2017-01-12T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/12/morning-routine</id>
+   <content type="html">&lt;p&gt;If you Goole or search on Medium for “morning routine”, you are bound to get thousands of pages of people describing their morning routine and why it is the best one out there. From article titles like “What the 5 Most Successful People Do Every Morning” to “Do these 10 Things Every Morning for Maximum Productivity”, there are slew of habits, actions, and routines that people are willing to talk about and prescribe you.&lt;/p&gt;
+
+&lt;p&gt;But, over the past 2 years of working on how I spend my morning, I have decided on one main point: &lt;em&gt;you pick the best way to start your day that fits you.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The reason I’ve come to that is from interacting with people and talking with them - everyone is different. Case in point: night owls will not benefit from waking up before dawn and getting started. Night owls work best in the silence of the night when everyone else is asleep. Some people get up and read to invigorate the brain, others meditate to calm the brain, some people journal, others hit the gym. What I’m trying to say is to experiment to find out what works best with you - take a hard look at when your maximum productivity is, when you feel the best, and then capture that energy by creating routines that build that fire.&lt;/p&gt;
+
+&lt;p&gt;So what works best for me?&lt;/p&gt;
+
+&lt;p&gt;Well, I’ve come to realize and understand that I am more of a morning person. 100% I love waking up before others in the quiet of the morning, having my coffee, and starting the day with decisions I make instead of other’s. That means I am usually in bed pretty early but that is a different post.&lt;/p&gt;
+
+&lt;p&gt;Here’s what a typical morning looks like for me:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;5:30AM Wakeup alarm by Jocko Willink (See &lt;a href=&quot;/blog/2017/01/07/using-sleep-full-potential.html&quot;&gt;Sleep &amp;amp; Discipline to learn more&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Downstairs to start my kettle for coffee &amp;amp; I make sure to have about half of my Nalgene of water&lt;/li&gt;
+  &lt;li&gt;Aeropress Coffee (if you are looking for a good, quick, coffee system, I highly recommend Aeropress. Learning about it and the science behind it was enlightening)&lt;/li&gt;
+  &lt;li&gt;Get out my regular looking journal - it is one of those notebooks you see in school, spiral bound, where if you mess up the spirals then the thing is a pain - mine right now is blue and wide ruled. Sometimes I have college ruled, but I like wide as it seems to be the right amount of time&lt;/li&gt;
+  &lt;li&gt;With my coffee and journal, I usually spend on average 25-30 minutes journaling. This equates to one page (front and back) in my journal. Journal topics have a wide range, but the main focus is to get thoughts out of my head and on to paper so they don’t bother me any longer&lt;/li&gt;
+  &lt;li&gt;Next is a choice: I either write a post like this to share what I have learned &lt;strong&gt;or&lt;/strong&gt; I read for another 45 minutes and take notes so I learn more thus share more posts like this.&lt;/li&gt;
+  &lt;li&gt;Around 6:45/7:00 is the first time I check my phone. I try and go as long as possible without checking it - around this time is usually when I start making breakfast and thus would like some music&lt;/li&gt;
+  &lt;li&gt;7:00-7:40, breakfast, preparing for work, making my lunch - the usual morning activities&lt;/li&gt;
+  &lt;li&gt;7:40 - on my bike, headed to work - I am fortunate enough to be able to bike every morning - it gets my heart rate up a little, that fresh morning air, and it’s pretty quiet&lt;/li&gt;
+  &lt;li&gt;8:00 - at my desk, starting the work day&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is one point in there that I would like to highlight and share more - &lt;strong&gt;don’t check your phone.&lt;/strong&gt; This one I have come to enjoy the most. Why? Well because when you check your phone, you are then subject to the asks of others. Others could be text messages or phone calls, but it could also be Tweets, Likes, News Updates, and more. This immediately changes the focus from yourself to the call and ask of others. Most people, myself included, have their minds crowded and jumbled up then - it is hard to journal when you have the other apps and notifications in your mind. This also has the dual side effect of getting you out of your bed - if instead you just roll over and check your phone - you can get lost in the scroll for way to much time. Get out of bed and get after it.&lt;/p&gt;
+
+&lt;p&gt;Try the no-phone rule out. Maybe it’s the first 30 minutes of your morning just drinking coffee in silence. Or maybe it’s just 10 minutes every morning. I believe it will help start your day by allowing you to make decisions about how you want your day to go instead of being a slave to the call of others.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Explore/Exploit Algorithm in Decisions & Regret</title>
+   <link href="http://localhost:4000/blog/2017/01/10/explore-exploit.html"/>
+   <updated>2017-01-10T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/10/explore-exploit</id>
+   <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explore/Exploit:&lt;/strong&gt; In the explore phase, we &lt;em&gt;gather&lt;/em&gt; all the information, and the exploit phase is &lt;em&gt;using&lt;/em&gt; that information you have to make the best decision.&lt;/p&gt;
+
+&lt;h3 id=&quot;decisions&quot;&gt;Decisions&lt;/h3&gt;
+
+&lt;p&gt;If we look at the Explore/Exploit algorithm, we can see that an old phrase is actually has some truth behind it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The grass is always greener on the other side.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We have all heard that saying before, but, did you know that there is some mathematically proof that supports it? If you do not have much data, then the unknown has a higher chance of success, even if we expect it to be no different, or “if it’s just as likely to be worse” (41). Brian Christian and Tom Griffiths state it as the “untested rookie is worth more than the veteran of seemingly equal ability, precisely because we know less about him.” Therein lies the kicker though - once we have enough data, then we make a decision based with the provided data that could possibly change the scenario around. So next draft you see - whether it is football, baseball, basketball, or any sport - remember that the rookies getting the huge contracts are getting the huge contracts because of the chance that they are the best (a higher chance of success).&lt;/p&gt;
+
+&lt;h3 id=&quot;regret&quot;&gt;Regret&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To try and fail is at least to learn; to fail to try is to suffer the inestimable loss of what might have been” - Chester Barnard&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another way to look at Explore/Exploit is to frame it in the light of trying to live “&lt;strong&gt;a life with minimal regret&lt;/strong&gt;” (43). The authors share a story about how Jeff Bezos, founder of Amazon.com, took the risk of moving from his well paying job to the online bookstore. They quote him as saying it was an easy decision. Why? Well Bezos used the idea of living a life with minimal regret and did an exercise with it: he imagined himself at 80 years old and then thought back on his life and knew he wanted to have minimal regrets. In this exercise, he knew that not taking the risk would lead to regret, thus, he took the risk.&lt;/p&gt;
+
+&lt;p&gt;Researchers have then spent years looking to find a way to guarantee minimal regret - the most famous algorithm is called the &lt;strong&gt;Upper Confidence Bound.&lt;/strong&gt; This algorithm makes a decision not based on what has performed best in the past, but what &lt;em&gt;could&lt;/em&gt; perform the best in the future. To explain it, the authors share that “if you have never been to a restaurant before, then for all you know it could be great. Even if you have gone there once or twice, and tried a couple of dishes, you might not have enough information to rule out the possibility that it could yet prove better” (44).&lt;/p&gt;
+
+&lt;p&gt;The Upper Confidence Bound algorithm has a sense of optimism about it - the optimism that what you are trying could be the best. “By focusing on the best that an option could be, these algorithms give a boost to possibilities we know less about” (45). What does that mean for you and me? If we think about the world in the terms of these algorithms, then “you should be excited to meet new people and try new things - to assume the best about them, in the absence of evidence to the contrary” (45) because the chances of finding the best that way are better than not even trying at all.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Look-Then-Leap Rule - Explained</title>
