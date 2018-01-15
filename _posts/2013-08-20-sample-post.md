@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sample post
-tags: [code, jekyll]
+tags: [coding, jekyll]
 published: false
 categories:
 - blog

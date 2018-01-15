@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Look-Then-Leap Rule - Explained
-tags: [algorithms, code, books]
+tags: [algorithms, coding, books]
 categories:
 - blog
 ---
