@@ -4,13 +4,24 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-14T17:29:08-07:00</updated>
+ <updated>2018-01-14T17:52:27-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Listen to this podcast - Tim Ferriss interviews Terry Crews</title>
+   <link href="http://localhost:4000/blog/2017/01/14/terry-crews-podcast.html"/>
+   <updated>2017-01-14T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/14/terry-crews-podcast</id>
+   <content type="html">&lt;p&gt;I’ve found my favorite podcast of this year. Granted we are only 14 days into it, but if I were to recommend any podcast right now to anyone, I would highly recommend Tim Ferriss’ interview of Terry Crews title &lt;a href=&quot;https://tim.blog/2017/12/20/terry-crews-how-to-have-do-and-be-all-you-want/&quot;&gt;Terry Crews — How to Have, Do, and Be All You Want&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ll admit, I didn’t know too much about Terry Crews going into the podcast, but, he the way he talks and shares is spell-bounding. I won’t share too much of the details, but one part of the interview Terry Crews talks about how if you want to have something or be something, then &lt;strong&gt;be&lt;/strong&gt; it. His example is this - if you want to be rich, then right now, you are rich. Be rich. So the question you ask yourself is, &lt;strong&gt;what would a rich person do?&lt;/strong&gt;. Or if you want to be a writer - be a writer. What would a writer do? Well a writer would start writing every day, start taking notes, and publish a book. You are a writer. You are rich. So be it.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Finding Your Peak Time - My Morning Routine</title>
