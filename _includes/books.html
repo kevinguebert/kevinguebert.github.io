@@ -7,15 +7,19 @@
   Previous Books:
 </h4>
 <ul>
+  {% assign counter = 0 %}
   {% for book in site.data.theme.book_names %}
     <li>
       {% for urls in site.data.theme.book_urls %}
-        <a href="{{ urls[forloop.index0] }}" rel="book">
+        {% if forloop.index0 == counter %}
+          <a href="{{ urls[counter] }}" rel="book">
+            {% if book[counter] == site.data.theme.book_current.name %}*{% endif %}
+              {{book[counter]}}
+          </a>
+        {% endif %}
       {% endfor %}
-      {% if book[forloop.index0] == site.data.theme.book_current.name %}*{% endif %}
-      {{book[forloop.index0]}}
-      </a>
     </li>
+    {% assign counter = counter | plus:1 %}
   {% endfor %}
 
 </span>
