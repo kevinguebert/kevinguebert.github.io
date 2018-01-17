@@ -1,5 +1,11 @@
 [
 
+{"date": "Tue, 17 Jan 2017 00:00:00 -0700",
+"categories": ["blog"],
+"tags": ["code","mysql","tutorial"],
+"title": "Getting started with MySQL",
+"url": "/blog/2017/01/17/getting-started-with-mysql.html"},
+
 {"date": "Sat, 14 Jan 2017 00:00:00 -0700",
 "categories": ["blog"],
 "tags": ["personal-growth","recommendations"],
@@ -17,6 +23,12 @@
 "tags": ["algorithms","books"],
 "title": "Explore/Exploit Algorithm in Decisions & Regret",
 "url": "/blog/2017/01/10/explore-exploit.html"},
+
+{"date": "Mon, 09 Jan 2017 00:00:00 -0700",
+"categories": ["blog"],
+"tags": ["algorithms","code","books"],
+"title": "Look-Then-Leap Rule - Explained",
+"url": "/blog/2017/01/09/loop-then-leap.html"},
 
 {"date": "Mon, 09 Jan 2017 00:00:00 -0700",
 "categories": ["blog"],
