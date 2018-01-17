@@ -4,7 +4,7 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-17T12:54:51-07:00</updated>
+ <updated>2018-01-17T12:56:03-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
@@ -208,86 +208,6 @@ Or, if you don't want/need a background service you can just run:
 &lt;p&gt;Researchers have then spent years looking to find a way to guarantee minimal regret - the most famous algorithm is called the &lt;strong&gt;Upper Confidence Bound.&lt;/strong&gt; This algorithm makes a decision not based on what has performed best in the past, but what &lt;em&gt;could&lt;/em&gt; perform the best in the future. To explain it, the authors share that “if you have never been to a restaurant before, then for all you know it could be great. Even if you have gone there once or twice, and tried a couple of dishes, you might not have enough information to rule out the possibility that it could yet prove better” (44).&lt;/p&gt;
 
 &lt;p&gt;The Upper Confidence Bound algorithm has a sense of optimism about it - the optimism that what you are trying could be the best. “By focusing on the best that an option could be, these algorithms give a boost to possibilities we know less about” (45). What does that mean for you and me? If we think about the world in the terms of these algorithms, then “you should be excited to meet new people and try new things - to assume the best about them, in the absence of evidence to the contrary” (45) because the chances of finding the best that way are better than not even trying at all.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Look-Then-Leap Rule - Explained</title>
-   <link href="http://localhost:4000/blog/2017/01/09/loop-then-leap.html"/>
-   <updated>2017-01-09T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/09/loop-then-leap</id>
-   <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Loop-Then-Leap Rule:&lt;/strong&gt; “You set a predetermined amount of time for ‘looking’ - that is, exploring your options, gathering data - in which you categorically don’t choose anyone, no matter how impressive. After that point, you enter the ‘leap’ phase, prepared to instantly commit to anyone who outshines the best applicant you saw in the look phase.” (13)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;explanation&quot;&gt;Explanation&lt;/h2&gt;
-
-&lt;p&gt;Scenario: You are interviewing for a new secretary and want to pick the best applicant. Once you have passed on a candidate, you cannot go back and pick them. You are interviewing at random.&lt;/p&gt;
-
-&lt;h4 id=&quot;1-applicants&quot;&gt;1 Applicants&lt;/h4&gt;
-
-&lt;p&gt;Hire them!&lt;/p&gt;
-
-&lt;h4 id=&quot;2-applicants&quot;&gt;2 Applicants&lt;/h4&gt;
-
-&lt;p&gt;For 2 applicants, you have a 50/50 shot at hiring the best one. Either pick the first one, or, if you don’t, you have to pick the second one.&lt;/p&gt;
-
-&lt;h4 id=&quot;3-applicants&quot;&gt;3 Applicants&lt;/h4&gt;
-
-&lt;p&gt;Let’s say you have 3 applicants, ranked as the best being 1, second best being 2, and worst being 3. With 3 applicants, there are 6 possible scenarios in which you can interview:&lt;/p&gt;
-
-&lt;p&gt;1-2-3 (that is: best, second best, worst)&lt;br /&gt;
-1-3-2&lt;br /&gt;
-2-1-3&lt;br /&gt;
-2-3-1&lt;br /&gt;
-3-1-2&lt;br /&gt;
-3-2-1&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;With the 3 applicants, &lt;em&gt;we can actually do just as well as we did with just 2 applicants - a 50/50 shot.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;How?&lt;/p&gt;
-
-&lt;p&gt;When we see the first applicant, we don’t have any baseline information so we pass up on them to gather more data (the “look”) phase. When we see the final applicant, we only have one person so we have to pick them.&lt;/p&gt;
-
-&lt;p&gt;With the second option, there is more room. With the “Look-Then-Leap” Rule - &lt;strong&gt;if the second option is better than the first one, then you leap. If it is not, then you move to the next one.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s visualize this - remember, you are on the second candidate because the first candidate was your “look” - or information gathering:&lt;/p&gt;
-
-&lt;div style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;1 -&lt;u&gt; 2 &lt;/u&gt;- 3&lt;/strong&gt;&lt;/div&gt;
-&lt;p&gt;In this scenario, we have already passed up on the best candidate (1), so this would be a Failure.
-&lt;br /&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;1 -&lt;u&gt; 3 &lt;/u&gt;- 2&lt;/strong&gt;&lt;/div&gt;
-&lt;p&gt;Similar to the one above, we have already passed up on the best candidate (1), so also a Failure.
-&lt;br /&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;2 -&lt;u&gt; 1 &lt;/u&gt;- 3&lt;/strong&gt;&lt;/div&gt;
-&lt;p&gt;In this scenario, the second candidate is better than the first one (1 is better than 2), so you would leap on this candidate - Success!
-&lt;br /&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;2 -&lt;u&gt; 3 &lt;/u&gt;- 1&lt;/strong&gt;&lt;/div&gt;
-&lt;p&gt;The second candidate is &lt;em&gt;not&lt;/em&gt; better than the first one (3 is worse than 2), so you would then move on to the 3rd candidate. The 3rd candidate is better than the first one, so you would then leap - Success!
-&lt;br /&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;3 -&lt;u&gt; 1 &lt;/u&gt;- 2&lt;/strong&gt;&lt;/div&gt;
-&lt;p&gt;In this scenario, the second candidate is better than the first one (1 is better than 3), so you would leap on this candidate - Success!
-&lt;br /&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;3 -&lt;u&gt; 2 &lt;/u&gt;- 1&lt;/strong&gt;&lt;/div&gt;
-&lt;p&gt;In this last scenario, the second candidate is better than the first candidate (2 is better than 3), so that means we would leap by the rules. Unfortunately that means we miss out on the last candidate, the 1 - Failure.&lt;/p&gt;
-
-&lt;p&gt;Looking at the data above we have 3 successes and 3 failures - thus a 50/50 chance when we have 3 candidates - tada!&lt;/p&gt;
-
-&lt;p&gt;Successes: [2,1,3], [2,3,1], [3,1,2]&lt;br /&gt;
-Failures: [1,2,3], [1,3,2], [3,2,1]&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;To continue on an enumerate more candidates - 4, 5, 6, etc. - the place where you end up drawing the line between looking and leaping is actually 37% (the 37% Rule).&lt;/p&gt;
-
-&lt;h4 id=&quot;37-rule&quot;&gt;37% Rule&lt;/h4&gt;
-&lt;p&gt;When choosing the best candidate, you only have a 37% chance of hiring the best possible applicant.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How it works:&lt;/strong&gt; You look at the first 37% of the applicants, not choosing any of them, then after that, leap for anyone that is better than all those you have seen so far.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Next time you are making a decision over a large amount of data and you are trying to decide the “best”, it may be worth it to consider this algorithm!&lt;/p&gt;
 </content>
  </entry>
  
