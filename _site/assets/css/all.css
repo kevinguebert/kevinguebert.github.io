@@ -962,6 +962,7 @@ h4 {
   margin-top:0;
   border-top:none;
   margin-bottom: 0;
+  padding-top:0;
 }
 #books {
   border-top: dotted #ddd;
@@ -973,6 +974,25 @@ h4 {
 }
 
 #books li {
-  list-style: decimal-leading-zero;
+  /* list-style: decimal-leading-zero; */
+  list-style: none;
+}
+
+nav {
+  text-align:center;
+}
+
+.column-header {
+  text-align: center;
+  background: #bf360cde;
+  color: #fff;
+  border-radius:2px;
+}
+.column-header p {
+  padding:5px;
+}
+
+.underline {
+  text-decoration: underline;
 }
 

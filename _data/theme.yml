@@ -40,17 +40,20 @@ book_current:
 book_names: [
   0: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
   1: "Disciple Equals Freedom Field Manual",
-  2: "Algorithms to Live By"
+  2: "Algorithms to Live By",
+  3: "Altered Carbon"
 ]
 
 book_authors: [
   0: "Ashley Vance",
   1: "Jocko Willink",
-  2: "Brian Christian and Tom Griffiths"
+  2: "Brian Christian and Tom Griffiths",
+  3: "Richard K. Morgan"
 ]
 
 book_urls: [
   0: "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233",
   1: "https://www.amazon.com/Discipline-Equals-Freedom-Field-Manual/dp/1250156947/ref=sr_1_4?s=books&ie=UTF8&qid=1515612852&sr=1-4&keywords=discipline+equals+freedom",
-  2: "https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1250118360/ref=sr_1_1?s=books&ie=UTF8&qid=1515612867&sr=1-1&keywords=algorithms+to+live+by"
+  2: "https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1250118360/ref=sr_1_1?s=books&ie=UTF8&qid=1515612867&sr=1-1&keywords=algorithms+to+live+by",
+  3: ""
 ]

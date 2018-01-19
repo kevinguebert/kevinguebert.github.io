@@ -4,13 +4,38 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-16T20:19:16-07:00</updated>
+ <updated>2018-01-17T07:16:07-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Relax Your Decisions a Little</title>
+   <link href="http://localhost:4000/blog/2017/01/17/relaxation-algorithm.html"/>
+   <updated>2017-01-17T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/17/relaxation-algorithm</id>
+   <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
+
+&lt;p&gt;How many decisions do we face in our lifetime that don’t seem to have an answer? Every day we face hundreds if not thousands of decisions that guide us in a certain direction. But what about those hard questions? Those big life questions we are ask ourselves at some point?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What do I want to do with my life? What kind of career do I want? Where do I want to live? How can I succeed?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Luckily for us, there’s a technique in the computer science world to help us out. Mathematically speaking, there is no way for you to determine all possible scenarios of some of the questions above to determine the best possible - it would take too long. That is where &lt;strong&gt;Constraint Relaxation&lt;/strong&gt; comes in to help us out.&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;Constraint Relaxation&lt;/strong&gt;, you “remove some of the problem’s constraints and set about solving the problem [you] wish [you] had” (173). For the questions above then, you would imagine them in a different light:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What would you do if you weren’t afraid?&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;What would you do if you couldn’t fail&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;What would you do if you didn’t have to worry about money?&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You may see those questions on motivational posters, Instagram posts, used in public speeches, and a multitude of other places. Those questions are using the constraint relaxation technique to remove one of the problem’s constraints to make the decision seemingly easier. In a connection to another author and public figure I follow, Tim Ferriss has mention a couple times in his podcast and publicly a technique that he uses: &lt;em&gt;What would it look like if this was easy?&lt;/em&gt; As you can see, Tim is relaxation the constraints in whatever problem he is facing and making it “easy.”&lt;/p&gt;
+
+&lt;p&gt;Next time you look at a typographic motivational poster asking you what you would do if X or without Y, remember, there’s some Math and Computer Science to explain that question.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Sharing Ideas</title>
