@@ -4,7 +4,7 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-17T07:16:07-07:00</updated>
+ <updated>2018-01-19T16:54:37-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
@@ -34,6 +34,125 @@
 &lt;p&gt;You may see those questions on motivational posters, Instagram posts, used in public speeches, and a multitude of other places. Those questions are using the constraint relaxation technique to remove one of the problem’s constraints to make the decision seemingly easier. In a connection to another author and public figure I follow, Tim Ferriss has mention a couple times in his podcast and publicly a technique that he uses: &lt;em&gt;What would it look like if this was easy?&lt;/em&gt; As you can see, Tim is relaxation the constraints in whatever problem he is facing and making it “easy.”&lt;/p&gt;
 
 &lt;p&gt;Next time you look at a typographic motivational poster asking you what you would do if X or without Y, remember, there’s some Math and Computer Science to explain that question.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting started with MySQL</title>
+   <link href="http://localhost:4000/blog/2017/01/17/getting-started-with-mysql.html"/>
+   <updated>2017-01-17T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/17/getting-started-with-mysql</id>
+   <content type="html">&lt;p&gt;Want to learn how to use MySQL? This post will share how to get started with the basics!&lt;/p&gt;
+
+&lt;h2 id=&quot;before-you-start&quot;&gt;Before You Start&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I am using a Mac, so all my commands and applications are for a Mac. If you would like to understand how to use it on Windows, let me know on &lt;a href=&quot;http://twitter.com/kevinguebert&quot;&gt;Twitter&lt;/a&gt; and I can try and help you out!&lt;/li&gt;
+  &lt;li&gt;This is coming from a developer, so this will be done using the command line. If you are looking for a more “one click install”, visit &lt;a href=&quot;https://dev.mysql.com/downloads/mysql/&quot;&gt;mysql.com&lt;/a&gt; to download.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;First off, most Mac computers do not come with MySQL installed, so we actually need to install it on our computer. So let’s start with that.&lt;/p&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+
+&lt;h4 id=&quot;install-mysql&quot;&gt;Install MySQL&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;We are going to be using &lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; to help us with the installation. If you do not already use it, I would recommend learning about it and discovering how powerful it is.&lt;/li&gt;
+  &lt;li&gt;Let’s open up the terminal and paste the line below to install Homebrew:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;Note, you may need to close and restart your terminal for this next step, but let’s make sure it works by typing in:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew info mysql
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Hopefully that works successfully! If it does, you should see something like below:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mysql: stable 5.7.20 (bottled), devel 8.0.3-rc
+Open source relational database management system
+https://dev.mysql.com/doc/refman/5.7/en/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Now to install MySQL, all we need to do is:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install mysql
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Congratulations! That was a quick and easy way to install MySQL! However, for those keen eyed out there, you will see in the output from the previous command that there are some recommended steps for us to take.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you would like to make your MySQL connection more secure on your computer, you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;mysql_secure_installation.&lt;/code&gt; This will ask you to change the root password for MySQL because when it originally installed, it did not supply one. That is up to you!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lastly, you will see at the bottom of the output these lines:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Above it states you can either have MySQL running all the time or start it only when you need it. I personally use MySQL more often than not, so I ran &lt;code class=&quot;highlighter-rouge&quot;&gt;brew services start mysql&lt;/code&gt;. If you don’t use it as much, &lt;code class=&quot;highlighter-rouge&quot;&gt;mysql.server start&lt;/code&gt; works just as well - just make sure to remember to start it each time you need it!&lt;/p&gt;
+
+&lt;h4 id=&quot;install-sequelpro&quot;&gt;Install SequelPro&lt;/h4&gt;
+
+&lt;p&gt;One of my favorite admin tools to work with MySQL. Visit &lt;a href=&quot;https://www.sequelpro.com/&quot;&gt;SequelPro.com&lt;/a&gt; to download.&lt;/p&gt;
+
+&lt;h5 id=&quot;setting-up-sequelpro-and-mysql&quot;&gt;Setting up SequelPro and MySQL&lt;/h5&gt;
+
+&lt;p&gt;Now that we have SequelPro installed and MySql running (from &lt;code class=&quot;highlighter-rouge&quot;&gt;mysql.server start&lt;/code&gt;), we can connect!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go ahead and open up SequelPro on your computer.&lt;/li&gt;
+  &lt;li&gt;You should be on a screen where in the top middle is says “Enter connection details below, or choose a favorite” - we are going to go ahead and enter connection details.&lt;/li&gt;
+  &lt;li&gt;In the input boxes in the middle, make sure “Standard” is select. Then you can input the follow:
+    &lt;ul&gt;
+      &lt;li&gt;Host: &lt;code class=&quot;highlighter-rouge&quot;&gt;127.0.0.1&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Username: &lt;code class=&quot;highlighter-rouge&quot;&gt;root&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;If you entered a password, put that in the next field.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Go ahead and click “Connect” and you should be connected!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;working-with-sequelpro&quot;&gt;Working with SequelPro&lt;/h2&gt;
+
+&lt;p&gt;Now that we are connected, we could start working with some data! For this next part of the tutorial, we are going to use some dummy data.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Head one over to &lt;a href=&quot;https://www.mockaroo.com/&quot;&gt;https://www.mockaroo.com/&lt;/a&gt;, change the “Format” to SQL and also check “include create table”. Click “Download Data” but also make note of the “Table Name” - it is mostly likely “MOCK_DATA”&lt;/li&gt;
+  &lt;li&gt;Head back to SequelPro and go to Database-&amp;gt;Add Database&lt;/li&gt;
+  &lt;li&gt;In the Database Name field, make sure you have the same name as from mockaroo.com - most likely “MOCK_DATA”. When you have confirmed that, click “Add”&lt;/li&gt;
+  &lt;li&gt;Next up, go to File-&amp;gt;Import&lt;/li&gt;
+  &lt;li&gt;Find the file you downloaded in step 1 from Mockaroo and click “Open”&lt;/li&gt;
+  &lt;li&gt;After it has imported, you should see on the left hand side under “Tables” your table of “Mock Data”.&lt;/li&gt;
+  &lt;li&gt;If you click on the “Content” tab in the top of SequelPro, you should be able to see all the data within the MOCK_DATA table.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Congratulations you have successfully setup and installed MySQL!&lt;/p&gt;
+
+&lt;p&gt;More tips:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;If you want to query the database, click on the “Query” tab in the top and type in your command. For out data, if you do &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT * from MOCK_DATA WHERE gender=&quot;male&quot;&lt;/code&gt;, you should get all the male results!&lt;/li&gt;
+  &lt;li&gt;Have your own sql file? Go ahead and create a new database and import your data!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have any more questions? Let me know on &lt;a href=&quot;http://twitter.com/kevinguebert&quot;&gt;Twitter @kevinguebert&lt;/a&gt;!&lt;/p&gt;
 </content>
  </entry>
  
