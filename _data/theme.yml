@@ -34,8 +34,8 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Algorithms to Live By"
-  author: "Brian Christian and Tom Griffiths"
+  name: "Altered Carbon"
+  author: "Richard K. Morgan"
 
 book_names: [
   0: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
@@ -52,8 +52,8 @@ book_authors: [
 ]
 
 book_urls: [
-  0: "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233",
-  1: "https://www.amazon.com/Discipline-Equals-Freedom-Field-Manual/dp/1250156947/ref=sr_1_4?s=books&ie=UTF8&qid=1515612852&sr=1-4&keywords=discipline+equals+freedom",
-  2: "https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1250118360/ref=sr_1_1?s=books&ie=UTF8&qid=1515612867&sr=1-1&keywords=algorithms+to+live+by",
-  3: ""
+  0: "http://amzn.to/2FVDWkj",
+  1: "http://amzn.to/2DnjyXF",
+  2: "http://amzn.to/2DnB9yQ",
+  3: "http://amzn.to/2DjvJ7W"
 ]
