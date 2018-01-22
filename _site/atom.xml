@@ -4,7 +4,7 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-19T17:00:20-07:00</updated>
+ <updated>2018-01-21T20:17:38-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
@@ -13,10 +13,78 @@
 
  
  <entry>
+   <title>The Dope Addiction</title>
+   <link href="http://localhost:4000/blog/2017/01/21/the-dope-addiction.html"/>
+   <updated>2017-01-21T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/21/the-dope-addiction</id>
+   <content type="html">&lt;p&gt;This isn’t any actual drug I’m talking about being addicted to today, this is a feeling.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m going to run a marathon this year.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m launching a startup.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m planning on traveling to Europe this year.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You’ve heard those phrases before. You have actually probably stated a phrase like that before - a big-idea phrase - one that will attract some attention to you. Those phrases where you share an idea you have or a goal you have to someone else, you know those? Could be as simple as “I wake up at 5:30AM” all the way to “I’m going to run in the Boston Marathon”, but everyone has at some point in their life declared their big plan.&lt;/p&gt;
+
+&lt;p&gt;And then we get hit with it - that small hit of dopamine.&lt;/p&gt;
+
+&lt;p&gt;Somehow, in proclaiming our big plan, we get a high. A high that tells us “yes, that is a good thing.” Every January I am faced with this struggle - I oftentimes keep my goals and resolutions personal and secret because I don’t want to become somebody who said they would do something and failed. But, sharing it is addicting.&lt;/p&gt;
+
+&lt;p&gt;Just by uttering a phrase, we can release dopamine into our brain that &lt;em&gt;makes us feel good.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So what happens when something makes us feel good? Well, we want to do it again and again and again. Now, I’m not psychologist or psychiatrist or any doctor of any sort, no where close, but sometimes I worry others may be too addicted to this rush. You may recognize it in some of your peers - the ones who always have the big ideas but never seem to go anywhere. The ones who share plans of what they want to do but then the next time you see them, they have a totally different idea. They share a new idea with you that they are going to do. Then, a couple hours later over some drinks, they share another idea of what they are going to do. Like I said, I’m not a doctor, but it would &lt;em&gt;seem&lt;/em&gt; like there may exist an addiction - an addiction to sharing an idea and then the sequential dopamine hit.&lt;/p&gt;
+
+&lt;p&gt;So what’s the cure then?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Action&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the words of Jocko Willink - &lt;strong&gt;get after it.&lt;/strong&gt; Otherwise, you may spend more of your life talking the talk but not walking the walk.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Myth of Unlimited Vacation Days</title>
+   <link href="http://localhost:4000/blog/2017/01/20/unlimited-vacation.html"/>
+   <updated>2017-01-20T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/20/unlimited-vacation</id>
+   <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Job Perks:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Unlimited Vacation Days&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Is that not something all of us want to see when applying for jobs? &lt;em&gt;Unlimited Vacation Days&lt;/em&gt; - it sure does sound perfect. But what if I told you that oftentimes that in the companies that implement the unlimited vacation day policy, employees actually take &lt;strong&gt;less&lt;/strong&gt; vacation time. Sounds impossible right? How could that be?&lt;/p&gt;
+
+&lt;p&gt;Blame it on Game Theory.&lt;/p&gt;
+
+&lt;p&gt;Now I can’t say that all people are like this, many people I know are so I think it applies well, but when we are working at a job what is one of the main goals? Besides delivering good work and pleasing your boss, &lt;em&gt;most people&lt;/em&gt; I know have a larger goal in mind: getting a promotion and moving up. We all want to move up, right? More pay, more benefits, more responsibility.&lt;/p&gt;
+
+&lt;p&gt;As we, individually, are trying to move up in our positions and work towards that next promotion, well, so are your coworkers. Your coworkers also want that promotion, they also want more responsibility.&lt;/p&gt;
+
+&lt;p&gt;Well that’s where the problem with Unlimited Vacation Days comes into view. When you have unlimited vacation days, what do you want to do? Well, if you are gunning for that promotion, you are trying to seem “better” than your coworkers. You want your boss to know you are working harder, spending more time, contributing more, and encompassing yourself more with work &lt;em&gt;more than your coworkers.&lt;/em&gt; Not a lot more, just a little more to have that edge. Say your coworker takes a 14 day vacation - well, to prove you are “harder working”, you may one up it a little and just take a 12 day vacation. “I’m working harder and giving more to the company” you may think. You have that edge.
+…But then flip it for your coworkers. Your coworker also wants that edge - so when they see you taking a 12 day vacation, well they just might only take a 10 day vacation. And then you see your coworker taking a 10 day vacation and think “shoot, they are doing better than me, I need to work harder”, so you take less vacation. When you take less vacation that means that your coworkers take less vacation…&lt;/p&gt;
+
+&lt;p&gt;In the end, there is the problem. No one is taking enough vacation. Since everyone is vying to get that promotion, to get better, to “climb the ladder”, the Unlimited Vacation Days are not being used. You don’t want to come off as a slacker or not putting in your time, and, in doing so, everyone ends up taking less time off.&lt;/p&gt;
+
+&lt;p&gt;What’s the solution? I don’t have it - maybe a required minimum to start. Otherwise, those 2-week policies aren’t looking too bad anymore.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Relax Your Decisions a Little</title>
-   <link href="http://localhost:4000/blog/2017/01/17/relaxation-algorithm.html"/>
-   <updated>2017-01-17T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/17/relaxation-algorithm</id>
+   <link href="http://localhost:4000/blog/2017/01/18/relaxation-algorithm.html"/>
+   <updated>2017-01-18T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/18/relaxation-algorithm</id>
    <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
 
 &lt;p&gt;How many decisions do we face in our lifetime that don’t seem to have an answer? Every day we face hundreds if not thousands of decisions that guide us in a certain direction. But what about those hard questions? Those big life questions we are ask ourselves at some point?&lt;/p&gt;

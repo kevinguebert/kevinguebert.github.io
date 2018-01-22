@@ -34,26 +34,29 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Altered Carbon"
-  author: "Richard K. Morgan"
+  name: "Living with a Seal"
+  author: "Jesse Itzler"
 
 book_names: [
   0: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
   1: "Disciple Equals Freedom Field Manual",
   2: "Algorithms to Live By",
-  3: "Altered Carbon"
+  3: "Altered Carbon",
+  4: "Living with a Seal"
 ]
 
 book_authors: [
   0: "Ashley Vance",
   1: "Jocko Willink",
   2: "Brian Christian and Tom Griffiths",
-  3: "Richard K. Morgan"
+  3: "Richard K. Morgan",
+  4: "Jesse Itzler"
 ]
 
 book_urls: [
   0: "http://amzn.to/2FVDWkj",
   1: "http://amzn.to/2DnjyXF",
   2: "http://amzn.to/2DnB9yQ",
-  3: "http://amzn.to/2DjvJ7W"
+  3: "http://amzn.to/2DjvJ7W",
+  4: ""
 ]
