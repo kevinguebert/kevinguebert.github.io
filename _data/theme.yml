@@ -34,15 +34,16 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Living with a Seal"
-  author: "Jesse Itzler"
+  name: "Siddhartha"
+  author: "Hermannn Hesse"
 
 book_names: [
   0: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
   1: "Disciple Equals Freedom Field Manual",
   2: "Algorithms to Live By",
   3: "Altered Carbon",
-  4: "Living with a Seal"
+  4: "Living with a Seal",
+  5: "Siddhartha"
 ]
 
 book_authors: [
@@ -50,7 +51,8 @@ book_authors: [
   1: "Jocko Willink",
   2: "Brian Christian and Tom Griffiths",
   3: "Richard K. Morgan",
-  4: "Jesse Itzler"
+  4: "Jesse Itzler",
+  5: "Hermann Hesse"
 ]
 
 book_urls: [
@@ -58,5 +60,6 @@ book_urls: [
   1: "http://amzn.to/2DnjyXF",
   2: "http://amzn.to/2DnB9yQ",
   3: "http://amzn.to/2DjvJ7W",
-  4: ""
+  4: "http://amzn.to/2E2NidA",
+  5: "http://amzn.to/2E1hvJX"
 ]
