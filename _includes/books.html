@@ -5,23 +5,29 @@
 </div>
 <h4 class="underline">Currently reading:</h4>
 <p>
-  <strong>{{site.data.theme.book_current.name}}</strong> by {{site.data.theme.book_current.author}}
+  <strong>{{site.data.theme.book_current.name}}</strong><br />{{site.data.theme.book_current.author}}
 </p>
 <h4 class="underline">
   Previous Books:
 </h4>
 <ul>
   {% assign counter = 0 %}
-  {% for book in site.data.theme.book_names %}
+  {% for book in site.data.theme.books %}
     <li>
-      {% for urls in site.data.theme.book_urls %}
-        {% if forloop.index0 == counter %}
-          <a href="{{ urls[counter] }}" rel="book">
-            {% if book[counter] == site.data.theme.book_current.name %}*{% endif %}
-              {{book[counter]}}
-          </a>
+      {% if book.finished == false %}
+        <a href="{{ book.url }}" rel="book" class="not-finished">
+      {% else %}
+        <a href="{{ book.url }}" rel="book">
+      {% endif %}
+        {% if book.current == true %}*{% endif %}
+        {{book.name}}
+      </a>
+      <!-- {% for urls in site.data.theme.book_urls %} -->
+        <!-- {% if forloop.index0 == counter %} -->
+            <!-- {% if book[counter] == site.data.theme.book_current.name %}*{% endif %} -->
+          <!-- </a>
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
     </li>
     {% assign counter = counter | plus:1 %}
   {% endfor %}
