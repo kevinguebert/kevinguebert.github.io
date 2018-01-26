@@ -34,8 +34,8 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Wherever You Go, There You Are"
-  author: "Jon Kabat-Zinn"
+  name: "Ego is the Enemy"
+  author: "Ryan Holiday"
 
 books: [
   {
@@ -72,8 +72,11 @@ books: [
   }, {
     "name": "Wherever You Go, There You Are",
     "author": "Jon Kabat-Zinn",
-    "url": "",
+    "url": "http://amzn.to/2BwUziG",
     "finished": false,
-    "current": false,
+  }, {
+    "name": "Ego is the Enemy",
+    "author": "Ryan Holiday",
+    "url": "http://amzn.to/2Gln2vR"
   }
 ]
