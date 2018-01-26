@@ -4,14 +4,14 @@
 highlight_color: '#000'
 
 # Profile links on the left sidebar, leave blank to ignore
-show_social_and_feed: false
+show_social_and_feed: true 
 social:
   #github: swanson
   #bitbucket: philipj
   #hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
-  #twitter: _swanson
+  twitter: kevinguebert
   #facebook: zuck
   #tumblr: animalygifs
   #linkedin: philipjagielski

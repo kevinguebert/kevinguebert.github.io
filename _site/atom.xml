@@ -4,13 +4,28 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-23T06:14:50-07:00</updated>
+ <updated>2018-01-25T20:33:12-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Sharing Ideas Part 2</title>
+   <link href="http://localhost:4000/blog/2017/01/25/share-ideas-part-2.html"/>
+   <updated>2017-01-25T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2017/01/25/share-ideas-part-2</id>
+   <content type="html">&lt;p&gt;In the first post on this topic, I posed an idea for using voice-enabled devices to create art. Today I’ll be sharing another idea I’ve pondered (and may have coded a little on).&lt;/p&gt;
+
+&lt;p&gt;On Reddit, there exists a little bot that’s a reminder bot. Basically, any user can say something like “Remind me in 2 years to X” and the reminder bot will reply confirming that reminder, and then, in 2 years, it will resurface that post. On Twitter, people post similar things “I could use a reminder” or “remind me in a year to make sure I’ve done X” or any other variation of the reminder phrase. Here’s the idea: a simple Twitter bot that does the same thing as the Reddit one - it just retweets that original tweet to remind that person of whatever they wanted!&lt;/p&gt;
+
+&lt;p&gt;If you’ve ever wanted to dive into the world of Twitter bots, that would be a fun one. The question now is, would you need a separate database to hold these reminders? Probably…could be a simple JSON structure for each day and then the ID of the tweet to retweet. Then all it does it is checks to see if today exists in that structure, if it does, retweet all the data objects inside.&lt;/p&gt;
+
+&lt;p&gt;Simple…right?&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Is It Possible?</title>
