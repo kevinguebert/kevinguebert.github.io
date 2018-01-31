@@ -4,7 +4,7 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-01-28T19:34:48-07:00</updated>
+ <updated>2018-01-31T06:49:06-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
@@ -13,10 +13,27 @@
 
  
  <entry>
+   <title>To Be or To Do?</title>
+   <link href="http://localhost:4000/blog/2018/01/31/to-be-or-to-do.html"/>
+   <updated>2018-01-31T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/31/to-be-or-to-do</id>
+   <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Ego is the Enemy&lt;/strong&gt; by Ryan Holiday&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Which do you want: to be somebody or to do something?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This morning’s chapter of &lt;strong&gt;Ego is the Enemy&lt;/strong&gt; posed a solid question - to be or to do? This quote comes from John Boyd, a colonel in the Air Force where he posed it to his students and officers. “To be somebody or to do something. In life there is often a roll call. That’s when you have to make a decision” - John Boyd (31).&lt;/p&gt;
+
+&lt;p&gt;Ryan Holiday, author of &lt;strong&gt;Ego is the Enemy&lt;/strong&gt;, paints this picture for us: to be somebody is easy - what matters is &lt;em&gt;you&lt;/em&gt;, your reputation, inclusion, etc. To be somebody is a easier path - you focus on talking, climbing the corporate ladder, following the path that others before you have made, “pay your dues, check your boxes…and leave things essentially as they are” (33). Or, you can do something. If your purpose in life is something greater than being somebody, to prove something to yourself, then the path forward is different. It may be easier in the sense that you don’t have to compromise on yourself because you know what your purpose is. You are working on the &lt;em&gt;action&lt;/em&gt;, not working on a reputation. But, it will be harder because the opportunities and decisions ahead of you are then “evaluated along strict guidelines” (34). When you are working towards a purpose, the questions then become deeper and harder. Will this help me? Does this enable progress or push me back? In the words of Jocko Willink, is this &lt;strong&gt;poison&lt;/strong&gt; for me? The questions shift from “who” to “what”. No longer “who do I want to be” but instead “what do I want to accomplish”. The ego pushes for the “who” - the reputation, the attention, the talk - but if your purpose is higher than the reputation, the attention, and the talk, then the ego is the enemy and must be set aside.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>The Canvas Strategy</title>
-   <link href="http://localhost:4000/blog/2017/01/28/the-canvas-strategy.html"/>
-   <updated>2017-01-28T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/28/the-canvas-strategy</id>
+   <link href="http://localhost:4000/blog/2018/01/28/the-canvas-strategy.html"/>
+   <updated>2018-01-28T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/28/the-canvas-strategy</id>
    <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Ego is the Enemy&lt;/strong&gt; by Ryan Holiday&lt;/p&gt;
 
 &lt;p&gt;Remember back to your first job that you ever got - like job-job. This could have been an internship in your field, apprenticeship, or a junior developer. At any point in that time period did you think to yourself “I’m not being appreciated for my work” or “I know I can do better than this”? Hello ego. Ryan Holiday talks about in &lt;strong&gt;Ego is the Enemy&lt;/strong&gt; that with those positions they are ripe for opportunity…if we can fight our ego. We are told “make your boss look good” and “help those above you.” Those phrases are putting your ego aside and putting others above yourself. That way, when the time comes people think of you as a valuable asset to the team - you put them ahead of you and they will remember that. You are helping clear the paint ahead of them while they reap the credit. In doing this, you are putting your ego aside so that you can grow yourself.&lt;/p&gt;
@@ -27,9 +44,9 @@
  
  <entry>
    <title>Wherever You Go, There You Are</title>
-   <link href="http://localhost:4000/blog/2017/01/26/not-for-me-now.html"/>
-   <updated>2017-01-26T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/26/not-for-me-now</id>
+   <link href="http://localhost:4000/blog/2018/01/26/not-for-me-now.html"/>
+   <updated>2018-01-26T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/26/not-for-me-now</id>
    <content type="html">&lt;p&gt;I’m throwing in the towel. After starting (aka reading the first chapter) of &lt;em&gt;Wherever You Go, There You Are&lt;/em&gt; by Jon Kabat-Zinn, I’ve decided that right now, it isn’t the right book for me. I’m not saying in the future it wont be, but right now it isn’t my focus. Now you may be thinking, why don’t you just fit it in and make it your focus? Well, because I have limits. WYGTYA (&lt;em&gt;Wherever You Go, There You Are&lt;/em&gt;) shares how to be more mindful, talks about the practice of meditation, better ways to meditate, reasons to meditate, and a ton of really good information about mindfulness. For me, right now, on this the 26th day of January, meditation is not in my top priority list. Other tasks such as getting healthy, eating well, blogging, and learning are all taking up most of my time already. Also, something I’ve struggled with in the past is having &lt;strong&gt;too much&lt;/strong&gt; on my plate so nothing gets done.&lt;/p&gt;
 
 &lt;p&gt;In saying that, I will have to remove the book from my list. Well not remove it, but, a small line will go through it crossing it off and symbolizing I did not finish it. Maybe in the future.&lt;/p&gt;
@@ -38,9 +55,9 @@
  
  <entry>
    <title>Sharing Ideas Part 2</title>
-   <link href="http://localhost:4000/blog/2017/01/25/share-ideas-part-2.html"/>
-   <updated>2017-01-25T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/25/share-ideas-part-2</id>
+   <link href="http://localhost:4000/blog/2018/01/25/share-ideas-part-2.html"/>
+   <updated>2018-01-25T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/25/share-ideas-part-2</id>
    <content type="html">&lt;p&gt;In the first post on this topic, I posed an idea for using voice-enabled devices to create art. Today I’ll be sharing another idea I’ve pondered (and may have coded a little on).&lt;/p&gt;
 
 &lt;p&gt;On Reddit, there exists a little bot that’s a reminder bot. Basically, any user can say something like “Remind me in 2 years to X” and the reminder bot will reply confirming that reminder, and then, in 2 years, it will resurface that post. On Twitter, people post similar things “I could use a reminder” or “remind me in a year to make sure I’ve done X” or any other variation of the reminder phrase. Here’s the idea: a simple Twitter bot that does the same thing as the Reddit one - it just retweets that original tweet to remind that person of whatever they wanted!&lt;/p&gt;
@@ -53,9 +70,9 @@
  
  <entry>
    <title>Is It Possible?</title>
-   <link href="http://localhost:4000/blog/2017/01/23/is-it-possible.html"/>
-   <updated>2017-01-23T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/23/is-it-possible</id>
+   <link href="http://localhost:4000/blog/2018/01/23/is-it-possible.html"/>
+   <updated>2018-01-23T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/23/is-it-possible</id>
    <content type="html">&lt;p&gt;Thoughts from finishing: &lt;strong&gt;Living with a Seal: 31 Days Training with the Toughest Man on the Plane&lt;/strong&gt; by Jesse Itzler&lt;/p&gt;
 
 &lt;p&gt;Before picking up &lt;em&gt;Living with a Seal&lt;/em&gt;, I expected it to be a “note-taking” book as I call them: books where I actively write down thoughts I while reading. Don’t get me wrong, there are a ton of valuable lessons in &lt;em&gt;Living with a Seal&lt;/em&gt;, but, it isn’t quite the same as &lt;em&gt;Algorithms to Live By&lt;/em&gt; if you know what I’m saying. I flew through &lt;em&gt;Living with a Seal&lt;/em&gt; because I couldn’t put it down. The writing, the order, the humor - all of it crafted an entertaining book.&lt;/p&gt;
@@ -71,9 +88,9 @@
  
  <entry>
    <title>The Dope Addiction</title>
-   <link href="http://localhost:4000/blog/2017/01/21/the-dope-addiction.html"/>
-   <updated>2017-01-21T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/21/the-dope-addiction</id>
+   <link href="http://localhost:4000/blog/2018/01/21/the-dope-addiction.html"/>
+   <updated>2018-01-21T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/21/the-dope-addiction</id>
    <content type="html">&lt;p&gt;This isn’t any actual drug I’m talking about being addicted to today, this is a feeling.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -108,9 +125,9 @@
  
  <entry>
    <title>The Myth of Unlimited Vacation Days</title>
-   <link href="http://localhost:4000/blog/2017/01/20/unlimited-vacation.html"/>
-   <updated>2017-01-20T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/20/unlimited-vacation</id>
+   <link href="http://localhost:4000/blog/2018/01/20/unlimited-vacation.html"/>
+   <updated>2018-01-20T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/20/unlimited-vacation</id>
    <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -139,9 +156,9 @@
  
  <entry>
    <title>Relax Your Decisions a Little</title>
-   <link href="http://localhost:4000/blog/2017/01/18/relaxation-algorithm.html"/>
-   <updated>2017-01-18T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/18/relaxation-algorithm</id>
+   <link href="http://localhost:4000/blog/2018/01/18/relaxation-algorithm.html"/>
+   <updated>2018-01-18T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/18/relaxation-algorithm</id>
    <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
 
 &lt;p&gt;How many decisions do we face in our lifetime that don’t seem to have an answer? Every day we face hundreds if not thousands of decisions that guide us in a certain direction. But what about those hard questions? Those big life questions we are ask ourselves at some point?&lt;/p&gt;
@@ -164,9 +181,9 @@
  
  <entry>
    <title>Getting started with MySQL</title>
-   <link href="http://localhost:4000/blog/2017/01/17/getting-started-with-mysql.html"/>
-   <updated>2017-01-17T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/17/getting-started-with-mysql</id>
+   <link href="http://localhost:4000/blog/2018/01/17/getting-started-with-mysql.html"/>
+   <updated>2018-01-17T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/17/getting-started-with-mysql</id>
    <content type="html">&lt;p&gt;Want to learn how to use MySQL? This post will share how to get started with the basics!&lt;/p&gt;
 
 &lt;h2 id=&quot;before-you-start&quot;&gt;Before You Start&lt;/h2&gt;
@@ -283,9 +300,9 @@ Or, if you don't want/need a background service you can just run:
  
  <entry>
    <title>Sharing Ideas</title>
-   <link href="http://localhost:4000/blog/2017/01/16/sharing-ideas.html"/>
-   <updated>2017-01-16T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/16/sharing-ideas</id>
+   <link href="http://localhost:4000/blog/2018/01/16/sharing-ideas.html"/>
+   <updated>2018-01-16T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/16/sharing-ideas</id>
    <content type="html">&lt;p&gt;One thing I love being a part of is getting an idea and seeing how far you can take it. Over the past couple years, I’ve been fortunate enough to participate in a couple of these ideas that broke the barrier between idea and product. My favorite one was Activity Buzz - a service that helped parents find the best activities for their kids. Unfortunately, it didn’t quite pan out. But, in the semi-failure, many lessons were learned so I’d count it as a success.&lt;/p&gt;
 
 &lt;p&gt;Ideas though are just ideas unless you act on them. They sit in your brain or on a piece of paper or in a spreadsheet for eternity unless some action is taken. The number of times I’ve spent a hours going down a hole and then not act on that idea is…countless. In college I even semi-designed something that never came to fruition. This past year, a friend and myself even submitted our idea to a bootcamp. Most ideas though, well they go in the long list of “that would be cool.”&lt;/p&gt;
@@ -310,9 +327,9 @@ Or, if you don't want/need a background service you can just run:
  
  <entry>
    <title>Listen to this podcast - Tim Ferriss interviews Terry Crews</title>
-   <link href="http://localhost:4000/blog/2017/01/14/terry-crews-podcast.html"/>
-   <updated>2017-01-14T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/14/terry-crews-podcast</id>
+   <link href="http://localhost:4000/blog/2018/01/14/terry-crews-podcast.html"/>
+   <updated>2018-01-14T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/14/terry-crews-podcast</id>
    <content type="html">&lt;p&gt;I’ve found my favorite podcast of this year. Granted we are only 14 days into it, but if I were to recommend any podcast right now to anyone, I would highly recommend Tim Ferriss’ interview of Terry Crews title &lt;a href=&quot;https://tim.blog/2017/12/20/terry-crews-how-to-have-do-and-be-all-you-want/&quot;&gt;Terry Crews — How to Have, Do, and Be All You Want&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I’ll admit, I didn’t know too much about Terry Crews going into the podcast, but, he the way he talks and shares is spell-bounding. I won’t share too much of the details, but one part of the interview Terry Crews talks about how if you want to have something or be something, then &lt;strong&gt;be&lt;/strong&gt; it. His example is this - if you want to be rich, then right now, you are rich. Be rich. So the question you ask yourself is, &lt;strong&gt;what would a rich person do?&lt;/strong&gt;. Or if you want to be a writer - be a writer. What would a writer do? Well a writer would start writing every day, start taking notes, and publish a book. You are a writer. You are rich. So be it.&lt;/p&gt;
@@ -321,9 +338,9 @@ Or, if you don't want/need a background service you can just run:
  
  <entry>
    <title>Finding Your Peak Time - My Morning Routine</title>
-   <link href="http://localhost:4000/blog/2017/01/12/morning-routine.html"/>
-   <updated>2017-01-12T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/12/morning-routine</id>
+   <link href="http://localhost:4000/blog/2018/01/12/morning-routine.html"/>
+   <updated>2018-01-12T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/12/morning-routine</id>
    <content type="html">&lt;p&gt;If you Goole or search on Medium for “morning routine”, you are bound to get thousands of pages of people describing their morning routine and why it is the best one out there. From article titles like “What the 5 Most Successful People Do Every Morning” to “Do these 10 Things Every Morning for Maximum Productivity”, there are slew of habits, actions, and routines that people are willing to talk about and prescribe you.&lt;/p&gt;
 
 &lt;p&gt;But, over the past 2 years of working on how I spend my morning, I have decided on one main point: &lt;em&gt;you pick the best way to start your day that fits you.&lt;/em&gt;&lt;/p&gt;
@@ -357,9 +374,9 @@ Or, if you don't want/need a background service you can just run:
  
  <entry>
    <title>Explore/Exploit Algorithm in Decisions & Regret</title>
-   <link href="http://localhost:4000/blog/2017/01/10/explore-exploit.html"/>
-   <updated>2017-01-10T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/10/explore-exploit</id>
+   <link href="http://localhost:4000/blog/2018/01/10/explore-exploit.html"/>
+   <updated>2018-01-10T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/10/explore-exploit</id>
    <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Explore/Exploit:&lt;/strong&gt; In the explore phase, we &lt;em&gt;gather&lt;/em&gt; all the information, and the exploit phase is &lt;em&gt;using&lt;/em&gt; that information you have to make the best decision.&lt;/p&gt;
@@ -390,9 +407,9 @@ Or, if you don't want/need a background service you can just run:
  
  <entry>
    <title>Look-Then-Leap Rule - Explained</title>
-   <link href="http://localhost:4000/blog/2017/01/09/look-then-leap.html"/>
-   <updated>2017-01-09T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/09/look-then-leap</id>
+   <link href="http://localhost:4000/blog/2018/01/09/look-then-leap.html"/>
+   <updated>2018-01-09T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/09/look-then-leap</id>
    <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Algorithms to Live By&lt;/strong&gt; by Brian Christian and Tom Griffiths&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -470,9 +487,9 @@ Failures: [1,2,3], [1,3,2], [3,2,1]&lt;/p&gt;
  
  <entry>
    <title>Who's Fault Is It?</title>
-   <link href="http://localhost:4000/blog/2017/01/08/whos-fault-is-it.html"/>
-   <updated>2017-01-08T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/08/whos-fault-is-it</id>
+   <link href="http://localhost:4000/blog/2018/01/08/whos-fault-is-it.html"/>
+   <updated>2018-01-08T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/08/whos-fault-is-it</id>
    <content type="html">&lt;p&gt;I love my routine. I love having a plan, knowing what the future holds, and knowing what the expectations are for me. I may be addicted to it. The feeling of moving forward, of progress, towards making something (usually myself) better.&lt;/p&gt;
 
 &lt;p&gt;That is why, however, that interruptions to my routine can cause rifts in my mood. These interruptions often come in the form of other people - friends, family, coworkers, etc. - that have a different agenda or a different plan or idea. Instead of only focusing on myself, now I have to take into consideration other people’s wants and needs. This often times breaks my routine. Instead of going grocery shopping on a Sunday and planning my week out, I’m watching NFL football at a brewery eating out. Instead of getting some exercise or meal prepping, I’m hanging out on a couch with other people not doing that. I have come to loathe the unplanned/sitting around a couch doing nothing with no plan/browsing the phone moments. I would rather be by myself moving in some direction (hopefully making forward progress) instead of sitting around with my friends with no plan. And when I am in those “less desirable” situations, I get frustrated, moody, anxious, and angry. I get short with my phrases and retreat into silence. I start blaming others for interrupting my time and my precious routine.&lt;/p&gt;
@@ -489,9 +506,9 @@ Failures: [1,2,3], [1,3,2], [3,2,1]&lt;/p&gt;
  
  <entry>
    <title>Sleep & Discipline</title>
-   <link href="http://localhost:4000/blog/2017/01/07/using-sleep-full-potential.html"/>
-   <updated>2017-01-07T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/07/using-sleep-full-potential</id>
+   <link href="http://localhost:4000/blog/2018/01/07/using-sleep-full-potential.html"/>
+   <updated>2018-01-07T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/07/using-sleep-full-potential</id>
    <content type="html">&lt;p&gt;Post inspired from: &lt;strong&gt;Discipline Equals Freedom Field Manual&lt;/strong&gt; by Jocko Willink&lt;/p&gt;
 
 &lt;p&gt;Sleep can be elusive. It can be frustrating. It can be restless. It can be tiring. But sleep can also be fruitful and it can re-energize. Everyone needs to sleep.&lt;/p&gt;
@@ -516,9 +533,9 @@ Failures: [1,2,3], [1,3,2], [3,2,1]&lt;/p&gt;
  
  <entry>
    <title>Stoicism & Discipline Equals Freedom</title>
-   <link href="http://localhost:4000/blog/2017/01/04/the-best-for-yourself.html"/>
-   <updated>2017-01-04T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/04/the-best-for-yourself</id>
+   <link href="http://localhost:4000/blog/2018/01/04/the-best-for-yourself.html"/>
+   <updated>2018-01-04T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/04/the-best-for-yourself</id>
    <content type="html">&lt;p&gt;I am one day in and 39 pages deep into &lt;strong&gt;Discipline Equals Freedom Field Manual&lt;/strong&gt;, and I would already highly recommend it to anyone. This morning I came across a couple passages that I wanted to share that I believe relate very much to Stoicism.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -549,9 +566,9 @@ Failures: [1,2,3], [1,3,2], [3,2,1]&lt;/p&gt;
  
  <entry>
    <title>Behat and JS? Go CasperJS</title>
-   <link href="http://localhost:4000/blog/2017/01/03/behat-and-casper.html"/>
-   <updated>2017-01-03T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/03/behat-and-casper</id>
+   <link href="http://localhost:4000/blog/2018/01/03/behat-and-casper.html"/>
+   <updated>2018-01-03T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/03/behat-and-casper</id>
    <content type="html">&lt;p&gt;Today while writing tests (shocking, I know), I came across an interesting and unknown (at the time) scenario. For the site, I wanted to test and make sure a certain element was showing up on the page. At the time, I was writing Behat tests to do some functionality and the tests are very simple to write, so I decided to try and create a simple test for my element. &lt;em&gt;Usually&lt;/em&gt; this is pretty straightforward:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Given I am on &quot;/&quot; #the homepage
@@ -570,9 +587,9 @@ And I wait 4 seconds
  
  <entry>
    <title>Elon Musk in the Wizard of Oz</title>
-   <link href="http://localhost:4000/blog/2017/01/02/elon-musk.html"/>
-   <updated>2017-01-02T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2017/01/02/elon-musk</id>
+   <link href="http://localhost:4000/blog/2018/01/02/elon-musk.html"/>
+   <updated>2018-01-02T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/01/02/elon-musk</id>
    <content type="html">&lt;p&gt;Book: &lt;a href=&quot;https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233&quot;&gt;&lt;strong&gt;Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future&lt;/strong&gt;&lt;/a&gt; by Ashlee Vance&lt;/p&gt;
 
 &lt;p&gt;While in college studying for my degree, I took a couple classes on design, prototyping, and building interfaces. One topic or phrase that often came up in the early lessons on prototyping and design was the idea of “Wizard of Oz.grb” In short terms, this means that you prototype an app or design without actually making it fully work. This could be as simple as a powerpoint presentation where you “tapped” on certain areas of the slide that made it “look” like you were interacting with an app, but in reality, you were just advancing to the next slide. Or it could be a bit more intense - instead of creating a full-fledged mobile application, it could be easier to prototype in HTML and CSS to make it &lt;strong&gt;look&lt;/strong&gt; like you had a fully functioning app. Prototypes in this stage are often used to attract customers, gain feedback, and look for improvements.&lt;/p&gt;
