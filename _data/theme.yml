@@ -4,14 +4,14 @@
 highlight_color: '#000'
 
 # Profile links on the left sidebar, leave blank to ignore
-show_social_and_feed: false
+show_social_and_feed: true
 social:
   #github: swanson
   #bitbucket: philipj
   #hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
-  #twitter: _swanson
+  twitter: kevinguebert
   #facebook: zuck
   #tumblr: animalygifs
   #linkedin: philipjagielski
@@ -34,32 +34,49 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Siddhartha"
-  author: "Hermannn Hesse"
+  name: "Ego is the Enemy"
+  author: "Ryan Holiday"
 
-book_names: [
-  0: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
-  1: "Disciple Equals Freedom Field Manual",
-  2: "Algorithms to Live By",
-  3: "Altered Carbon",
-  4: "Living with a Seal",
-  5: "Siddhartha"
-]
+books: [
+  {
+    "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "author": "Ashley Vance",
+    "url": "http://amzn.to/2FVDWkj",
+    "finished": true
+  }, {
+    "name": "Disciple Equals Freedom Field Manual",
+    "author": "Jocko Willink",
+    "url": "http://amzn.to/2DnjyXF",
+    "finished": true
+  }, {
+    "name": "Algorithms to Live By",
+    "author": "Brian Christian and Tom Griffiths",
+    "url": "http://amzn.to/2DnB9yQ",
+    "finished": true
+  }, {
+    "name": "Altered Carbon",
+    "author": "Richard K. Morgan",
+    "url": "http://amzn.to/2DjvJ7W",
+    "finished": true
+  }, {
+    "name": "Living with a Seal",
+    "author": "Jesse Itzler",
+    "url": "http://amzn.to/2E2NidA",
+    "finished": true
 
-book_authors: [
-  0: "Ashley Vance",
-  1: "Jocko Willink",
-  2: "Brian Christian and Tom Griffiths",
-  3: "Richard K. Morgan",
-  4: "Jesse Itzler",
-  5: "Hermann Hesse"
-]
-
-book_urls: [
-  0: "http://amzn.to/2FVDWkj",
-  1: "http://amzn.to/2DnjyXF",
-  2: "http://amzn.to/2DnB9yQ",
-  3: "http://amzn.to/2DjvJ7W",
-  4: "http://amzn.to/2E2NidA",
-  5: "http://amzn.to/2E1hvJX"
+  }, {
+    "name": "Siddhartha",
+    "author": "Hermann Hesse",
+    "url": "http://amzn.to/2E1hvJX",
+    "finished": true,
+  }, {
+    "name": "Wherever You Go, There You Are",
+    "author": "Jon Kabat-Zinn",
+    "url": "http://amzn.to/2BwUziG",
+    "finished": false,
+  }, {
+    "name": "Ego is the Enemy",
+    "author": "Ryan Holiday",
+    "url": "http://amzn.to/2Gln2vR"
+  }
 ]

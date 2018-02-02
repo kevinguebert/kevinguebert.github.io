@@ -14,12 +14,18 @@ h4 {
     width:auto;
   }
 }
+
+nav>div p, nav>div a {
+  text-align: right;
+}
+
 .container {
   height: 100%;
 }
 
 .name {
   font-size: 28px;
+  text-align: right;
 }
 
 /* .sidebar {
@@ -36,6 +42,7 @@ h4 {
   border-top:none;
   margin-bottom: 0;
   padding-top:0;
+  text-align: right;
 }
 #books {
   border-top: dotted #ddd;
@@ -43,28 +50,39 @@ h4 {
   margin-top: 30px;
   margin-bottom: 50px;
   font-size: 13px;
+  text-align: right;
   padding-top: 15px;
 }
 
 #books li {
   /* list-style: decimal-leading-zero; */
   list-style: none;
+  text-align: right;
 }
 
 nav {
   text-align:center;
 }
 
+.not-finished {
+  text-decoration: line-through;
+}
+
 .column-header {
-  text-align: center;
+  text-align: right;
   background: #bf360cde;
   color: #fff;
   border-radius:2px;
 }
 .column-header p {
   padding:5px;
+  text-align: right;
 }
 
 .underline {
   text-decoration: underline;
+}
+
+#social {
+  text-align: center;
 }

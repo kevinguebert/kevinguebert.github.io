@@ -1,9 +1,15 @@
 <div class="disclaimer">
   {% if site.data.theme.show_disclaimer %}
   <p>
-    The postings on this site are my own and don't necessarily represent my 
+    The postings on this site are my own and don't necessarily represent my
     employer’s positions, strategies or opinions.
   </p>
+  {% endif %}
+  
+  {% if site.data.theme.show_social_and_feed %}
+  <div id="social">
+    {% include social.html %}
+  </div>
   {% endif %}
 
   <p>

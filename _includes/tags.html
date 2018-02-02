@@ -1,15 +1,10 @@
-<span>
-  <div class="column-header">
-    <p>
-      Topics:
-    </p>
-  </div>
-  {% assign sorted_tags = site.tags | sort %}
+<div class="column-header">
+  <p>
+    Topics:
+  </p>
+</div>
+{% assign sorted_tags = site.tags | sort %}
 
-  {% for tag in sorted_tags %}
-    <a href="{{ '/tag/' | append:tag[0] }}.html" rel="tag">
-      {{tag[0]}}{% if forloop.last %}{% else %},{% endif %}
-    </a>
-  {% endfor %}
-
-</span>
+{% for tag in sorted_tags %}
+  <a href="{{ '/tag/' | append:tag[0] }}.html" rel="tag">{{tag[0]}}</a>{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
