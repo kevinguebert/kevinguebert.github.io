@@ -8,7 +8,9 @@ categories:
 
 Post inspired from: **Ego is the Enemy** by Ryan Holiday
 
-> We hear what we want to hear, we do what we feel like doing, and despite being increasingly busy and working ourselves very hard, we accomplish very little (47)
+> "We hear what we want to hear, we do what we feel like doing, and despite being increasingly busy and working ourselves very hard, we accomplish very little"
+>
+> Ryan Holiday (47)
 
 In this day in age, it's all about passion. "Find your passion" and "follow your passion" are plastered everywhere - from Instagram posts to self-help books. I read these same books and look at these same Instagram posts - follow your passions and everything will work out. Ryan Holiday in *Ego is the Enemy* counters those sayings by saying "don't be passionate". "Passion typically masks weakness." After pondering on it for a day, I think I've slowly come to agree with him. In moments where I've been passionate about a new idea or a new project, there is weakness in that moment. Why? Well because it is a *new* project. What happened to my other ones? Well I am masking the fact that I did not complete them, that I lost my passion for them, and, to echo Jocko Willink, I was not disciplined to follow through. Passion is masking my weakness. Holiday actually uses a book I am a fan of to outline this exact scenario - *Into the Wild.* *Into the Wild* follows the story of a man who follows his passion into the wilderness where he eventually passes away because his passion hid misunderstanding and lack of preparation.
 
