@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Passion, Don't Be Mislead
-tags: [books, personal-growth]
+tags: [books, personal-growth, stoicism]
 categories:
 - blog
 ---

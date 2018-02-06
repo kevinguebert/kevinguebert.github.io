@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fac, si facis
-tags: [books, personal-growth]
+tags: [books, personal-growth, stoicism]
 categories:
 - blog
 ---

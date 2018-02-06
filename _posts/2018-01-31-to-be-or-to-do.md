@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To Be or To Do?
-tags: [books, personal-growth]
+tags: [books, personal-growth, stoicism]
 categories:
 - blog
 ---

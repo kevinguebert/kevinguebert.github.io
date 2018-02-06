@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Canvas Strategy
-tags: [books, personal-growth]
+tags: [books, personal-growth, stoicism]
 categories:
 - blog
 ---
