@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with MySQL
-tags: [code, mysql,tutorial]
+tags: [coding, mysql,tutorial]
 categories:
 - blog
 ---
