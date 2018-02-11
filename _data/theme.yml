@@ -34,8 +34,8 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Ego is the Enemy"
-  author: "Ryan Holiday"
+  name: "Stealing fire : how Silicon Valley, the Navy SEALS, and maverick scientists are revolutionizing the way we live and work"
+  author: "Steven Kotler"
 
 books: [
   {
@@ -78,5 +78,9 @@ books: [
     "name": "Ego is the Enemy",
     "author": "Ryan Holiday",
     "url": "http://amzn.to/2Gln2vR"
+  }, {
+    "name": "Stealing fire : how Silicon Valley, the Navy SEALS, and maverick scientists are revolutionizing the way we live and work",
+    "author": "Steven Kotler",
+    "url": "http://amzn.to/2G305ws"
   }
 ]
