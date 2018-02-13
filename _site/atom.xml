@@ -4,13 +4,24 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-02-11T10:07:51-07:00</updated>
+ <updated>2018-02-12T21:25:52-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Ego vs Honest Ted Talk</title>
+   <link href="http://localhost:4000/blog/2018/02/12/ego-vs-honesty.html"/>
+   <updated>2018-02-12T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/02/12/ego-vs-honesty</id>
+   <content type="html">&lt;p&gt;Only fitting after finishing up &lt;em&gt;Ego is the Enemy&lt;/em&gt; by Ryan Holiday, I come across a Youtube video by one of my favorite professional athletes Adrian Ballinger titled &lt;strong&gt;Ego vs. Honesty: My Everest Story.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/st45xOABhuk&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Disease of Me</title>
