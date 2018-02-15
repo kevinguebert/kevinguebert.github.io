@@ -4,13 +4,27 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-02-12T21:25:52-07:00</updated>
+ <updated>2018-02-14T21:06:12-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Running Motivation [Video]</title>
+   <link href="http://localhost:4000/blog/2018/02/14/rei-100-miles.html"/>
+   <updated>2018-02-14T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/02/14/rei-100-miles</id>
+   <content type="html">&lt;p&gt;I can’t tell you how many times, when I was training for a race, I didn’t want to do the training plan. Long, long runs on the weekends that seemed to take up the whole day. Day in and day out of lacing the shoes. But, in order to complete the race at the end, you have to put the miles in before.&lt;/p&gt;
+
+&lt;p&gt;REI created/sponsored an inspiring piece about not just running any race, but a 100 Mile race. Need some motivation? Just watch.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.rei.com/blog/run/how-to-run-a-100-miles&quot;&gt;REI Presents: How to Run 100 Miles&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iC7Lh4opLsc&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Ego vs Honest Ted Talk</title>

@@ -34,8 +34,8 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Stealing fire : how Silicon Valley, the Navy SEALS, and maverick scientists are revolutionizing the way we live and work"
-  author: "Steven Kotler"
+  name: "Mind Hacking"
+  author: "Sir John Hargrave"
 
 books: [
   {
@@ -79,8 +79,8 @@ books: [
     "author": "Ryan Holiday",
     "url": "http://amzn.to/2Gln2vR"
   }, {
-    "name": "Stealing fire : how Silicon Valley, the Navy SEALS, and maverick scientists are revolutionizing the way we live and work",
-    "author": "Steven Kotler",
+    "name": "Mind Hacking",
+    "author": "Sir John Hargrave",
     "url": "http://amzn.to/2G305ws"
   }
 ]
