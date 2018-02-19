@@ -34,8 +34,8 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Mind Hacking"
-  author: "Sir John Hargrave"
+  name: "The Obstace is the Way"
+  author: "Ryan Holiday"
 
 books: [
   {
@@ -82,5 +82,9 @@ books: [
     "name": "Mind Hacking",
     "author": "Sir John Hargrave",
     "url": "http://amzn.to/2G305ws"
+  }, {
+    "name": "The Obstacle is the Way",
+    "author": "Ryan Holiday",
+    "url": "http://amzn.to/2ETqcsu"
   }
 ]
