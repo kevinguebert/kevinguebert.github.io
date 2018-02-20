@@ -20,5 +20,5 @@ Ryan outlines 8 steps for how to use our perception the correct way when facing 
 3. Choose to see the good in the situation - this is a hard one as it may be tough to see the good in all situations
 4. Steady our nerves - hold fast and stay strong, don't get scared
 5. Ignore what disturbs or limits others - cryptocurrency crashing? Markets failing? Ignore what scares others
-6. PLace things in perspective - will that small thing today matter tomorrow?
+6. Place things in perspective - will that small thing today matter tomorrow?
 7. Focus on what can be controlled - at the end of the day, we can only really change what we can control

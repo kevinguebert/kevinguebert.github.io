@@ -4,13 +4,26 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-02-19T08:11:34-07:00</updated>
+ <updated>2018-02-20T06:47:27-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Altering Your Perception</title>
+   <link href="http://localhost:4000/blog/2018/02/20/alter-your-perception.html"/>
+   <updated>2018-02-20T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/02/20/alter-your-perception</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-the-obstacle-is-the-way-by-ryan-holiday&quot;&gt;Post inspired from: &lt;strong&gt;The Obstacle is the Way&lt;/strong&gt; by Ryan Holiday&lt;/h6&gt;
+
+&lt;p&gt;Yesterday I talked a bit about ways to change your perception: being object, controlling your emotions, etc. Today I wanted to dive a little deeper into it after reading more. When we have a friend or coworker tht has a problem, we oftentimes can easily add our own advice. Why is this? Well, when the situation isn’t happening to us, we can look at it &lt;em&gt;objectively.&lt;/em&gt; We don’t have that ego butting into our decision making when the decision isn’t ours to make, but, once we are in a similar situation ourselves, we struggle with that same problem. Our emotions cloud our judgment and we lack the objectivity to view the obstacle in the most basic form. Our perspective is everything though. If we can take that obstacle, break it down and look at it objectively and through a different perspective, we can then see the other opportunities that exist. We can then flip the obstacle on its head and make it an opportunity.&lt;/p&gt;
+
+&lt;p&gt;Next time you face an obstacle, a challenge, or a problem, try taking a step back. Have a conversation with yourself - do I need to freak out over this? What if this was happening to someone else? What am I missing?&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Steps for Changing our Perception</title>
@@ -33,7 +46,7 @@
   &lt;li&gt;Choose to see the good in the situation - this is a hard one as it may be tough to see the good in all situations&lt;/li&gt;
   &lt;li&gt;Steady our nerves - hold fast and stay strong, don’t get scared&lt;/li&gt;
   &lt;li&gt;Ignore what disturbs or limits others - cryptocurrency crashing? Markets failing? Ignore what scares others&lt;/li&gt;
-  &lt;li&gt;PLace things in perspective - will that small thing today matter tomorrow?&lt;/li&gt;
+  &lt;li&gt;Place things in perspective - will that small thing today matter tomorrow?&lt;/li&gt;
   &lt;li&gt;Focus on what can be controlled - at the end of the day, we can only really change what we can control&lt;/li&gt;
 &lt;/ol&gt;
 </content>
