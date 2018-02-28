@@ -4,13 +4,56 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-02-22T06:45:32-07:00</updated>
+ <updated>2018-02-28T07:16:43-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Anticipate</title>
+   <link href="http://localhost:4000/blog/2018/02/28/anticipate.html"/>
+   <updated>2018-02-28T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/02/28/anticipate</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-the-obstacle-is-the-way-by-ryan-holiday&quot;&gt;Post inspired from: &lt;strong&gt;The Obstacle is the Way&lt;/strong&gt; by Ryan Holiday&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“If you’re not humble, life will visit humbleness upon you” - Mike Tyson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Fear setting. Premortems.&lt;/p&gt;
+
+&lt;p&gt;Both of these are tools to help one anticipate and act correctly. These tools help one evision what could go wrong, all the possible scenarios, before anything actually starts. Say you have a big app launch coming up - do a premortem to figure out all the possible failure scenarios so that you can anticipate and be prepared for them. What if the app gets really popular and there are too many people? That isn’t a bad scenario to have, but also if the app fails because of it, that would be something to anticipate. Or (speaking from a recent experience), what if the road gets covered by snow and ice and your car is ill-equipped to handle it? Do you wake up that morning having to figureo ut a plan or do you anticipate this possible scenario? “The only guarantee is things will go wrong,” it is up to us to be prepared.&lt;/p&gt;
+
+&lt;p&gt;Part of this however is that one may seem like a pessimist. When you are always imagining the possible failures, many of which may not even come to pass, it may seem like a pessimistic point of view. But, to challenge that, is it not better to be prepared for what could happen then to be caught suprised? One can discover the weakness in plans and know how to react and counter any scenario when they arrive. It is far better to be prepared for a scenario than to have the scenario catch you by surprise.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Do. Your. Job.</title>
+   <link href="http://localhost:4000/blog/2018/02/22/do-your-job.html"/>
+   <updated>2018-02-22T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/02/22/do-your-job</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-the-obstacle-is-the-way-by-ryan-holiday&quot;&gt;Post inspired from: &lt;strong&gt;The Obstacle is the Way&lt;/strong&gt; by Ryan Holiday&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Everything we do matters…Everything is a chance to do and be your best. Only self-absorbed assholes think they are too good for whatever their current station requires.” (94)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What a powerful quote. Our lives are filled with ups and downs, successes and failures. In every moment though, it all matters. Ever moment is “a chance to do and be our best.” It is our &lt;em&gt;job&lt;/em&gt; to do and be our best. Ryan Holiday outlines what our response should be to our job:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hard work&lt;/li&gt;
+  &lt;li&gt;Honest&lt;/li&gt;
+  &lt;li&gt;Helping others as best we can&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What’s the point of it though? That’s a question with a simple answer: to do your job. That’s all there is to it. Doing your job also helps you out in more ways than just productivity. Have you ever done lack-luster work and then looked back onto it with a sense of guilt? Or the thought that “I could have done better”? If you do your best in every situation, you can then “be proud of our choices and confident they’re the right ones” (95). If we do our best, put in our best effort, and do the job, then there’s nothing more we could have done. There is no after-thought or guilt that follows us around - we did our best and are confident it was the right decision.&lt;/p&gt;
+
+&lt;p&gt;Each small thing you do is part of the larger goal. Don’t forget that goal, but also remember the small moments as those are what help you reach your goal.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Always Be Moving</title>
