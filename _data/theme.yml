@@ -34,8 +34,8 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "The Obstace is the Way"
-  author: "Ryan Holiday"
+  name: "Smarter Faster Better. The Secrets of Being Productive in Life and Business"
+  author: "Charles Duhigg"
 
 books: [
   {
@@ -86,5 +86,9 @@ books: [
     "name": "The Obstacle is the Way",
     "author": "Ryan Holiday",
     "url": "http://amzn.to/2ETqcsu"
+  }, {
+    "name": "Smarter Faster Better",
+    "author": "Charles Duhigg",
+    "url": "http://amzn.to/2FF5bzP"
   }
 ]
