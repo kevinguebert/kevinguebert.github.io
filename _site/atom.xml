@@ -4,7 +4,7 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-07T06:02:00-07:00</updated>
+ <updated>2018-03-07T06:47:28-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
@@ -13,10 +13,31 @@
 
  
  <entry>
-   <title>What Does It Take</title>
-   <link href="http://localhost:4000/blog/2018/03/07/whats-your-purpose.html"/>
+   <title>Making Better Decisions</title>
+   <link href="http://localhost:4000/blog/2018/03/07/engineering-design-process.html"/>
    <updated>2018-03-07T00:00:00-07:00</updated>
-   <id>http://localhost:4000/blog/2018/03/07/whats-your-purpose</id>
+   <id>http://localhost:4000/blog/2018/03/07/engineering-design-process</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-smarter-faster-better-the-secrets-of-being-productive-in-life-and-business-by-charles-duhigg&quot;&gt;Post inspired from: &lt;strong&gt;Smarter Faster Better. The Secrets of Being Productive in Life and Business&lt;/strong&gt; by Charles Duhigg&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“But when we teach people a process for reframing choices, when we give them a series of steps that causes a decision to seem a little bit different than before, it helps them take more control of what’s going on inside their heads” -  Eric Johnson, Columbia psychologist (262)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We have so. much. data. From our phones to our watches to our computers to our cars, the amount of data that exists for a single person is enormous. However, when it comes times for big decisions we often struggle. Oftentimes, we don’t even use the data we have at our finger tips! &lt;em&gt;Absorbing Data&lt;/em&gt; is probably my favorite chapter in &lt;strong&gt;Smarter Faster Better&lt;/strong&gt; as it outlines a very systematic process for decision making called the “engineering design process.” You’ve probably heard or done something similar:&lt;/p&gt;
+
+&lt;p&gt;Define the dilemma -&amp;gt; Collect Data -&amp;gt; Brainstorm solutions -&amp;gt; Debate Approaches -&amp;gt; Experiment&lt;/p&gt;
+
+&lt;p&gt;But it isn’t a linear process like it looks above - it’s a circle. So after you experiment, you go back to defining the dilemma if the experiment failed.&lt;/p&gt;
+
+&lt;p&gt;The benefit to this process and the key ingredient to it is the experimentation. This process is meant to be quick and used often. Conduct the experiment, see if it resulted in positive or negative results, and then keep on conducting experiments. Refine the data to get smaller and smaller data sets to see if you can manipulate them. Creating a process for all your decisions will help you not get locked into a “this makes sense to do X” without thinking about the alternate side. Add distruption to your decisions by gathering all the data, creating the lists that outline the pros and cons for each decision, and then acting.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What Does It Take</title>
+   <link href="http://localhost:4000/blog/2018/03/07/does-it-take.html"/>
+   <updated>2018-03-07T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/03/07/does-it-take</id>
    <content type="html">&lt;p&gt;Before embarking on your next idea or project or training, sit back and ask yourself - “what’s the purpose of this?” Before you write that first line of code or take that first step, make sure that purpose is outlined clearly in your mind because times will get tough.&lt;/p&gt;
 
 &lt;p&gt;Then you need to think “what is this going to take?” This morning I pondered on that question in my life - here is an excerpt from my journal:&lt;/p&gt;

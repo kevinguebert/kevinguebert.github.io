@@ -2,9 +2,15 @@
 
 {"date": "Wed, 07 Mar 2018 00:00:00 -0700",
 "categories": ["blog"],
+"tags": ["books","personal-growth"],
+"title": "Making Better Decisions",
+"url": "/blog/2018/03/07/engineering-design-process.html"},
+
+{"date": "Wed, 07 Mar 2018 00:00:00 -0700",
+"categories": ["blog"],
 "tags": ["personal-growth","reflection"],
 "title": "What Does It Take",
-"url": "/blog/2018/03/07/whats-your-purpose.html"},
+"url": "/blog/2018/03/07/does-it-take.html"},
 
 {"date": "Tue, 06 Mar 2018 00:00:00 -0700",
 "categories": ["blog"],
