@@ -4,13 +4,26 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-06T19:24:48-07:00</updated>
+ <updated>2018-03-06T20:07:47-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Mental Reset Day</title>
+   <link href="http://localhost:4000/blog/2018/03/06/mental-health-day.html"/>
+   <updated>2018-03-06T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/03/06/mental-health-day</id>
+   <content type="html">&lt;p&gt;How does your todo list look today? Is your list growing longer and longer with no end in sight? Do you feel like you are adding to the list faster than crossing items off?&lt;/p&gt;
+
+&lt;p&gt;Today my good friend Joe sent me a great article posted by &lt;strong&gt;The Art of Manliness&lt;/strong&gt; called “&lt;a href=&quot;https://www.artofmanliness.com/2018/03/05/need-reset-day/&quot;&gt;You Need a Reset Day&lt;/a&gt;.” The article goes to state that sometimes in life and in work, things will get bottled up and backed up. In times like that, it may be better to take a “reset” day off from work and take care of all the personal activities in your life. Taking this day off to sort out your life will then actually help you out in your work life because all those items won’t be on your mind anymore! Tasks like catching up on bills, deep cleaning your living space, catching up on phone calls, checking your finances, etc. are not extremely hard tasks, but they require time and effort into them. You don’t necessarily want to spend a weekend on these tasks because the weekends are usually already filled with activities or plans. Also, spending one day out of your 2 day weekend doing work could make you feel like you were unable to relax as much.&lt;/p&gt;
+
+&lt;p&gt;Check out the article, I highly recommend it: &lt;a href=&quot;https://www.artofmanliness.com/2018/03/05/need-reset-day/&quot;&gt;You Need a Reset Day&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Diet Confusion</title>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diet Confusion
-tags: [personal-growth]
+tags: [health]
 categories:
 - blog
 ---
