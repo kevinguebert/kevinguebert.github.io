@@ -4,13 +4,30 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-06T20:07:47-07:00</updated>
+ <updated>2018-03-07T06:02:00-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>What Does It Take</title>
+   <link href="http://localhost:4000/blog/2018/03/07/whats-your-purpose.html"/>
+   <updated>2018-03-07T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/03/07/whats-your-purpose</id>
+   <content type="html">&lt;p&gt;Before embarking on your next idea or project or training, sit back and ask yourself - “what’s the purpose of this?” Before you write that first line of code or take that first step, make sure that purpose is outlined clearly in your mind because times will get tough.&lt;/p&gt;
+
+&lt;p&gt;Then you need to think “what is this going to take?” This morning I pondered on that question in my life - here is an excerpt from my journal:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“What does that take? That takes sacrifice of the now for benefits of the future. That takes exhaustion and still getting up for the gind. That takes moments of self-doubt, low confidence, and stress. That takes discipline. That takes time.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Whatever you are starting now, the next Facebook or training for a 5k, whatever it is, know that is isn’t going to come easy. Once you know that, you can prepare yourself for the future to overcome the obstacles ahead.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mental Reset Day</title>
