@@ -4,13 +4,26 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-04T19:42:31-07:00</updated>
+ <updated>2018-03-06T19:24:48-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Diet Confusion</title>
+   <link href="http://localhost:4000/blog/2018/03/06/diet-confusion.html"/>
+   <updated>2018-03-06T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/03/06/diet-confusion</id>
+   <content type="html">&lt;p&gt;Keto? Paleo? Whole 30? Vegan? Vegetarian? Meat only?&lt;/p&gt;
+
+&lt;p&gt;The diet craze hasn’t slowed and may have even become more confusing. Rich Roll and guest Joel Kahn discuss some of these diets and what believe (with science backing) to be the optimal diet. Check it out:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yrCaG2gT2Vg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Accountability Tracking</title>
