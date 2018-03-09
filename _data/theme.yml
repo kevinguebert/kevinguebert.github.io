@@ -34,8 +34,8 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Smarter Faster Better. The Secrets of Being Productive in Life and Business"
-  author: "Charles Duhigg"
+  name: "Perennial Seller. The Art of Making and Marketing Work that Lasts"
+  author: "Ryan Holiday"
 
 books: [
   {
@@ -90,5 +90,9 @@ books: [
     "name": "Smarter Faster Better",
     "author": "Charles Duhigg",
     "url": "http://amzn.to/2FF5bzP"
+  }, {
+    "name": "Perennial Seller",
+    "author": "Ryan Holiday",
+    "url": "http://amzn.to/2oW3ve1"
   }
 ]

@@ -4,13 +4,34 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-07T06:47:28-07:00</updated>
+ <updated>2018-03-09T06:52:04-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Idea + Work</title>
+   <link href="http://localhost:4000/blog/2018/03/09/idea-and-work.html"/>
+   <updated>2018-03-09T00:00:00-07:00</updated>
+   <id>http://localhost:4000/blog/2018/03/09/idea-and-work</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-perennial-seller-by-charles-duhigg&quot;&gt;Post inspired from: &lt;strong&gt;Perennial Seller&lt;/strong&gt; by Charles Duhigg&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“I don’t want to hear your &lt;em&gt;idea&lt;/em&gt;. The idea is the easy part” - Casey Neistat (21)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The best way to increase a startup’s growth rate is to make the product so good people recommend it to your friends.” - Paul Graham (20)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Think back to the lsat time you used a product you &lt;em&gt;thoroughly enjoyed.&lt;/em&gt; It can be an app or a piece of furniture or a utensil, anything, physical or digital. Remember that feeling that you got what you started using it? I know whenever I see something that is built well I often times have a verbal “wow” that accompanies it.&lt;/p&gt;
+
+&lt;p&gt;How often does that experience occur for you? If you are like me, surprisingly not that often. But what is that? In &lt;em&gt;Perennial Seller&lt;/em&gt;, the first few chapters (pages really) share some insights into this exact idea. The first problem is that creators don’t want to put in the work. I know I fall guilty to this - I want the output without putting in the effort. If we are to make a product truly fantastic though, it requires the struggle and the highs and lows that come with it. Secondly, people love ideas. My post &lt;a href=&quot;/blog/2018/01/21/the-dope-addiction.html&quot;&gt;The Dope Addiction&lt;/a&gt; echos this same idea - &lt;em&gt;Ideas are cheap&lt;/em&gt;. But people love them, love talking about them, love fantasizing. I know I do. I am 100% a perfect example of both of these flaws (which take up 4 pages of a 200+ page book) - I avoid the hard work and I have a new idea every week. So how do we move past that? Well, for now I’m going to keep on reading to try and find out.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Making Better Decisions</title>
