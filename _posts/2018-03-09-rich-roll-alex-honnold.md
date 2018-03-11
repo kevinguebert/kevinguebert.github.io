@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What I'm Watching - Rich Roll & Alex Honnold
+title: Rich Roll & Alex Honnold [Video]
 tags: [recommendations]
 categories:
 - blog

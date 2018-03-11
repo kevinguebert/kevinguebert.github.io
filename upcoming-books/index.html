@@ -2,6 +2,17 @@
 layout: page
 title: The Reading List
 tags: [books]
-categories:
-- blog
 ---
+
+<small><strong>Books marked with a "*" are currently requested at the library</strong></small>
+
+<ul>
+  {% for book in site.data.theme.readingList reversed %}
+    <li>
+        <!-- <a href="{{ book.url }}" rel="book"> -->
+        {% if book.requested == true %}*{% endif %}
+        {{book.name}}
+      <!-- </a> -->
+    </li>
+  {% endfor %}
+</ul>

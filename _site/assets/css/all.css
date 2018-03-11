@@ -965,6 +965,9 @@ nav>div p, nav>div a {
 .content {
   border-left: none;
 } */
+#bio {
+  text-align: right;
+}
 
 #tags {
   margin-top:0;
@@ -1012,7 +1015,12 @@ nav {
   text-decoration: underline;
 }
 
+.disclaimer p {
+  text-align: left;
+  width: 50%;
+}
+
 #social {
-  text-align: center;
+  text-align: left;
 }
 
