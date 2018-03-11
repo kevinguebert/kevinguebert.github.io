@@ -53,7 +53,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px 'Merriweather', serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -64,7 +64,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+		font-family: 'Nunito Sans', sans-serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -156,7 +156,7 @@
 	  cursor: pointer;
 	  margin-bottom: 20px;
 	  line-height: 21px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: 'Nunito Sans', sans-serif; }
 
 	a.button:hover,
 	button:hover,
@@ -591,7 +591,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "open sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
 }
 
@@ -727,7 +727,7 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: "open sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .sidebar p {
@@ -739,7 +739,7 @@ nav h1, nav h2 {
 }
 
 .content {
-  font: 400 16px/22px "open sans", sans-serif;
+  /*font: 400 16px/22px 'Nunito Sans', sans-serif;*/
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
@@ -800,7 +800,7 @@ nav h1, nav h2 {
 }
 
 i.fa-hn {
-  font-family: "open sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   font-size: 18px !important;
   position: relative;
