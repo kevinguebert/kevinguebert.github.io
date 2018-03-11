@@ -12,7 +12,7 @@
 </h4>
 <ul>
   {% assign counter = 0 %}
-  {% for book in site.data.theme.books %}
+  {% for book in site.data.theme.books reversed %}
     <li>
       {% if book.finished == false %}
         <a href="{{ book.url }}" rel="book" class="not-finished">
