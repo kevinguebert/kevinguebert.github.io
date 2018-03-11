@@ -96,3 +96,15 @@ nav {
 #social {
   text-align: left;
 }
+
+#upcoming {
+  margin-left: 0 !important;
+}
+#upcoming li {
+  list-style: none;
+  font-size:90%;
+}
+
+#upcoming i {
+  font-style: italic; 
+}
