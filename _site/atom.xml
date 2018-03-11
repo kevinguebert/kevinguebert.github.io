@@ -4,7 +4,7 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-11T08:54:12-06:00</updated>
+ <updated>2018-03-11T08:58:53-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
@@ -17,7 +17,7 @@
    <link href="http://localhost:4000/blog/2018/03/09/rich-roll-alex-honnold.html"/>
    <updated>2018-03-09T00:00:00-07:00</updated>
    <id>http://localhost:4000/blog/2018/03/09/rich-roll-alex-honnold</id>
-   <content type="html">&lt;p&gt;Incase you didn’t know, &lt;a href=&quot;richroll.com&quot;&gt;Rich Roll&lt;/a&gt; holds the top spot in my list of favorite podcasters. This past week he sat down with someone who I’ve been hearing much more about since starting new job out in Boulder, Colorado.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Incase you didn’t know, &lt;a href=&quot;https://richroll.com&quot;&gt;Rich Roll&lt;/a&gt; holds the top spot in my list of favorite podcasters. This past week he sat down with someone who I’ve been hearing much more about since starting new job out in Boulder, Colorado.&lt;/p&gt;
 
 &lt;p&gt;Alex Honnold will go down in history as one of the best free solo climbers in the world. He has multiple records under his belt and he continues to strive for more.&lt;/p&gt;
 
