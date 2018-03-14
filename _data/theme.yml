@@ -37,6 +37,10 @@ book_current:
   name: "Perennial Seller. The Art of Making and Marketing Work that Lasts"
   author: "Ryan Holiday"
 
+secondary_book_current:
+  name: "Embrace the Suck"
+  author: "Stephen Madden"
+
 books: [
   {
     "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
@@ -99,86 +103,11 @@ books: [
     "author": "Ryan Holiday",
     "current": true,
     "url": "http://amzn.to/2oW3ve1"
+  }, {
+    "name": "Embrace the Suck",
+    "author": "Stephen Madden",
+    "current": true,
+    "url": "http://amzn.to/2GpEShA"
   }
 ]
 
-readingList: [
-  {
-    "name": "The Right Stuff",
-    "requested": true,
-    "url": "http://amzn.to/2Frsal6"
-  }, {
-    "name": "Hiding in the Bathroom",
-    "url": "http://amzn.to/2FINxxr"
-  }, {
-    "name": "Master Key System",
-    "url": "http://amzn.to/2FubkSR"
-  }, {
-  #   "name": "How to Think like a Computer Scientist"
-  # }, {
-    "name": "Power of Moments",
-    "recommended": true,
-    "url": "http://amzn.to/2FJV7In"
-  }, {
-    "name": "Resilience",
-    "recommended": true,
-    "url": "http://amzn.to/2GgAEJ5"
-  }, {
-    "name": "The Name of the Wind",
-    "recommended": true,
-    "url": "http://amzn.to/2Fpdwe2"
-  }, {
-    "name": "Hitchhiker's Guide to the Galaxy",
-    "url": "http://amzn.to/2DiG7vV"
-  }, {
-    "name": "Mistborn",
-    "recommended": true,
-    "url": "http://amzn.to/2Hnxt1q"
-  }, {
-    "name": "The Stand",
-    "recommended": true,
-    "url": "http://amzn.to/2HoJio3"
-  }, {
-    "name": "The Road",
-    "url": "http://amzn.to/2paAnzl"
-  }, {
-    "name": "Walk in the Woods",
-    "recommended": true,
-    "url": "http://amzn.to/2tId1Xl"
-  }, {
-    "name": "The Storm Light Archive Series",
-    "url": "http://amzn.to/2FrqsQS"
-  }, {
-    "name": "Clean code : a handbook of agile software craftsmanship",
-    "requested": true,
-    "url": "http://amzn.to/2tCqvUc"
-  }, {
-    "name": "The four tendencies: the indispensable personality profiles that reveal how to make your life better (and other people's lives better, too)",
-    "requested": true,
-    "recommended": true,
-    "url": "http://amzn.to/2p6kyJQ"
-  }, {
-    "name": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence.",
-    "requested": true,
-    "url": "http://amzn.to/2FK6aRS"
-  }, {
-    "name": "The $100 startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future",
-    "requested": true,
-    "url": "http://amzn.to/2Dhkufp"
-  }, {
-    "name": "The art of non-conformity: set your own rules, live the life you want, and change the world",
-    "url": "http://amzn.to/2tA4tl5"
-  }, {
-    "name": "Born for this: How to Find the Work You Were Meant to Do",
-    "url": "http://amzn.to/2Gh8oWD"
-  }, {
-    "name": "The clean coder: a code of conduct for professional programmers",
-    "url": "http://amzn.to/2FFgsTl"
-  }, {
-    "name": "Code: the hidden language of computer hardware and software",
-    "url": "http://amzn.to/2oZRwfs"
-  }, {
-    "name": "Deep work: Rules for Focused Success in a Distracted World",
-    "url": "http://amzn.to/2tzEvxY"
-  }
-]
