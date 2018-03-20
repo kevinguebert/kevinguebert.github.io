@@ -4,13 +4,28 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-13T18:39:16-06:00</updated>
+ <updated>2018-03-19T21:02:11-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Sell It For Free</title>
+   <link href="http://localhost:4000/blog/2018/03/19/sell-it-for-free.html"/>
+   <updated>2018-03-19T00:00:00-06:00</updated>
+   <id>http://localhost:4000/blog/2018/03/19/sell-it-for-free</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-perennial-seller-by-ryan-holiday&quot;&gt;Post inspired from: &lt;strong&gt;Perennial Seller&lt;/strong&gt; by Ryan Holiday&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“The problem for most artists isn’t piracy, it’s obscurity” - Tim O’Reilly (128)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The rise of the freemium model in products can be shown very clearly on a graph. Over the past couple of years we have seen the tiered system of payment - free tier, medium tier, premium tier. They usually all look very similar with more advanced features as you pay more. This model is very appropriate for the online world. When you create a product you want to get &lt;strong&gt;as many eyeballs on it as possible.&lt;/strong&gt; You want people to share it, love it, see it, and use it as much as possible. If you launch and originally have the product behind a paywall, you are immediately hurting the number of people the product is accessible to. Think of how many other products are out there right now that are also free? Free concerts, free samples, free magazines, etc. and we still don’t even spend time to look at them. Think of how precious our time and attention is. If you immediately want to chareg me when I have just reache dyour product, all that energy will be lost and I, the user, will be lost. Don’t get wide-eyed and have big dreams of $$$ at the start. You want the users. You want the growth.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Make Your Bed</title>
@@ -54,7 +69,7 @@
    <link href="http://localhost:4000/blog/2018/03/09/idea-and-work.html"/>
    <updated>2018-03-09T00:00:00-07:00</updated>
    <id>http://localhost:4000/blog/2018/03/09/idea-and-work</id>
-   <content type="html">&lt;h6 id=&quot;post-inspired-from-perennial-seller-by-charles-duhigg&quot;&gt;Post inspired from: &lt;strong&gt;Perennial Seller&lt;/strong&gt; by Charles Duhigg&lt;/h6&gt;
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-perennial-seller-by-ryan-holiday&quot;&gt;Post inspired from: &lt;strong&gt;Perennial Seller&lt;/strong&gt; by Ryan Holiday&lt;/h6&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;“I don’t want to hear your &lt;em&gt;idea&lt;/em&gt;. The idea is the easy part” - Casey Neistat (21)&lt;/p&gt;

@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **Perennial Seller** by Charles Duhigg 
+###### Post inspired from: **Perennial Seller** by Ryan Holiday
 <br />
 > "I don't want to hear your *idea*. The idea is the easy part" - Casey Neistat (21)
 
