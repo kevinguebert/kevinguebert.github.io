@@ -34,12 +34,12 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Perennial Seller. The Art of Making and Marketing Work that Lasts"
-  author: "Ryan Holiday"
-
-secondary_book_current:
   name: "Embrace the Suck"
   author: "Stephen Madden"
+
+secondary_book_current:
+  name: "The $100 Startup"
+  author: "Chris Guillebeau"
 
 books: [
   {
@@ -101,13 +101,17 @@ books: [
   }, {
     "name": "Perennial Seller. The Art of Making and Marketing Work that Lasts",
     "author": "Ryan Holiday",
-    "current": true,
     "url": "http://amzn.to/2oW3ve1"
   }, {
     "name": "Embrace the Suck",
     "author": "Stephen Madden",
     "current": true,
     "url": "http://amzn.to/2GpEShA"
+  }, {
+    "name": "The $100 Startup",
+    "author": "Chris Guillebeau",
+    "current": true,
+    "url": "http://amzn.to/2prqSML"
   }
 ]
 
