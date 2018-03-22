@@ -4,13 +4,28 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-21T19:42:56-06:00</updated>
+ <updated>2018-03-22T06:47:12-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Teach a Man to Fish is Bad for Business</title>
+   <link href="http://localhost:4000/blog/2018/03/22/business-fish.html"/>
+   <updated>2018-03-22T00:00:00-06:00</updated>
+   <id>http://localhost:4000/blog/2018/03/22/business-fish</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“This might be a good idea for hungry fisherman, but it’s a terrible idea in business. Most customer’s don’t want to learn how to fish.” (32)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When determining your next app or product you want to launch, take some time to figure out what you are selling to the customer. Chris Guillebeau brings up a great point about what service you should be launching to your customers - customers don’t want to be involved in the “behind the scenes” work, they want the output and the benefit of the project. Take for example &lt;a href=&quot;https://www.yourracemix.com/&quot;&gt;RaceMix&lt;/a&gt;, a website built by a friend of mine. Runners don’t want to have to deal with all of the inner-workings of creating a playlist, they just want to get the output! Think about a restaurant (this example comes from the book) - we go to a restaurant to be served and have someone take care of us. We don’t want to worry about how it all works or what goes on in the kitchen. We are paying for the service to &lt;em&gt;take away&lt;/em&gt; some of the stress and hassle. So if you are thinking about creating an app or building a product or business, think about how your customers are going to react and interact with it - are they “doing the fishing” or are they benefiting from the output?&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Things I Wish I Knew (Coding Edition)</title>
