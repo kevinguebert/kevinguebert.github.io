@@ -4,13 +4,24 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-22T07:11:19-06:00</updated>
+ <updated>2018-03-22T10:16:10-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Would You Follow Yourself? [Video]</title>
+   <link href="http://localhost:4000/blog/2018/03/22/would-you-follow-yourself.html"/>
+   <updated>2018-03-22T00:00:00-06:00</updated>
+   <id>http://localhost:4000/blog/2018/03/22/would-you-follow-yourself</id>
+   <content type="html">&lt;p&gt;From a random Tweet I came across this video - short, sweet, highly recommend it. (Note, I’ve never heard of this podcast before, maybe it’s work checking out).&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aRZ3rgwNBF4&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Things I Wish I Knew - Progress</title>

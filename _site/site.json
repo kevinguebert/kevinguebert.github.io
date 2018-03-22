@@ -2,6 +2,12 @@
 
 {"date": "Thu, 22 Mar 2018 00:00:00 -0600",
 "categories": ["blog"],
+"tags": ["personal-growth","video","recommendations"],
+"title": "Would You Follow Yourself? [Video]",
+"url": "/blog/2018/03/22/would-you-follow-yourself.html"},
+
+{"date": "Thu, 22 Mar 2018 00:00:00 -0600",
+"categories": ["blog"],
 "tags": ["coding","personal-growth"],
 "title": "Things I Wish I Knew - Progress",
 "url": "/blog/2018/03/22/coding-course-updates.html"},
@@ -44,13 +50,13 @@
 
 {"date": "Mon, 12 Mar 2018 00:00:00 -0600",
 "categories": ["blog"],
-"tags": ["recommendations"],
+"tags": ["recommendations","video","personal-growth"],
 "title": "Make Your Bed [Video]",
 "url": "/blog/2018/03/12/make-your-bed-video.html"},
 
 {"date": "Fri, 09 Mar 2018 00:00:00 -0700",
 "categories": ["blog"],
-"tags": ["recommendations"],
+"tags": ["recommendations","video"],
 "title": "Rich Roll & Alex Honnold [Video]",
 "url": "/blog/2018/03/09/rich-roll-alex-honnold.html"},
 
