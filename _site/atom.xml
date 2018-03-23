@@ -4,13 +4,55 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-22T07:11:19-06:00</updated>
+ <updated>2018-03-23T06:44:35-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>A New Coding Course</title>
+   <link href="http://localhost:4000/blog/2018/03/23/py4e.html"/>
+   <updated>2018-03-23T00:00:00-06:00</updated>
+   <id>http://localhost:4000/blog/2018/03/23/py4e</id>
+   <content type="html">&lt;p&gt;A big lesson I have been working on learning over the past couple years is, when a problem occurs, take action as soon as possible. This action can be creating a plan, writing down your goals, watching YouTube videos, or creating a Google Doc with action items, but at the very least you are moving towards fixing the problem. Two days ago, I shared a post &lt;a href=&quot;/blog/2018/03/21/things-i-wish-i-knew.html&quot;&gt;Things I Wish I Knew&lt;/a&gt; that outlined some of the struggles I have been facing in terms of my development skills. The following day (yesterday), I provided an update titled &lt;a href=&quot;/blog/2018/03/22/coding-course-updates.html&quot;&gt;Things I Wish I Knew - Progress&lt;/a&gt; where I outlined some of my possible courses of action. From this action item list, I looked into and completed all of them!&lt;/p&gt;
+
+&lt;p&gt;✔️ Talk to a coworker/friend about ways to improve&lt;br /&gt;
+✔️ Research online classes and figure out the best one.&lt;/p&gt;
+
+&lt;p&gt;In doing all of this, I’ve come to two new courses of action:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Look into books from the library that I can read to improve knowledge
+  ✔️ &lt;em&gt;Design it! : from programmer to software architect&lt;/em&gt; is currently on hold at the library&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start an online class &lt;br /&gt;
+  ✔️ Yesterday I started &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Python for Everybody&lt;/a&gt; and completed the first chapter.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With this new course, you will notice a new tag &lt;a href=&quot;/tag/py4e.html&quot;&gt;py4e&lt;/a&gt;(Python 4 Everybody - PY4E) where you can track any posts or updates I may have.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Before You Overdeliver</title>
+   <link href="http://localhost:4000/blog/2018/03/23/before-you-overdeliver.html"/>
+   <updated>2018-03-23T00:00:00-06:00</updated>
+   <id>http://localhost:4000/blog/2018/03/23/before-you-overdeliver</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“The easiest and most critical way to reinforce their decision is by giving them quick access to what they paid for. But to go further, you’ll want to &lt;em&gt;overdeliver&lt;/em&gt;: give them more than what they expected.” (105)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This morning’s quote from &lt;em&gt;The $100 Startup&lt;/em&gt; is meaningful and very important. If you sum it up, it basically comes down to make the experience of your product/app as enjoyable as possible &lt;em&gt;and then more&lt;/em&gt; so that customers are more willing to come back and share. &lt;em&gt;But&lt;/em&gt;, I think there should be a point before you overdeliver. A trap that I have fallen into is getting too excited about some extra features (the overdelivery), that the core product gets pushed aside. Do not let that happen! The core product is still the &lt;em&gt;core product&lt;/em&gt;! Before you overdeliver, make sure you actually deliver!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Things I Wish I Knew - Progress</title>
