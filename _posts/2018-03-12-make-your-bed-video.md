@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make Your Bed [Video]
-tags: [recommendations]
+tags: [recommendations, video, personal-growth]
 categories:
 - blog
 ---
