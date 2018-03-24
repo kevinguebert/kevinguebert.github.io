@@ -4,13 +4,28 @@
  <title>The blog of Kevin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2018-03-23T06:44:57-06:00</updated>
+ <updated>2018-03-24T06:42:16-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin</name>
    <email>kguebert93@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Derek Sivers' "Hell Yeah" Test</title>
+   <link href="http://localhost:4000/blog/2018/03/24/hell-yeah-rule.html"/>
+   <updated>2018-03-24T00:00:00-06:00</updated>
+   <id>http://localhost:4000/blog/2018/03/24/hell-yeah-rule</id>
+   <content type="html">&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“If you’re not saying “HELL YEAH!” about something, say “no”.” -Derek Sivers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I wish I could heed my own advice! OFten times, we as humans have too many things on our plates. Projects, events, and activities crowd up our schedule until we become burned out and tired. The “hell yeah” rule is a great way to look at decisions in your life - if you aren’t stoked about it, politely decline. I would like to think I’ve become better at recognizing this, but I think others would disagree. From Sivers’ &lt;a href=&quot;https://sivers.org/hellyeah&quot;&gt;Hell Yeah Website&lt;/a&gt;, he states a solid reason for why you should be saying no more often: “When you say no to most things, you leave room in your life to really throw yourself completely into that rare thing that makes you say “HELL YEAH!” When you say no, you then have more time to focus on the projects/events/activities you actually want to focus on.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A New Coding Course</title>

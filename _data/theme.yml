@@ -34,12 +34,10 @@ show_disclaimer: true
 show_atom_feed: false
 
 book_current:
-  name: "Embrace the Suck"
-  author: "Stephen Madden"
-
-secondary_book_current:
   name: "The $100 Startup"
   author: "Chris Guillebeau"
+
+# secondary_book_current:
 
 books: [
   {
