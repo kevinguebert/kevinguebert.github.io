@@ -6,9 +6,30 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Mar 2018 18:30:27 -0600</pubDate>
-    <lastBuildDate>Sat, 24 Mar 2018 18:30:27 -0600</lastBuildDate>
+    <pubDate>Sun, 25 Mar 2018 12:44:15 -0600</pubDate>
+    <lastBuildDate>Sun, 25 Mar 2018 12:44:15 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Coding Mnemonically</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Mnemonic: a device such as a pattern of letters, ideas, or associations that assists in remembering something.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;While following my &lt;a href=&quot;/2018/03/py4e&quot;&gt;Python for Everybody&lt;/a&gt; course, I learned about &lt;em&gt;mnemonic variable names&lt;/em&gt;, what that means, and how it can enhance programming. If you have been programming for a while now, you were probably taught this at one point in your history. For me, it was instilled in me in my first co-op job. Mnemonic variable naming is simple creating variable names that are indicative of the data they are holding. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;x = 40&lt;/code&gt; is pretty basic, but if you change it to &lt;code class=&quot;highlighter-rouge&quot;&gt;hours_per_week = 40&lt;/code&gt;, you can clearly understand that the value 4 relates to how many hours one may work in a week. If you are a new programmer and starting off, I would recommend trying to use mnemonic variable names as much as possible. It will help with debugging, sharing code, and help deliver better quality code in the end!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/coding-mnemonics</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/coding-mnemonics</guid>
+        
+        <category>coding</category>
+        
+        <category>py4e</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Derek Sivers' &quot;Hell Yeah&quot; Test</title>
@@ -222,30 +243,6 @@
         <guid isPermaLink="true">http://localhost:4000/2018/03/next-time-perennial</guid>
         
         <category>books</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Sell It For Free</title>
-        <description>&lt;h6 id=&quot;post-inspired-from-perennial-seller-by-ryan-holiday&quot;&gt;Post inspired from: &lt;strong&gt;Perennial Seller&lt;/strong&gt; by Ryan Holiday&lt;/h6&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“The problem for most artists isn’t piracy, it’s obscurity” - Tim O’Reilly (128)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The rise of the freemium model in products can be shown very clearly on a graph. Over the past couple of years we have seen the tiered system of payment - free tier, medium tier, premium tier. They usually all look very similar with more advanced features as you pay more. This model is very appropriate for the online world. When you create a product you want to get &lt;strong&gt;as many eyeballs on it as possible.&lt;/strong&gt; You want people to share it, love it, see it, and use it as much as possible. If you launch and originally have the product behind a paywall, you are immediately hurting the number of people the product is accessible to. Think of how many other products are out there right now that are also free? Free concerts, free samples, free magazines, etc. and we still don’t even spend time to look at them. Think of how precious our time and attention is. If you immediately want to chareg me when I have just reache dyour product, all that energy will be lost and I, the user, will be lost. Don’t get wide-eyed and have big dreams of $$$ at the start. You want the users. You want the growth.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 19 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2018/03/sell-it-for-free</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/03/sell-it-for-free</guid>
-        
-        <category>books</category>
-        
-        <category>startups</category>
-        
-        <category>marketing</category>
         
         
         <category>blog</category>
