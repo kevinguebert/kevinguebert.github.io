@@ -1,18 +1,4 @@
-<div class="disclaimer">
-  {% if site.data.theme.show_disclaimer %}
-  <p>
-    The postings on this site are my own and don't necessarily represent my
-    employer’s positions, strategies or opinions.
-  </p>
-  {% endif %}
-  
-  {% if site.data.theme.show_social_and_feed %}
-  <div id="social">
-    {% include social.html %}
-  </div>
-  {% endif %}
-
-  <p>
-    © Kevin Guebert {{ 'now' | date: "%Y" }} &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom">Lagom theme</a>
-  </p>
-</div>
+<footer class="c-page__footer">
+    <p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }}</p>
+    <p>{% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a><span class="u-separate"></span>{% endif %}{% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">Github</a>{% endif %}</p>
+</footer>

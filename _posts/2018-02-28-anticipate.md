@@ -7,7 +7,6 @@ categories:
 ---
 
 ###### Post inspired from: **The Obstacle is the Way** by Ryan Holiday
-<br />
 > "If you're not humble, life will visit humbleness upon you" - Mike Tyson
 
 Fear setting. Premortems. 

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kevin Guebert</title>
+    <description>Write a description of your website here.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Mar 2018 18:30:27 -0600</pubDate>
+    <lastBuildDate>Sat, 24 Mar 2018 18:30:27 -0600</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Derek Sivers' &quot;Hell Yeah&quot; Test</title>
+        <description>&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“If you’re not saying “HELL YEAH!” about something, say “no”.” -Derek Sivers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I wish I could heed my own advice! OFten times, we as humans have too many things on our plates. Projects, events, and activities crowd up our schedule until we become burned out and tired. The “hell yeah” rule is a great way to look at decisions in your life - if you aren’t stoked about it, politely decline. I would like to think I’ve become better at recognizing this, but I think others would disagree. From Sivers’ &lt;a href=&quot;https://sivers.org/hellyeah&quot;&gt;Hell Yeah Website&lt;/a&gt;, he states a solid reason for why you should be saying no more often: “When you say no to most things, you leave room in your life to really throw yourself completely into that rare thing that makes you say “HELL YEAH!” When you say no, you then have more time to focus on the projects/events/activities you actually want to focus on.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/hell-yeah-rule</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/hell-yeah-rule</guid>
+        
+        <category>books</category>
+        
+        <category>startups</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>A New Coding Course</title>
+        <description>&lt;p&gt;A big lesson I have been working on learning over the past couple years is, when a problem occurs, take action as soon as possible. This action can be creating a plan, writing down your goals, watching YouTube videos, or creating a Google Doc with action items, but at the very least you are moving towards fixing the problem. Two days ago, I shared a post &lt;a href=&quot;/blog/2018/03/21/things-i-wish-i-knew.html&quot;&gt;Things I Wish I Knew&lt;/a&gt; that outlined some of the struggles I have been facing in terms of my development skills. The following day (yesterday), I provided an update titled &lt;a href=&quot;/blog/2018/03/22/coding-course-updates.html&quot;&gt;Things I Wish I Knew - Progress&lt;/a&gt; where I outlined some of my possible courses of action. From this action item list, I looked into and completed all of them!&lt;/p&gt;
+
+&lt;p&gt;✔️ Talk to a coworker/friend about ways to improve&lt;br /&gt;
+✔️ Research online classes and figure out the best one.&lt;/p&gt;
+
+&lt;p&gt;In doing all of this, I’ve come to two new courses of action:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Look into books from the library that I can read to improve knowledge
+  ✔️ &lt;em&gt;Design it! : from programmer to software architect&lt;/em&gt; is currently on hold at the library&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start an online class &lt;br /&gt;
+  ✔️ Yesterday I started &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Python for Everybody&lt;/a&gt; and completed the first chapter.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With this new course, you will notice a new tag &lt;a href=&quot;/tag/py4e.html&quot;&gt;py4e&lt;/a&gt;(Python 4 Everybody - PY4E) where you can track any posts or updates I may have.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/py4e</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/py4e</guid>
+        
+        <category>coding</category>
+        
+        <category>personal-growth</category>
+        
+        <category>py4e</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Before You Overdeliver</title>
+        <description>&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“The easiest and most critical way to reinforce their decision is by giving them quick access to what they paid for. But to go further, you’ll want to &lt;em&gt;overdeliver&lt;/em&gt;: give them more than what they expected.” (105)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This morning’s quote from &lt;em&gt;The $100 Startup&lt;/em&gt; is meaningful and very important. If you sum it up, it basically comes down to make the experience of your product/app as enjoyable as possible &lt;em&gt;and then more&lt;/em&gt; so that customers are more willing to come back and share. &lt;em&gt;But&lt;/em&gt;, I think there should be a point before you overdeliver. A trap that I have fallen into is getting too excited about some extra features (the overdelivery), that the core product gets pushed aside. Do not let that happen! The core product is still the &lt;em&gt;core product&lt;/em&gt;! Before you overdeliver, make sure you actually deliver!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/before-you-overdeliver</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/before-you-overdeliver</guid>
+        
+        <category>books</category>
+        
+        <category>startups</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Would You Follow Yourself? [Video]</title>
+        <description>&lt;p&gt;From a random Tweet I came across this video - short, sweet, highly recommend it. (Note, I’ve never heard of this podcast before, maybe it’s work checking out).&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aRZ3rgwNBF4&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 22 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/would-you-follow-yourself</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/would-you-follow-yourself</guid>
+        
+        <category>personal-growth</category>
+        
+        <category>video</category>
+        
+        <category>recommendations</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Things I Wish I Knew - Progress</title>
+        <description>&lt;p&gt;From my post yesterday, &lt;a href=&quot;/blog/2018/03/21/things-i-wish-i-knew.html&quot;&gt;Things I Wish I Knew (Coding)&lt;/a&gt;, I spent the night thinking about ways to implement these greviences. I will share that I have actually been struggling with this problem for a while now. A year ago I started the course &lt;a href=&quot;https://www.coursera.org/learn/interactive-python-2&quot;&gt;“An Introduction to Interactive Programming in Python (Part 1)” by Rice University on Coursera&lt;/a&gt; but unfortunately did not finish it…life got in the way at the time. Revisiting learning now, I am not keen on spending $50 a month on it right now. This morning I came across &lt;a href=&quot;https://www.py4e.com/&quot;&gt;“Python For Everybody”&lt;/a&gt; which looks promising! I will be researching more today and talking to coworkers/friends about the ways to continue.&lt;/p&gt;
+
+&lt;p&gt;If you have any suggestions, please let me know by sending a message on &lt;a href=&quot;http://twitter.com/kevinguebert&quot;&gt;Twitter!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/coding-course-updates</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/coding-course-updates</guid>
+        
+        <category>coding</category>
+        
+        <category>personal-growth</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Teach a Man to Fish is Bad for Business</title>
+        <description>&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“This might be a good idea for hungry fisherman, but it’s a terrible idea in business. Most customer’s don’t want to learn how to fish.” (32)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When determining your next app or product you want to launch, take some time to figure out what you are selling to the customer. Chris Guillebeau brings up a great point about what service you should be launching to your customers - customers don’t want to be involved in the “behind the scenes” work, they want the output and the benefit of the project. Take for example &lt;a href=&quot;https://www.yourracemix.com/&quot;&gt;RaceMix&lt;/a&gt;, a website built by a friend of mine. Runners don’t want to have to deal with all of the inner-workings of creating a playlist, they just want to get the output! Think about a restaurant (this example comes from the book) - we go to a restaurant to be served and have someone take care of us. We don’t want to worry about how it all works or what goes on in the kitchen. We are paying for the service to &lt;em&gt;take away&lt;/em&gt; some of the stress and hassle. So if you are thinking about creating an app or building a product or business, think about how your customers are going to react and interact with it - are they “doing the fishing” or are they benefiting from the output?&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/business-fish</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/business-fish</guid>
+        
+        <category>books</category>
+        
+        <category>startups</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Things I Wish I Knew (Coding Edition)</title>
+        <description>&lt;p&gt;My list of “things I need to learn” in the world of programming is growing every day. Most recently, while working on a side project, I have fallen into the hole of poor application architecture and design. Why did this happen? Well, part of the reason why is because I oftentimes get too excited about starting to code that I don’t take a step back to figure out what the actual underlying pieces are. Then, as I start going down one path I realize that maybe it isn’t the best path and have to start over. Software architecture is on the list! (Included in architecture is also design patterns. I think of them as being hand-in-hand). Next up on the list is creating applications that are object-oriented. Most of my work is done for the Web and the web oftentimes doesn’t have much object-oriented parts to it. But, when developing larger backend applications, object-oriented principles can make life a whole lot easier. Reduce code duplication, leaner and faster, and easier to update! Lastly, implementing test driven development. This goes a little with object-oriented programming, but how nice would it be if I knew my code worked before it was tested? If I was able to run tests to make sure everything operated as I expected? That sounds ideal.&lt;/p&gt;
+
+&lt;p&gt;My action items:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Find courses in each of those 3 areas. If they are good courses that cost a little bit amount of money, invest in them!&lt;/li&gt;
+  &lt;li&gt;Have patience when building applications - starting off with a good design will help in the long run!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Time to learn more!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/things-i-wish-i-knew</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/things-i-wish-i-knew</guid>
+        
+        <category>coding</category>
+        
+        <category>personal-growth</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Sharing Ideas Part 3</title>
+        <description>&lt;p&gt;Be sure to check out my previous posts to see other ideas that I’ve had over the past couple of years of &lt;a href=&quot;/blog/2018/01/25/share-ideas-part-2.html&quot;&gt;a Twitter bot&lt;/a&gt; and &lt;a href=&quot;/blog/2018/01/16/sharing-ideas.html&quot;&gt;an Alexa skill&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One thing I have been getting into recently has been accountability. I talk about it a bit in my post about &lt;a href=&quot;/blog/2018/03/04/march-tracking.html&quot;&gt;Accountability and Tracking&lt;/a&gt; - ways to automatically track what you’re doing towards your goals. The most recent idea I had came from that post and a service called &lt;a href=&quot;https://wip.chat&quot;&gt;WIP.chat&lt;/a&gt;. WIP.chat started off as a Telegram group where you were accountably to the group to work on your projects and it would keep track of it through Github issues. Users would then build “streaks” to showcase how many consecutive days they have worked on their projects.&lt;/p&gt;
+
+&lt;p&gt;I am a big fan of this idea but have no been able to justify spending the money on it for $20 a month. A bit out of my price range. So my &lt;em&gt;very basic&lt;/em&gt; idea is to integrate Twitter and Github to do a basic system. Every day you commit, it would send out a Tweet and update your Twitter bio with how many days you are “streaking.” You are then publicly accountable to keep your streak alive.&lt;/p&gt;
+
+&lt;p&gt;Ideally in a perfect world I would have time to work on this - it doesn’t sound too hard right? If you have any feedback or input on this idea, &lt;a href=&quot;https://twitter.com/kevinguebert&quot;&gt;holla at me on Twitter&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/sharing-ideas-part-3</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/sharing-ideas-part-3</guid>
+        
+        <category>ideas</category>
+        
+        <category>personal-growth</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Until Next Time Perennial Seller</title>
+        <description>&lt;p&gt;Unfortunately, after 2 renews and 6 weeks, I was unable to finish Ryan Holiday’s &lt;em&gt;Perennial Seller&lt;/em&gt;. One could make excuses on a multitude of reasons, but the excuse coming from me today is that books arrived earlier than expected at the library and my queue was long. Have no fear though! I have already requested it at the library.&lt;/p&gt;
+
+&lt;p&gt;Curious what I’m reading next? Check out my &lt;a href=&quot;https://trello.com/b/lVgkXJ30/reading-list&quot;&gt;Trello Board&lt;/a&gt; for the full list!&lt;/p&gt;
+
+&lt;p&gt;Right now in my possession I have:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;The $100 Startup&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;The Right Stufff&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Embrace the Suck&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let me know on &lt;a href=&quot;https://twitter.com/kevinguebert&quot;&gt;Twitter&lt;/a&gt; if you have any other suggestions!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/next-time-perennial</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/next-time-perennial</guid>
+        
+        <category>books</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Sell It For Free</title>
+        <description>&lt;h6 id=&quot;post-inspired-from-perennial-seller-by-ryan-holiday&quot;&gt;Post inspired from: &lt;strong&gt;Perennial Seller&lt;/strong&gt; by Ryan Holiday&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“The problem for most artists isn’t piracy, it’s obscurity” - Tim O’Reilly (128)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The rise of the freemium model in products can be shown very clearly on a graph. Over the past couple of years we have seen the tiered system of payment - free tier, medium tier, premium tier. They usually all look very similar with more advanced features as you pay more. This model is very appropriate for the online world. When you create a product you want to get &lt;strong&gt;as many eyeballs on it as possible.&lt;/strong&gt; You want people to share it, love it, see it, and use it as much as possible. If you launch and originally have the product behind a paywall, you are immediately hurting the number of people the product is accessible to. Think of how many other products are out there right now that are also free? Free concerts, free samples, free magazines, etc. and we still don’t even spend time to look at them. Think of how precious our time and attention is. If you immediately want to chareg me when I have just reache dyour product, all that energy will be lost and I, the user, will be lost. Don’t get wide-eyed and have big dreams of $$$ at the start. You want the users. You want the growth.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/03/sell-it-for-free</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/sell-it-for-free</guid>
+        
+        <category>books</category>
+        
+        <category>startups</category>
+        
+        <category>marketing</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

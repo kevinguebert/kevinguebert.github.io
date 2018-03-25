@@ -1,8 +1,106 @@
-# General Jekyll Config
+# Site settings
+title: "Kevin Guebert"
+description: > 
+  Write a description of your website here.
+
+author: Kevin Guebert
+email: kguebert93@gmail.com
+twitter_username: kevinguebert
+github_username: kevinguebert
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kevinguebert.com" # the base hostname & protocol for your site
+
+google_analytics_id: UA-60402110-1
+disqus_id:
+
+# Build settings
+include: [_pages]
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-url: http://kevinguebert.github.io
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+permalink: /:year/:month/:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
+book_current:
+  name: "The $100 Startup"
+  author: "Chris Guillebeau"
+
+# secondary_book_current:
+
+books: [
+  {
+    "name": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "author": "Ashley Vance",
+    "url": "http://amzn.to/2FVDWkj",
+    "finished": true
+  }, {
+    "name": "Disciple Equals Freedom Field Manual",
+    "author": "Jocko Willink",
+    "url": "http://amzn.to/2DnjyXF",
+    "finished": true
+  }, {
+    "name": "Algorithms to Live By",
+    "author": "Brian Christian and Tom Griffiths",
+    "url": "http://amzn.to/2DnB9yQ",
+    "finished": true
+  }, {
+    "name": "Altered Carbon",
+    "author": "Richard K. Morgan",
+    "url": "http://amzn.to/2DjvJ7W",
+    "finished": true
+  }, {
+    "name": "Living with a Seal",
+    "author": "Jesse Itzler",
+    "url": "http://amzn.to/2E2NidA",
+    "finished": true
+
+  }, {
+    "name": "Siddhartha",
+    "author": "Hermann Hesse",
+    "url": "http://amzn.to/2E1hvJX",
+    "finished": true,
+  }, {
+    "name": "Wherever You Go, There You Are",
+    "author": "Jon Kabat-Zinn",
+    "url": "http://amzn.to/2BwUziG",
+    "finished": false,
+  }, {
+    "name": "Ego is the Enemy",
+    "author": "Ryan Holiday",
+    "url": "http://amzn.to/2Gln2vR"
+  }, {
+    "name": "Mind Hacking",
+    "author": "Sir John Hargrave",
+    "url": "http://amzn.to/2G305ws"
+  }, {
+    "name": "The Obstacle is the Way",
+    "author": "Ryan Holiday",
+    "url": "http://amzn.to/2ETqcsu"
+  }, {
+    "name": "Smarter Faster Better",
+    "author": "Charles Duhigg",
+    "url": "http://amzn.to/2FF5bzP"
+  }, {
+    "name": "Make Your Bed",
+    "author": "Adminiral William H. McRaven",
+    "url": "http://amzn.to/2GhiMOj"
+  }, {
+    "name": "Perennial Seller. The Art of Making and Marketing Work that Lasts",
+    "author": "Ryan Holiday",
+    "url": "http://amzn.to/2oW3ve1"
+  }, {
+    "name": "Embrace the Suck",
+    "author": "Stephen Madden",
+    "url": "http://amzn.to/2GpEShA"
+  }, {
+    "name": "The $100 Startup",
+    "author": "Chris Guillebeau",
+    "current": true,
+    "url": "http://amzn.to/2prqSML"
+  }
+]
+
+

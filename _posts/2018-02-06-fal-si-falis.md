@@ -7,7 +7,6 @@ categories:
 ---
 
 ###### Post inspired from: **Ego is the Enemy** by Ryan Holiday
-
 > ### Fac, si facis: "Do it, if you're going to do it"
 
 What is the difference between working for a company and owning a company with employees? What is the difference between a snowboarding going to the Olympics and an amateur riding in the terrain park?

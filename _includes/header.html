@@ -1,0 +1,12 @@
+<header class="c-page__header">
+    <h1><code>{{ site.title}}</code><br />
+    <code>Currently reading: <i>{{site.book_current.name}}</i></code></h1>
+
+    {% if page.title == '' %}
+        <h1>{{ site.description }}</h1>
+    {% endif %}
+    <p>
+        <a href="{{ '/' | prepend: site.baseurl }}">Home</a><span
+          class="u-separate"></span><a href="#topics">Topics</a><span class="u-separate"></span><a href="{{ '/books/' | prepend: site.baseurl }}">Books</a><span class="u-separate"></span><a href="https://trello.com/b/lVgkXJ30/reading-list" target="_blank">Upcoming Books</a>
+    </p>
+</header>

@@ -7,7 +7,6 @@ categories:
 ---
 
 Post inspired from: **Ego is the Enemy** by Ryan Holiday
-
 > "We hear what we want to hear, we do what we feel like doing, and despite being increasingly busy and working ourselves very hard, we accomplish very little"
 >
 > Ryan Holiday (47)

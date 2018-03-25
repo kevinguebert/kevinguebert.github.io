@@ -7,8 +7,6 @@ categories:
 ---
 
 ###### Post inspired from: **Ego is the Enemy** by Ryan Holiday
-
-
 > "Play for the name on the front of the jersey and they'll remember the name on the back"
 > Tony Adams
 

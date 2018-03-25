@@ -7,7 +7,6 @@ categories:
 ---
 
 ###### Post inspired from: **The Obstacle is the Way** by Ryan Holiday
-<br />
 > "Everything we do matters...Everything is a chance to do and be your best. Only self-absorbed assholes think they are too good for whatever their current station requires." (94)
 
 What a powerful quote. Our lives are filled with ups and downs, successes and failures. In every moment though, it all matters. Ever moment is "a chance to do and be our best." It is our *job* to do and be our best. Ryan Holiday outlines what our response should be to our job:
