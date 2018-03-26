@@ -12,10 +12,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kevinguebert.com" # the base hostname & protocol for your site
 
 google_analytics_id: UA-60402110-1
-disqus_id:
+disqus_id: kevin-guebert
 
 # Build settings
-include: [_pages]
+include: [_ pages]
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
@@ -25,8 +25,8 @@ sass:
 exclude: [vendor]
 
 book_current:
-  name: "The $100 Startup"
-  author: "Chris Guillebeau"
+  name: "Design It! From Programmer to Software Architect"
+  author: "Michael Keeling"
 
 # secondary_book_current:
 
@@ -98,8 +98,12 @@ books: [
   }, {
     "name": "The $100 Startup",
     "author": "Chris Guillebeau",
-    "current": true,
     "url": "http://amzn.to/2prqSML"
+  }, {
+    "name": "Design It! From Programmer to Software Architect",
+    "author": "Michael Keeling",
+    "current": true,
+    "url": "https://www.amazon.com/Design-Programmer-Architect-Pragmatic-Programmers/dp/1680502093/ref=sr_1_1?ie=UTF8&qid=1522067658&sr=8-1&keywords=design+it+from+programmer+to+software+architect"
   }
 ]
 

@@ -2,6 +2,7 @@
 layout: post
 title: 45 Minutes Every Morning
 tags: [books, startups]
+comments: true
 categories:
 - blog
 ---
