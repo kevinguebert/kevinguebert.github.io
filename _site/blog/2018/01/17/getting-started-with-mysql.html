@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" 
+      type="image/png" 
+      href="/favicon.png">
+
+    <title>Getting started with MySQL - Kevin Guebert</title>
+    <meta name="description" content="Want to learn how to use MySQL? This post will share how to get started with the basics!">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/blog/2018/01/17/getting-started-with-mysql.html">
+    <link rel="alternate" type="application/rss+xml" title="Kevin Guebert" href="http://localhost:4000/feed.xml">
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+        <main class="u-container">
+        <div class="c-page">
+    <header class="c-page__header">
+    <h1><code>Kevin Guebert</code><br />
+    <code>Currently reading: <i>The $100 Startup</i></code></h1>
+
+    
+    <p>
+        <a href="/">Home</a><span
+          class="u-separate"></span><a href="#topics">Topics</a><span class="u-separate"></span><a href="/books/">Books</a><span class="u-separate"></span><a href="https://trello.com/b/lVgkXJ30/reading-list" target="_blank">Upcoming Books</a>
+    </p>
+</header>
+
+    <div class="c-page__main">
+    <article class="c-article">
+    <header class="c-article__header">
+        <h1 class="c-article__title">Getting started with MySQL</h1>
+        <p class="c-article__time"><time datetime="2018-01-17T00:00:00-07:00" itemprop="datePublished">Jan 17, 2018</time></p>
+    </header>
+    
+    <!-- Post Tags -->
+    <ul class="c-tags">
+    
+      <li class="c-tag"><a href="/tag/coding">coding</a></li>
+    
+      <li class="c-tag"><a href="/tag/mysql">mysql</a></li>
+    
+      <li class="c-tag"><a href="/tag/tutorial">tutorial</a></li>
+    
+    </ul>
+
+    <div class="c-article__main">
+        <p>Want to learn how to use MySQL? This post will share how to get started with the basics!</p>
+
+<h2 id="before-you-start">Before You Start</h2>
+
+<ul>
+  <li>I am using a Mac, so all my commands and applications are for a Mac. If you would like to understand how to use it on Windows, let me know on <a href="http://twitter.com/kevinguebert">Twitter</a> and I can try and help you out!</li>
+  <li>This is coming from a developer, so this will be done using the command line. If you are looking for a more “one click install”, visit <a href="https://dev.mysql.com/downloads/mysql/">mysql.com</a> to download.</li>
+</ul>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>First off, most Mac computers do not come with MySQL installed, so we actually need to install it on our computer. So let’s start with that.</p>
+
+<h3 id="installation">Installation</h3>
+
+<h4 id="install-mysql">Install MySQL</h4>
+
+<ol>
+  <li>We are going to be using <a href="https://brew.sh/">Homebrew</a> to help us with the installation. If you do not already use it, I would recommend learning about it and discovering how powerful it is.</li>
+  <li>Let’s open up the terminal and paste the line below to install Homebrew:</li>
+</ol>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+</code></pre>
+</div>
+<ol>
+  <li>Note, you may need to close and restart your terminal for this next step, but let’s make sure it works by typing in:</li>
+</ol>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>brew info mysql
+</code></pre>
+</div>
+
+<ol>
+  <li>Hopefully that works successfully! If it does, you should see something like below:</li>
+</ol>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql: stable 5.7.20 (bottled), devel 8.0.3-rc
+Open source relational database management system
+https://dev.mysql.com/doc/refman/5.7/en/
+</code></pre>
+</div>
+
+<ol>
+  <li>Now to install MySQL, all we need to do is:</li>
+</ol>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>brew install mysql
+</code></pre>
+</div>
+
+<ol>
+  <li>
+    <p>Congratulations! That was a quick and easy way to install MySQL! However, for those keen eyed out there, you will see in the output from the previous command that there are some recommended steps for us to take.</p>
+  </li>
+  <li>
+    <p>If you would like to make your MySQL connection more secure on your computer, you can run <code class="highlighter-rouge">mysql_secure_installation.</code> This will ask you to change the root password for MySQL because when it originally installed, it did not supply one. That is up to you!</p>
+  </li>
+  <li>
+    <p>Lastly, you will see at the bottom of the output these lines:</p>
+  </li>
+</ol>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+</code></pre>
+</div>
+
+<p>Above it states you can either have MySQL running all the time or start it only when you need it. I personally use MySQL more often than not, so I ran <code class="highlighter-rouge">brew services start mysql</code>. If you don’t use it as much, <code class="highlighter-rouge">mysql.server start</code> works just as well - just make sure to remember to start it each time you need it!</p>
+
+<h4 id="install-sequelpro">Install SequelPro</h4>
+
+<p>One of my favorite admin tools to work with MySQL. Visit <a href="https://www.sequelpro.com/">SequelPro.com</a> to download.</p>
+
+<h5 id="setting-up-sequelpro-and-mysql">Setting up SequelPro and MySQL</h5>
+
+<p>Now that we have SequelPro installed and MySql running (from <code class="highlighter-rouge">mysql.server start</code>), we can connect!</p>
+
+<ol>
+  <li>Go ahead and open up SequelPro on your computer.</li>
+  <li>You should be on a screen where in the top middle is says “Enter connection details below, or choose a favorite” - we are going to go ahead and enter connection details.</li>
+  <li>In the input boxes in the middle, make sure “Standard” is select. Then you can input the follow:
+    <ul>
+      <li>Host: <code class="highlighter-rouge">127.0.0.1</code></li>
+      <li>Username: <code class="highlighter-rouge">root</code></li>
+      <li>If you entered a password, put that in the next field.</li>
+    </ul>
+  </li>
+  <li>Go ahead and click “Connect” and you should be connected!</li>
+</ol>
+
+<h2 id="working-with-sequelpro">Working with SequelPro</h2>
+
+<p>Now that we are connected, we could start working with some data! For this next part of the tutorial, we are going to use some dummy data.</p>
+
+<ol>
+  <li>Head one over to <a href="https://www.mockaroo.com/">https://www.mockaroo.com/</a>, change the “Format” to SQL and also check “include create table”. Click “Download Data” but also make note of the “Table Name” - it is mostly likely “MOCK_DATA”</li>
+  <li>Head back to SequelPro and go to Database-&gt;Add Database</li>
+  <li>In the Database Name field, make sure you have the same name as from mockaroo.com - most likely “MOCK_DATA”. When you have confirmed that, click “Add”</li>
+  <li>Next up, go to File-&gt;Import</li>
+  <li>Find the file you downloaded in step 1 from Mockaroo and click “Open”</li>
+  <li>After it has imported, you should see on the left hand side under “Tables” your table of “Mock Data”.</li>
+  <li>If you click on the “Content” tab in the top of SequelPro, you should be able to see all the data within the MOCK_DATA table.</li>
+</ol>
+
+<p>Congratulations you have successfully setup and installed MySQL!</p>
+
+<p>More tips:</p>
+<ul>
+  <li>If you want to query the database, click on the “Query” tab in the top and type in your command. For out data, if you do <code class="highlighter-rouge">SELECT * from MOCK_DATA WHERE gender="male"</code>, you should get all the male results!</li>
+  <li>Have your own sql file? Go ahead and create a new database and import your data!</li>
+</ul>
+
+<p>Have any more questions? Let me know on <a href="http://twitter.com/kevinguebert">Twitter @kevinguebert</a>!</p>
+
+    </div>
+  
+    <!-- Previous / Next Buttons -->
+    <div class="pagenav">
+		
+        <div class="wrapper" id="left">
+          <small><b>Previous</b> Jan 16, 2018</small>
+          <br>
+          <a class="no-hov" href="/blog/2018/01/16/sharing-ideas.html">&laquo; Sharing Ideas</a>
+        </div>
+		
+		
+        <div class="wrapper" id="right">
+          <small>Jan 18, 2018 <b>Next</b></small>
+          <br>
+          <a class="no-hov" href="/blog/2018/01/18/relaxation-algorithm.html">Relax Your Decisions a Little &raquo;</a>
+        </div>
+		
+		</div>
+
+		<!-- Disqus comments view -->
+		
+</article>
+
+    
+<a name="topics"></a><div class="tags">
+  <h3 id="header-3">Topics to Explore</h3>
+  <a href="/tag/algorithms.html" rel="tag" class="no-hov">algorithms,</a>
+  <a href="/tag/books.html" rel="tag" class="no-hov">books,</a>
+  <a href="/tag/coding.html" rel="tag" class="no-hov">coding,</a>
+  <a href="/tag/drupal.html" rel="tag" class="no-hov">drupal,</a>
+  <a href="/tag/fitness.html" rel="tag" class="no-hov">fitness,</a>
+  <a href="/tag/health.html" rel="tag" class="no-hov">health,</a>
+  <a href="/tag/ideas.html" rel="tag" class="no-hov">ideas,</a>
+  <a href="/tag/marketing.html" rel="tag" class="no-hov">marketing,</a>
+  <a href="/tag/mysql.html" rel="tag" class="no-hov">mysql,</a>
+  <a href="/tag/personal-growth.html" rel="tag" class="no-hov">personal-growth,</a>
+  <a href="/tag/py4e.html" rel="tag" class="no-hov">py4e,</a>
+  <a href="/tag/recap.html" rel="tag" class="no-hov">recap,</a>
+  <a href="/tag/recommendations.html" rel="tag" class="no-hov">recommendations,</a>
+  <a href="/tag/reflection.html" rel="tag" class="no-hov">reflection,</a>
+  <a href="/tag/running.html" rel="tag" class="no-hov">running,</a>
+  <a href="/tag/sleep.html" rel="tag" class="no-hov">sleep,</a>
+  <a href="/tag/startups.html" rel="tag" class="no-hov">startups,</a>
+  <a href="/tag/stoicism.html" rel="tag" class="no-hov">stoicism,</a>
+  <a href="/tag/tutorial.html" rel="tag" class="no-hov">tutorial,</a>
+  <a href="/tag/video.html" rel="tag" class="no-hov">video</a>
+</div>
+
+    </div>
+    <footer class="c-page__footer">
+    <p>&copy; Kevin Guebert 2018</p>
+    <p><a href="https://twitter.com/kevinguebert">Twitter</a><span class="u-separate"></span><a href="https://github.com/kevinguebert">Github</a></p>
+</footer>
+
+</div>
+
+        </main>
+    
+    </body>
+</html>
