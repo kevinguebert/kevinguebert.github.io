@@ -6,9 +6,40 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 06:45:10 -0600</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 06:45:10 -0600</lastBuildDate>
+    <pubDate>Wed, 28 Mar 2018 06:52:17 -0600</pubDate>
+    <lastBuildDate>Wed, 28 Mar 2018 06:52:17 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Responsibilities of a Software Architect</title>
+        <description>&lt;h6 id=&quot;post-inspired-from-design-it-from-programmer-to-software-architect-by-michael-keeling&quot;&gt;Post inspired from: &lt;strong&gt;Design It! From Programmer to Software Architect&lt;/strong&gt; by Michael Keeling&lt;/h6&gt;
+
+&lt;p&gt;While reading this new book, my posts may become more programming based. I will try and throw in some other more personal-growth posts in along with it, but today’s posts is from the verrrryyy first chapter of &lt;em&gt;Design It!&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;When talking about a software architect (SA), Keeling points out 5 specific responsibilities:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Define the problem from an engineering perspective&lt;/li&gt;
+  &lt;li&gt;Partition the system and assign responsibilities&lt;/li&gt;
+  &lt;li&gt;Keep an eye on the bigger picture&lt;/li&gt;
+  &lt;li&gt;Decide trade-offs amont quality attributes&lt;/li&gt;
+  &lt;li&gt;Manage technical debt&lt;/li&gt;
+  &lt;li&gt;Grow the team’s architecture skills&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of the first things I’ve noticed so far is that it has said nothing about programming. Does a software architect program? I’m not quite sure. From previous experiences, it seems like they know and understand coding, but maybe not syntax of specific languages or nuances? There’s more to learn!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/03/27/software-architect</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/27/software-architect</guid>
+        
+        <category>books</category>
+        
+        <category>coding</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>45 Minutes Every Morning</title>
@@ -18,10 +49,11 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;At the beginning of the writing journey, back in January, I shared a post &lt;a href=&quot;/blog/2018/01/12/morning-routine&quot;&gt;describing my morning routing&lt;/a&gt;. The quote above by Chris Guillebeau is not limited to a “startup” or a “business” in the way that he refers them. We share the same basic principle - every morning, spend some time sans-internet to focus on &lt;em&gt;something&lt;/em&gt;. For me, my “startup” is myself. Every morning I focus on activites that will improve me - reading, journaling, and then writing. In Chris Guillebeau’s world, that “startup” is actually a business but the same principles apply! If you’ve been on the fence about it, try it for one week. For one week, don’t check your phone automatically when you wake up. Get some coffee, have a good breakfast, read a little, make a to-do list, or just sit and think. Keep the interruptions of the world at bay and make that time for you.&lt;/p&gt;
+
 </description>
-        <pubDate>Sun, 25 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/25/time-for-your-business</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/25/time-for-your-business</guid>
+        <pubDate>Mon, 26 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/03/26/time-for-your-business</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/26/time-for-your-business</guid>
         
         <category>books</category>
         
@@ -213,29 +245,6 @@
         <guid isPermaLink="true">http://localhost:4000/blog/2018/03/21/things-i-wish-i-knew</guid>
         
         <category>coding</category>
-        
-        <category>personal-growth</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Sharing Ideas Part 3</title>
-        <description>&lt;p&gt;Be sure to check out my previous posts to see other ideas that I’ve had over the past couple of years of &lt;a href=&quot;/blog/2018/01/25/share-ideas-part-2.html&quot;&gt;a Twitter bot&lt;/a&gt; and &lt;a href=&quot;/blog/2018/01/16/sharing-ideas.html&quot;&gt;an Alexa skill&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;One thing I have been getting into recently has been accountability. I talk about it a bit in my post about &lt;a href=&quot;/blog/2018/03/04/march-tracking.html&quot;&gt;Accountability and Tracking&lt;/a&gt; - ways to automatically track what you’re doing towards your goals. The most recent idea I had came from that post and a service called &lt;a href=&quot;https://wip.chat&quot;&gt;WIP.chat&lt;/a&gt;. WIP.chat started off as a Telegram group where you were accountably to the group to work on your projects and it would keep track of it through Github issues. Users would then build “streaks” to showcase how many consecutive days they have worked on their projects.&lt;/p&gt;
-
-&lt;p&gt;I am a big fan of this idea but have no been able to justify spending the money on it for $20 a month. A bit out of my price range. So my &lt;em&gt;very basic&lt;/em&gt; idea is to integrate Twitter and Github to do a basic system. Every day you commit, it would send out a Tweet and update your Twitter bio with how many days you are “streaking.” You are then publicly accountable to keep your streak alive.&lt;/p&gt;
-
-&lt;p&gt;Ideally in a perfect world I would have time to work on this - it doesn’t sound too hard right? If you have any feedback or input on this idea, &lt;a href=&quot;https://twitter.com/kevinguebert&quot;&gt;holla at me on Twitter&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/20/sharing-ideas-part-3</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/20/sharing-ideas-part-3</guid>
-        
-        <category>ideas</category>
         
         <category>personal-growth</category>
         
