@@ -6,9 +6,36 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Mar 2018 06:52:17 -0600</pubDate>
-    <lastBuildDate>Wed, 28 Mar 2018 06:52:17 -0600</lastBuildDate>
+    <pubDate>Wed, 28 Mar 2018 07:45:11 -0600</pubDate>
+    <lastBuildDate>Wed, 28 Mar 2018 07:45:11 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Life in Terms of Priorities and Trades</title>
+        <description>&lt;p&gt;Recently for me, I’ve seen a post shared around on social media sites that prescribes a different way of thinking about your tasks.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Instead of saying “I don’t have time” try saying “it’s not a priority” and see how it feels.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Last night I was hit with this decision: stay and play Settler’s of Catan with my friends, new people, and be social, or, head home and wake up in time for a 6:30AM track workout. This, for me, was an exercise of that quote. What was the highest priority for me? My original plan was to do both, but when the game turned into “want to play another?” the decision was needed fast. Stay or leave? The problem is that a) being social and b) working out are both high priorities for me. So what do I do when they collide?&lt;/p&gt;
+
+&lt;p&gt;In this scenario, I traded. I traded my sleep time and workout time for extra social time and I stay to play Catan. When making decisions, you need to think about how the current decision could effect any future decisions. I had to be okay with giving up the future track workout to stay and play Catan.&lt;/p&gt;
+
+&lt;p&gt;Today, try thinking about what to you is a priority and how you deal with it. Is it actually the highest priority in your life? Do you put it above everything else? Or does it sink low when something with quicker returns comes along?&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/03/28/tradeoffs-and-priorities</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/28/tradeoffs-and-priorities</guid>
+        
+        <category>personal-growth</category>
+        
+        <category>reflection</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Responsibilities of a Software Architect</title>
@@ -222,31 +249,6 @@
         <category>books</category>
         
         <category>startups</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Things I Wish I Knew (Coding Edition)</title>
-        <description>&lt;p&gt;My list of “things I need to learn” in the world of programming is growing every day. Most recently, while working on a side project, I have fallen into the hole of poor application architecture and design. Why did this happen? Well, part of the reason why is because I oftentimes get too excited about starting to code that I don’t take a step back to figure out what the actual underlying pieces are. Then, as I start going down one path I realize that maybe it isn’t the best path and have to start over. Software architecture is on the list! (Included in architecture is also design patterns. I think of them as being hand-in-hand). Next up on the list is creating applications that are object-oriented. Most of my work is done for the Web and the web oftentimes doesn’t have much object-oriented parts to it. But, when developing larger backend applications, object-oriented principles can make life a whole lot easier. Reduce code duplication, leaner and faster, and easier to update! Lastly, implementing test driven development. This goes a little with object-oriented programming, but how nice would it be if I knew my code worked before it was tested? If I was able to run tests to make sure everything operated as I expected? That sounds ideal.&lt;/p&gt;
-
-&lt;p&gt;My action items:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Find courses in each of those 3 areas. If they are good courses that cost a little bit amount of money, invest in them!&lt;/li&gt;
-  &lt;li&gt;Have patience when building applications - starting off with a good design will help in the long run!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Time to learn more!&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/21/things-i-wish-i-knew</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/21/things-i-wish-i-knew</guid>
-        
-        <category>coding</category>
-        
-        <category>personal-growth</category>
         
         
         <category>blog</category>

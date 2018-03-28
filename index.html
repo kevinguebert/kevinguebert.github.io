@@ -8,7 +8,7 @@ layout: page
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-        <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
+        <h2 class="c-archives__year" id="{{ this_year }}-ref">[ {{this_year}} ]</h2>
         <ul class="c-archives__list">
     {% endif %}
         <li class="c-archives__item">
@@ -16,6 +16,12 @@ layout: page
               <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
               <br>
               <small>{{post.description}}</small>
+              <!-- Post Tags -->
+              <ul class="c-tags">
+              {% for tag in post.tags %}
+                <li class="c-tag c-tag-archive"><a href="/tag/{{tag}}">{{ tag }}</a></li>
+              {% endfor %}
+              </ul>
             </h3>
             <p>{{ post.date | date: "%b %-d, %Y" }}</p>
         </li>

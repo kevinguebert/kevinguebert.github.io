@@ -2,6 +2,7 @@
 layout: post
 title: Look-Then-Leap Rule - Explained
 tags: [algorithms, coding, books]
+comments: true
 categories:
 - blog
 ---
@@ -76,3 +77,6 @@ When choosing the best candidate, you only have a 37% chance of hiring the best 
 
 ---
 Next time you are making a decision over a large amount of data and you are trying to decide the "best", it may be worth it to consider this algorithm!
+
+--
+Have any questions or comments? Let me know in the comments below.

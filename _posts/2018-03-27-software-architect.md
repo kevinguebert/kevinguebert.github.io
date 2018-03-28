@@ -2,7 +2,6 @@
 layout: post
 title: Responsibilities of a Software Architect
 tags: [books, coding]
-comments: true
 categories:
 - blog
 ---
