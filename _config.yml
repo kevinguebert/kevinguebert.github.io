@@ -1,6 +1,6 @@
 # Site settings
 title: "Kevin Guebert"
-description: > 
+description: >
   Write a description of your website here.
 
 author: Kevin Guebert
@@ -15,7 +15,7 @@ google_analytics_id: UA-60402110-1
 disqus_id: kevin-guebert
 
 # Build settings
-include: [_ pages]
+include: [_pages]
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
