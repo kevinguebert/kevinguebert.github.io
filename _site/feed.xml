@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Mar 2018 07:45:11 -0600</pubDate>
-    <lastBuildDate>Wed, 28 Mar 2018 07:45:11 -0600</lastBuildDate>
+    <pubDate>Wed, 28 Mar 2018 18:22:36 -0600</pubDate>
+    <lastBuildDate>Wed, 28 Mar 2018 18:22:36 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -31,6 +31,82 @@
         <category>personal-growth</category>
         
         <category>reflection</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>A React Meetup Recap</title>
+        <description>&lt;p&gt;This past Monday I had the great opportunity to attend a “Intro to React” Meetup. At this Meetup we discussed some of starting blocks to get you going with React - I wanted to share some of the notes I took and recap a bit of what was discussed.&lt;/p&gt;
+
+&lt;h2 id=&quot;single-page-application-spa&quot;&gt;Single Page Application (SPA)&lt;/h2&gt;
+
+&lt;p&gt;What is a Single Page Application? A SPA is an application where all the coded needed is loaded in a single page load. The page does not reload, instead it requires dynamic interaction with the web server.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-concepts-in-react&quot;&gt;Key Concepts in React&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web Components&lt;/li&gt;
+  &lt;li&gt;1 Way Data Binding&lt;/li&gt;
+  &lt;li&gt;Virtual DOM&lt;/li&gt;
+  &lt;li&gt;JSX&lt;/li&gt;
+  &lt;li&gt;State Management&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-are-components&quot;&gt;What are Components?&lt;/h2&gt;
+
+&lt;p&gt;Components let you split the UI into multiple “chunks” of the web page. If you look at my site right now, you can imagine a “header” component that has my name, a “navigation” component within the “header” component, an “article” component, and much much more.&lt;/p&gt;
+
+&lt;h2 id=&quot;one-way-data-binding&quot;&gt;One Way Data Binding&lt;/h2&gt;
+
+&lt;p&gt;This was my first intro into one-way vs. two-way data binding. From my understanding, and from a phrase shared by another developer, data can only flow one way (as it says). So if you imagine a tree structure with you multiple components, the data has to come from the top root element and then flow down to the components. “Action Up, Data Down”.&lt;/p&gt;
+
+&lt;h2 id=&quot;virtual-dom&quot;&gt;Virtual DOM&lt;/h2&gt;
+
+&lt;p&gt;The Virtual DOM is a shadow copy of the actual DOM (Document Object Model) that allows React to quickly compare the Virtual DOM to the actual DOM and then quickly change out specific elements without having to reload the whole DOM.&lt;/p&gt;
+
+&lt;h2 id=&quot;jsx&quot;&gt;JSX&lt;/h2&gt;
+
+&lt;p&gt;JSX is an HTML-like syntax that allows you to pass data as &lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt; (properties) to help dender dynamic values.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-are-props&quot;&gt;What are &lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt;?&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt; is data coming from the parent component. Note - &lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt; are &lt;em&gt;read only&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Example of JSX syntax:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;render() {
+	return &amp;lt;h1&amp;gt;Hello, {this.props.name}&amp;lt;/h1&amp;gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;state-management---state-vs-setstate&quot;&gt;State Management - State vs. setState&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt;: use state to assign data &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;setState&lt;/code&gt;: want to change or update the data in state&lt;/p&gt;
+
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Always have to initialize &lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt; in the constructor&lt;/li&gt;
+  &lt;li&gt;Lift the &lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt; up to the closest common ancestor
+    &lt;ul&gt;
+      &lt;li&gt;single “source of truth”&lt;/li&gt;
+      &lt;li&gt;Top down data flow, so you want the state at the “parent”&lt;/li&gt;
+      &lt;li&gt;Avoid duplication of state in child components&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That is a real basic rundown of what we worked on! If you want to view the code we also looked at, check out &lt;a href=&quot;https://github.com/gschool/learn-to-code-react&quot;&gt;https://github.com/gschool/learn-to-code-react&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/03/28/react-meetup-recap</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/28/react-meetup-recap</guid>
+        
+        <category>coding</category>
         
         
         <category>blog</category>
@@ -227,28 +303,6 @@
         <category>coding</category>
         
         <category>personal-growth</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Teach a Man to Fish is Bad for Business</title>
-        <description>&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“This might be a good idea for hungry fisherman, but it’s a terrible idea in business. Most customer’s don’t want to learn how to fish.” (32)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;When determining your next app or product you want to launch, take some time to figure out what you are selling to the customer. Chris Guillebeau brings up a great point about what service you should be launching to your customers - customers don’t want to be involved in the “behind the scenes” work, they want the output and the benefit of the project. Take for example &lt;a href=&quot;https://www.yourracemix.com/&quot;&gt;RaceMix&lt;/a&gt;, a website built by a friend of mine. Runners don’t want to have to deal with all of the inner-workings of creating a playlist, they just want to get the output! Think about a restaurant (this example comes from the book) - we go to a restaurant to be served and have someone take care of us. We don’t want to worry about how it all works or what goes on in the kitchen. We are paying for the service to &lt;em&gt;take away&lt;/em&gt; some of the stress and hassle. So if you are thinking about creating an app or building a product or business, think about how your customers are going to react and interact with it - are they “doing the fishing” or are they benefiting from the output?&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/22/business-fish</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/22/business-fish</guid>
-        
-        <category>books</category>
-        
-        <category>startups</category>
         
         
         <category>blog</category>

@@ -8,12 +8,12 @@
       type="image/png" 
       href="/favicon.png">
 
-    <title>Responsibilities of a Software Architect - Kevin Guebert</title>
-    <meta name="description" content="Post inspired from: Design It! From Programmer to Software Architect by Michael Keeling">
+    <title>A React Meetup Recap - Kevin Guebert</title>
+    <meta name="description" content="This past Monday I had the great opportunity to attend a “Intro to React” Meetup. At this Meetup we discussed some of starting blocks to get you going with R...">
 
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/blog/2018/03/27/software-architect">
+    <link rel="canonical" href="http://localhost:4000/blog/2018/03/28/react-meetup-recap">
     <link rel="alternate" type="application/rss+xml" title="Kevin Guebert" href="http://localhost:4000/feed.xml">
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
@@ -46,35 +46,80 @@
     <div class="c-page__main">
     <article class="c-article">
     <header class="c-article__header">
-        <h1 class="c-article__title">Responsibilities of a Software Architect</h1>
-        <p class="c-article__time"><time datetime="2018-03-27T00:00:00-06:00" itemprop="datePublished">Mar 27, 2018</time></p>
+        <h1 class="c-article__title">A React Meetup Recap</h1>
+        <p class="c-article__time"><time datetime="2018-03-28T00:00:00-06:00" itemprop="datePublished">Mar 28, 2018</time></p>
     </header>
     
     <!-- Post Tags -->
     <ul class="c-tags">
-    
-      <li class="c-tag"><a href="/tag/books">books</a></li>
     
       <li class="c-tag"><a href="/tag/coding">coding</a></li>
     
     </ul>
 
     <div class="c-article__main">
-        <h6 id="post-inspired-from-design-it-from-programmer-to-software-architect-by-michael-keeling">Post inspired from: <strong>Design It! From Programmer to Software Architect</strong> by Michael Keeling</h6>
+        <p>This past Monday I had the great opportunity to attend a “Intro to React” Meetup. At this Meetup we discussed some of starting blocks to get you going with React - I wanted to share some of the notes I took and recap a bit of what was discussed.</p>
 
-<p>While reading this new book, my posts may become more programming based. I will try and throw in some other more personal-growth posts in along with it, but today’s posts is from the verrrryyy first chapter of <em>Design It!</em>.</p>
+<h2 id="single-page-application-spa">Single Page Application (SPA)</h2>
 
-<p>When talking about a software architect (SA), Keeling points out 5 specific responsibilities:</p>
+<p>What is a Single Page Application? A SPA is an application where all the coded needed is loaded in a single page load. The page does not reload, instead it requires dynamic interaction with the web server.</p>
+
+<h2 id="key-concepts-in-react">Key Concepts in React</h2>
+
 <ul>
-  <li>Define the problem from an engineering perspective</li>
-  <li>Partition the system and assign responsibilities</li>
-  <li>Keep an eye on the bigger picture</li>
-  <li>Decide trade-offs amont quality attributes</li>
-  <li>Manage technical debt</li>
-  <li>Grow the team’s architecture skills</li>
+  <li>Web Components</li>
+  <li>1 Way Data Binding</li>
+  <li>Virtual DOM</li>
+  <li>JSX</li>
+  <li>State Management</li>
 </ul>
 
-<p>One of the first things I’ve noticed so far is that it has said nothing about programming. Does a software architect program? I’m not quite sure. From previous experiences, it seems like they know and understand coding, but maybe not syntax of specific languages or nuances? There’s more to learn!</p>
+<h2 id="what-are-components">What are Components?</h2>
+
+<p>Components let you split the UI into multiple “chunks” of the web page. If you look at my site right now, you can imagine a “header” component that has my name, a “navigation” component within the “header” component, an “article” component, and much much more.</p>
+
+<h2 id="one-way-data-binding">One Way Data Binding</h2>
+
+<p>This was my first intro into one-way vs. two-way data binding. From my understanding, and from a phrase shared by another developer, data can only flow one way (as it says). So if you imagine a tree structure with you multiple components, the data has to come from the top root element and then flow down to the components. “Action Up, Data Down”.</p>
+
+<h2 id="virtual-dom">Virtual DOM</h2>
+
+<p>The Virtual DOM is a shadow copy of the actual DOM (Document Object Model) that allows React to quickly compare the Virtual DOM to the actual DOM and then quickly change out specific elements without having to reload the whole DOM.</p>
+
+<h2 id="jsx">JSX</h2>
+
+<p>JSX is an HTML-like syntax that allows you to pass data as <code class="highlighter-rouge">props</code> (properties) to help dender dynamic values.</p>
+
+<h4 id="what-are-props">What are <code class="highlighter-rouge">props</code>?</h4>
+<p><code class="highlighter-rouge">props</code> is data coming from the parent component. Note - <code class="highlighter-rouge">props</code> are <em>read only</em></p>
+
+<p>Example of JSX syntax:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>render() {
+	return &lt;h1&gt;Hello, {this.props.name}&lt;/h1&gt;
+}
+</code></pre>
+</div>
+
+<h2 id="state-management---state-vs-setstate">State Management - State vs. setState</h2>
+
+<p><code class="highlighter-rouge">state</code>: use state to assign data <br />
+<code class="highlighter-rouge">setState</code>: want to change or update the data in state</p>
+
+<p>Notes:</p>
+<ul>
+  <li>Always have to initialize <code class="highlighter-rouge">state</code> in the constructor</li>
+  <li>Lift the <code class="highlighter-rouge">state</code> up to the closest common ancestor
+    <ul>
+      <li>single “source of truth”</li>
+      <li>Top down data flow, so you want the state at the “parent”</li>
+      <li>Avoid duplication of state in child components</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>That is a real basic rundown of what we worked on! If you want to view the code we also looked at, check out <a href="https://github.com/gschool/learn-to-code-react">https://github.com/gschool/learn-to-code-react</a></p>
 
     </div>
   
@@ -82,16 +127,16 @@
     <div class="pagenav">
 		
         <div class="wrapper" id="left">
-          <small><b>Previous</b> Mar 26, 2018</small>
+          <small><b>Previous</b> Mar 27, 2018</small>
           <br>
-          <a class="no-hov" href="/blog/2018/03/26/time-for-your-business">&laquo; 45 Minutes Every Morning</a>
+          <a class="no-hov" href="/blog/2018/03/27/software-architect">&laquo; Responsibilities of a Software Architect</a>
         </div>
 		
 		
         <div class="wrapper" id="right">
           <small>Mar 28, 2018 <b>Next</b></small>
           <br>
-          <a class="no-hov" href="/blog/2018/03/28/react-meetup-recap">A React Meetup Recap &raquo;</a>
+          <a class="no-hov" href="/blog/2018/03/28/tradeoffs-and-priorities">Life in Terms of Priorities and Trades &raquo;</a>
         </div>
 		
 		</div>
@@ -107,8 +152,8 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
 
 var disqus_config = function () {
-  this.page.url = "http://localhost:4000/blog/2018/03/27/software-architect";  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = "/blog/2018/03/27/software-architect"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  this.page.url = "http://localhost:4000/blog/2018/03/28/react-meetup-recap";  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = "/blog/2018/03/28/react-meetup-recap"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
