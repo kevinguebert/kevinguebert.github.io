@@ -6,9 +6,28 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Mar 2018 06:40:21 -0600</pubDate>
-    <lastBuildDate>Thu, 29 Mar 2018 06:40:21 -0600</lastBuildDate>
+    <pubDate>Fri, 30 Mar 2018 06:33:36 -0600</pubDate>
+    <lastBuildDate>Fri, 30 Mar 2018 06:33:36 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Design with Empathy</title>
+        <description>&lt;h6 id=&quot;post-inspired-from-design-it-from-programmer-to-software-architect-by-michael-keeling&quot;&gt;Post inspired from: &lt;strong&gt;Design It! From Programmer to Software Architect&lt;/strong&gt; by Michael Keeling&lt;/h6&gt;
+
+&lt;p&gt;Have you ever used an app or a website or a product and think to yourself “this is terrible, did they even talk to the users beforehand?” That is an example of a team developing far away from their users with an idea of what &lt;em&gt;they think&lt;/em&gt; users would want. Instead, in designing software and products, one needs to have &lt;strong&gt;empathy&lt;/strong&gt; with the stakeholders. The stakeholds include everyone who is going to touch the application - owners, employees, users, IT, support, etc. When you spend time up front talking with the stakeholds and figuring out what &lt;em&gt;they want&lt;/em&gt; and what their &lt;em&gt;goal&lt;/em&gt; is, then you can design and architect with more data to create the best architecture possible. It does sound a little like User Experience (UX), but it takes the information into an engineering and architecture perspective that UX Designers are not as focused on.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/03/30/design-with-empathy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/30/design-with-empathy</guid>
+        
+        <category>books</category>
+        
+        <category>coding</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Fundamentals of Design Thinking</title>
@@ -292,27 +311,6 @@
         <category>books</category>
         
         <category>startups</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Would You Follow Yourself? [Video]</title>
-        <description>&lt;p&gt;From a random Tweet I came across this video - short, sweet, highly recommend it. (Note, I’ve never heard of this podcast before, maybe it’s work checking out).&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aRZ3rgwNBF4&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Thu, 22 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/22/would-you-follow-yourself</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/22/would-you-follow-yourself</guid>
-        
-        <category>personal-growth</category>
-        
-        <category>video</category>
-        
-        <category>recommendations</category>
         
         
         <category>blog</category>
