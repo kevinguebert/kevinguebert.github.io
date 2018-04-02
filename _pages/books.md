@@ -15,7 +15,7 @@ permalink: /books/
       {% endif %}
         {% if book.current == true %}{% endif %}
         {{book.name}}
-      </a>
+      </a> by {{book.author}}
     </li>
   {% assign counter = counter | plus:1 %}
 {% endfor %}
