@@ -6,9 +6,45 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Apr 2018 06:50:30 -0600</pubDate>
-    <lastBuildDate>Mon, 02 Apr 2018 06:50:30 -0600</lastBuildDate>
+    <pubDate>Mon, 02 Apr 2018 07:05:19 -0600</pubDate>
+    <lastBuildDate>Mon, 02 Apr 2018 07:05:19 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Want to learn how to code? Start here</title>
+        <description>&lt;p&gt;If you’ve been following along on a little series I’ve had here on the blog, you will know that recently I’ve been looking into ways to improve my coding skills. It started off with &lt;a href=&quot;/blog/2018/03/21/things-i-wish-i-knew&quot;&gt;Things I wish I Knew (Coding Edition)&lt;/a&gt;, followed by &lt;a href=&quot;/blog/2018/03/22/coding-course-updates&quot;&gt;Things I Wish I Knew - Progress&lt;/a&gt;, and then &lt;a href=&quot;/blog/2018/03/23/py4e&quot;&gt;A New Coding Course&lt;/a&gt; if you would like to check out the timeline of events.&lt;/p&gt;
+
+&lt;p&gt;Well, I am proud to say that I have officially completed the &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Python for Everybody&lt;/a&gt; course this past weekend, and, if you want to learn how to program, I would &lt;strong&gt;highly recommend&lt;/strong&gt; taking this class. The videos are broken up into mangeable chunks, the lessons aren’t too long, and Chuck Severance goes through all the topics extremely well. If you take an hour out of your day to go through a lesson or two, you would be up and running in no time.&lt;/p&gt;
+
+&lt;p&gt;Topics Covered:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Functions, variables, expressions, loops, strings, &amp;amp; conditions (basics of programming)&lt;/li&gt;
+  &lt;li&gt;Working with files&lt;/li&gt;
+  &lt;li&gt;Lists &amp;amp; Dictionaries&lt;/li&gt;
+  &lt;li&gt;Tuples (which I thought was pronounced with a &lt;code class=&quot;highlighter-rouge&quot;&gt;toop&lt;/code&gt; and not a &lt;code class=&quot;highlighter-rouge&quot;&gt;tup&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Regular Expressions&lt;/li&gt;
+  &lt;li&gt;Networks&lt;/li&gt;
+  &lt;li&gt;Web Services &amp;amp; APIs&lt;/li&gt;
+  &lt;li&gt;Object Orient Programming&lt;/li&gt;
+  &lt;li&gt;Databases&lt;/li&gt;
+  &lt;li&gt;Some data visualization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re a beginner programmer or want to get a quick refresher, check out &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Chuck Severance’s Python for Everybody&lt;/a&gt;, a free course!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 Apr 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/04/02/learn-python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/04/02/learn-python</guid>
+        
+        <category>coding</category>
+        
+        <category>py4e</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>End of March Reflection</title>
@@ -291,43 +327,6 @@
         <category>books</category>
         
         <category>startups</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>A New Coding Course</title>
-        <description>&lt;p&gt;A big lesson I have been working on learning over the past couple years is, when a problem occurs, take action as soon as possible. This action can be creating a plan, writing down your goals, watching YouTube videos, or creating a Google Doc with action items, but at the very least you are moving towards fixing the problem. Two days ago, I shared a post &lt;a href=&quot;/blog/2018/03/21/things-i-wish-i-knew.html&quot;&gt;Things I Wish I Knew&lt;/a&gt; that outlined some of the struggles I have been facing in terms of my development skills. The following day (yesterday), I provided an update titled &lt;a href=&quot;/blog/2018/03/22/coding-course-updates.html&quot;&gt;Things I Wish I Knew - Progress&lt;/a&gt; where I outlined some of my possible courses of action. From this action item list, I looked into and completed all of them!&lt;/p&gt;
-
-&lt;p&gt;✔️ Talk to a coworker/friend about ways to improve&lt;br /&gt;
-✔️ Research online classes and figure out the best one.&lt;/p&gt;
-
-&lt;p&gt;In doing all of this, I’ve come to two new courses of action:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Look into books from the library that I can read to improve knowledge
-  ✔️ &lt;em&gt;Design it! : from programmer to software architect&lt;/em&gt; is currently on hold at the library&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Start an online class &lt;br /&gt;
-  ✔️ Yesterday I started &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Python for Everybody&lt;/a&gt; and completed the first chapter.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;With this new course, you will notice a new tag &lt;a href=&quot;/tag/py4e.html&quot;&gt;py4e&lt;/a&gt;(Python 4 Everybody - PY4E) where you can track any posts or updates I may have.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/23/py4e</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/23/py4e</guid>
-        
-        <category>coding</category>
-        
-        <category>personal-growth</category>
-        
-        <category>py4e</category>
         
         
         <category>blog</category>
