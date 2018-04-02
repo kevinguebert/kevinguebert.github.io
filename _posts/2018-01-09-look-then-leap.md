@@ -9,7 +9,7 @@ categories:
 
 Post inspired from: **Algorithms to Live By** by Brian Christian and Tom Griffiths
 
-> **Loop-Then-Leap Rule:** "You set a predetermined amount of time for 'looking' - that is, exploring your options, gathering data - in which you categorically don't choose anyone, no matter how impressive. After that point, you enter the 'leap' phase, prepared to instantly commit to anyone who outshines the best applicant you saw in the look phase." (13)
+> **Look-Then-Leap Rule:** "You set a predetermined amount of time for 'looking' - that is, exploring your options, gathering data - in which you categorically don't choose anyone, no matter how impressive. After that point, you enter the 'leap' phase, prepared to instantly commit to anyone who outshines the best applicant you saw in the look phase." (13)
 
 ## Explanation
 
