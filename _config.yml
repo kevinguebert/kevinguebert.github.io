@@ -22,6 +22,9 @@ permalink: /blog/:year/:month/:day/:title
 sass:
     style: compressed
 
+gems:
+  - jekyll-sitemap
+
 exclude: [vendor]
 
 book_current:
@@ -104,6 +107,16 @@ books: [
     "author": "Michael Keeling",
     "current": true,
     "url": "https://www.amazon.com/Design-Programmer-Architect-Pragmatic-Programmers/dp/1680502093/ref=sr_1_1?ie=UTF8&qid=1522067658&sr=8-1&keywords=design+it+from+programmer+to+software+architect"
+  }, {
+    "name": "The Four Tendencies: The Indispendable Personality Profiles That Reveal How to Make Your Life Better (and Other People's Lives Better, Too)",
+    "author": "Grechen Rubin",
+    "current": true,
+    "url": ""
+  }, {
+    "name": "Deskbound: Standing Up in a Sitting World",
+    "author": "Kelly Starrett",
+    "current": true,
+    "url": "https://www.amazon.com/Deskbound-Standing-Up-Sitting-World/dp/1628600586"
   }
 ]
 

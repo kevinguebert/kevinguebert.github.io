@@ -6,9 +6,103 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Mar 2018 10:58:00 -0600</pubDate>
-    <lastBuildDate>Thu, 29 Mar 2018 10:58:00 -0600</lastBuildDate>
+    <pubDate>Tue, 03 Apr 2018 16:16:23 -0600</pubDate>
+    <lastBuildDate>Tue, 03 Apr 2018 16:16:23 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Want to learn how to code? Start here</title>
+        <description>&lt;p&gt;If you’ve been following along on a little series I’ve had here on the blog, you will know that recently I’ve been looking into ways to improve my coding skills. It started off with &lt;a href=&quot;/blog/2018/03/21/things-i-wish-i-knew&quot;&gt;Things I wish I Knew (Coding Edition)&lt;/a&gt;, followed by &lt;a href=&quot;/blog/2018/03/22/coding-course-updates&quot;&gt;Things I Wish I Knew - Progress&lt;/a&gt;, and then &lt;a href=&quot;/blog/2018/03/23/py4e&quot;&gt;A New Coding Course&lt;/a&gt; if you would like to check out the timeline of events.&lt;/p&gt;
+
+&lt;p&gt;Well, I am proud to say that I have officially completed the &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Python for Everybody&lt;/a&gt; course this past weekend, and, if you want to learn how to program, I would &lt;strong&gt;highly recommend&lt;/strong&gt; taking this class. The videos are broken up into mangeable chunks, the lessons aren’t too long, and Chuck Severance goes through all the topics extremely well. If you take an hour out of your day to go through a lesson or two, you would be up and running in no time.&lt;/p&gt;
+
+&lt;p&gt;Topics Covered:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Functions, variables, expressions, loops, strings, &amp;amp; conditions (basics of programming)&lt;/li&gt;
+  &lt;li&gt;Working with files&lt;/li&gt;
+  &lt;li&gt;Lists &amp;amp; Dictionaries&lt;/li&gt;
+  &lt;li&gt;Tuples (which I thought was pronounced with a &lt;code class=&quot;highlighter-rouge&quot;&gt;toop&lt;/code&gt; and not a &lt;code class=&quot;highlighter-rouge&quot;&gt;tup&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Regular Expressions&lt;/li&gt;
+  &lt;li&gt;Networks&lt;/li&gt;
+  &lt;li&gt;Web Services &amp;amp; APIs&lt;/li&gt;
+  &lt;li&gt;Object Orient Programming&lt;/li&gt;
+  &lt;li&gt;Databases&lt;/li&gt;
+  &lt;li&gt;Some data visualization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re a beginner programmer or want to get a quick refresher, check out &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Chuck Severance’s Python for Everybody&lt;/a&gt;, a free course!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 Apr 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/04/02/learn-python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/04/02/learn-python</guid>
+        
+        <category>coding</category>
+        
+        <category>py4e</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>End of March Reflection</title>
+        <description>&lt;p&gt;March has come and gone, time to reflect on any progress of my goals!&lt;/p&gt;
+
+&lt;h4 id=&quot;goal-by-memorial-day-2018-i-want-to-have-100-new-posts-on-a-website-about-something-i-have-learned&quot;&gt;Goal: By Memorial Day 2018, I want to have 100 new posts on a website about something I have learned.&lt;/h4&gt;
+
+&lt;p&gt;If you want to learn more about this goal, check out &lt;a href=&quot;/blog/2018/01/31/z-month-1-recap.html&quot;&gt;End of January Reflection&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Metrics&lt;/strong&gt;: In January, I completed exactly 20 blog posts. To meet my goal of 100 new posts by Memorial Day, I would have to average 20 posts a month(ish). In February, I completed 13 blog posts which put me 7 behind the pace.&lt;/p&gt;
+
+&lt;p&gt;In March, after having a bit of a lapse in the middle of the month and also including this post, I had &lt;strong&gt;32 blog posts&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Understanding the Data&lt;/strong&gt;: To be honest, a bit of a surprise for me! Here are a couple notes about having 32 blog posts in March:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I successfully made up my 7 post deficit from February&lt;/li&gt;
+  &lt;li&gt;I am now 5 posts ahead of my planned schedule of 20 posts a month&lt;/li&gt;
+  &lt;li&gt;Brings my total blog posts to 65 - 35 to go before Memorial Day!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Going Forward&lt;/strong&gt;: I’m not going to lie, the book I’m reading right now &lt;em&gt;Design It!&lt;/em&gt; is not too exciting to blog about. It’s very software/programming focused. However, I do have other books on the way that will provide (in my mind), better material. I do feel like I’ve been in more of a “groove” with posting though, so I would like to continue that in the month of April.&lt;/p&gt;
+
+&lt;p&gt;Along with the design update in March, I’ve also added commenting to certain posts that I feel are suitable for comments. My &lt;a href=&quot;/blog/2018/01/09/look-then-leap&quot;&gt;Look then Leap&lt;/a&gt; post has received a fair amount of traffic so I recently added commenting there and have also received a comment! Not all posts will have comments though, it is based off of if I feel it would provide benefit. Feel free to provide any feedback or let me know what you think below!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/03/31/march-review</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/31/march-review</guid>
+        
+        <category>reflection</category>
+        
+        <category>personal-growth</category>
+        
+        <category>recap</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Design with Empathy</title>
+        <description>&lt;h6 id=&quot;post-inspired-from-design-it-from-programmer-to-software-architect-by-michael-keeling&quot;&gt;Post inspired from: &lt;strong&gt;Design It! From Programmer to Software Architect&lt;/strong&gt; by Michael Keeling&lt;/h6&gt;
+
+&lt;p&gt;Have you ever used an app or a website or a product and think to yourself “this is terrible, did they even talk to the users beforehand?” That is an example of a team developing far away from their users with an idea of what &lt;em&gt;they think&lt;/em&gt; users would want. Instead, in designing software and products, one needs to have &lt;strong&gt;empathy&lt;/strong&gt; with the stakeholders. The stakeholds include everyone who is going to touch the application - owners, employees, users, IT, support, etc. When you spend time up front talking with the stakeholds and figuring out what &lt;em&gt;they want&lt;/em&gt; and what their &lt;em&gt;goal&lt;/em&gt; is, then you can design and architect with more data to create the best architecture possible. It does sound a little like User Experience (UX), but it takes the information into an engineering and architecture perspective that UX Designers are not as focused on.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/03/30/design-with-empathy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/30/design-with-empathy</guid>
+        
+        <category>books</category>
+        
+        <category>coding</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Fundamentals of Design Thinking</title>
@@ -233,86 +327,6 @@
         <category>books</category>
         
         <category>startups</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>A New Coding Course</title>
-        <description>&lt;p&gt;A big lesson I have been working on learning over the past couple years is, when a problem occurs, take action as soon as possible. This action can be creating a plan, writing down your goals, watching YouTube videos, or creating a Google Doc with action items, but at the very least you are moving towards fixing the problem. Two days ago, I shared a post &lt;a href=&quot;/blog/2018/03/21/things-i-wish-i-knew.html&quot;&gt;Things I Wish I Knew&lt;/a&gt; that outlined some of the struggles I have been facing in terms of my development skills. The following day (yesterday), I provided an update titled &lt;a href=&quot;/blog/2018/03/22/coding-course-updates.html&quot;&gt;Things I Wish I Knew - Progress&lt;/a&gt; where I outlined some of my possible courses of action. From this action item list, I looked into and completed all of them!&lt;/p&gt;
-
-&lt;p&gt;✔️ Talk to a coworker/friend about ways to improve&lt;br /&gt;
-✔️ Research online classes and figure out the best one.&lt;/p&gt;
-
-&lt;p&gt;In doing all of this, I’ve come to two new courses of action:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Look into books from the library that I can read to improve knowledge
-  ✔️ &lt;em&gt;Design it! : from programmer to software architect&lt;/em&gt; is currently on hold at the library&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Start an online class &lt;br /&gt;
-  ✔️ Yesterday I started &lt;a href=&quot;https://www.py4e.com/&quot;&gt;Python for Everybody&lt;/a&gt; and completed the first chapter.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;With this new course, you will notice a new tag &lt;a href=&quot;/tag/py4e.html&quot;&gt;py4e&lt;/a&gt;(Python 4 Everybody - PY4E) where you can track any posts or updates I may have.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/23/py4e</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/23/py4e</guid>
-        
-        <category>coding</category>
-        
-        <category>personal-growth</category>
-        
-        <category>py4e</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Before You Overdeliver</title>
-        <description>&lt;h6 id=&quot;post-inspired-from-the-100-startup-by-chris-guillebeau&quot;&gt;Post inspired from: &lt;strong&gt;The $100 Startup&lt;/strong&gt; by Chris Guillebeau&lt;/h6&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“The easiest and most critical way to reinforce their decision is by giving them quick access to what they paid for. But to go further, you’ll want to &lt;em&gt;overdeliver&lt;/em&gt;: give them more than what they expected.” (105)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This morning’s quote from &lt;em&gt;The $100 Startup&lt;/em&gt; is meaningful and very important. If you sum it up, it basically comes down to make the experience of your product/app as enjoyable as possible &lt;em&gt;and then more&lt;/em&gt; so that customers are more willing to come back and share. &lt;em&gt;But&lt;/em&gt;, I think there should be a point before you overdeliver. A trap that I have fallen into is getting too excited about some extra features (the overdelivery), that the core product gets pushed aside. Do not let that happen! The core product is still the &lt;em&gt;core product&lt;/em&gt;! Before you overdeliver, make sure you actually deliver!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/23/before-you-overdeliver</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/23/before-you-overdeliver</guid>
-        
-        <category>books</category>
-        
-        <category>startups</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Would You Follow Yourself? [Video]</title>
-        <description>&lt;p&gt;From a random Tweet I came across this video - short, sweet, highly recommend it. (Note, I’ve never heard of this podcast before, maybe it’s work checking out).&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aRZ3rgwNBF4&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Thu, 22 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/22/would-you-follow-yourself</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/22/would-you-follow-yourself</guid>
-        
-        <category>personal-growth</category>
-        
-        <category>video</category>
-        
-        <category>recommendations</category>
         
         
         <category>blog</category>
