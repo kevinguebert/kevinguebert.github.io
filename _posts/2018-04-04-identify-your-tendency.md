@@ -1,10 +1,11 @@
 ---
 title: Identify Your Tendency
 date: 2018-04-04 00:00:00 +0000
-layout: ''
+layout: post
 tags: []
 comments: false
-categories: []
+categories:
+- blog
 ---
 ###### Post inspired by _The Four Tendencies_ by Gretchen Rubin
 
