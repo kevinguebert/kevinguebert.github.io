@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/upholders-the-four-tendencies.md
 hide_body: false
 fields:
 - name: layout
