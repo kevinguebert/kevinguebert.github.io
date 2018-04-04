@@ -2,7 +2,9 @@
 title: Identify Your Tendency
 date: 2018-04-04 00:00:00 +0000
 layout: post
-tags: []
+tags:
+- books
+- personal-growth
 comments: false
 categories:
 - blog
