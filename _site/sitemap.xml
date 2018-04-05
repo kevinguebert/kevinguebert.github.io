@@ -261,6 +261,14 @@
 <lastmod>2018-04-02T00:00:00-06:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/2018/04/03/identify-your-tendency</loc>
+<lastmod>2018-04-03T18:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2018/04/04/python-learning-guide</loc>
+<lastmod>2018-04-04T18:00:00-06:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/404</loc>
 </url>
 <url>
@@ -298,6 +306,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/py4e</loc>
+</url>
+<url>
+<loc>http://localhost:4000/python-learning-guide/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tag/recap</loc>
