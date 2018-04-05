@@ -40,3 +40,6 @@ Exercism is not just for Python, but is a great learning resource with small cod
 
 ### [Building Skills in Object-Oriented Design](http://buildingskills.itmaybeahack.com/book/oodesign-3.1/html/preface.html)
 This looks like a great resource to test one's understanding of OOP (Object-Oriented Programming) with real world examples. It may look like a lot, but going through actual problems and programs to figure out a solution is a great way to learn. 
+
+-----
+Have any other resources that you would recommend? Let me know in the comments below and I'll be sure to check them out and add them.
