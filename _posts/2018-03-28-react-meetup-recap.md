@@ -34,7 +34,7 @@ The Virtual DOM is a shadow copy of the actual DOM (Document Object Model) that 
 
 ## JSX
 
-JSX is an HTML-like syntax that allows you to pass data as `props` (properties) to help dender dynamic values. 
+JSX is an HTML-like syntax that allows you to pass data as `props` (properties) to help render dynamic values. 
 
 #### What are `props`?
 `props` is data coming from the parent component. Note - `props` are *read only*

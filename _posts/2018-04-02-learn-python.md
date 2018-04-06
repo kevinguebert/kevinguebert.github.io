@@ -9,7 +9,7 @@ categories:
 
 If you've been following along on a little series I've had here on the blog, you will know that recently I've been looking into ways to improve my coding skills. It started off with [Things I wish I Knew (Coding Edition)](/blog/2018/03/21/things-i-wish-i-knew), followed by [Things I Wish I Knew - Progress](/blog/2018/03/22/coding-course-updates), and then [A New Coding Course](/blog/2018/03/23/py4e) if you would like to check out the timeline of events.
 
-Well, I am proud to say that I have officially completed the [Python for Everybody](https://www.py4e.com/) course this past weekend, and, if you want to learn how to program, I would **highly recommend** taking this class. The videos are broken up into mangeable chunks, the lessons aren't too long, and Chuck Severance goes through all the topics extremely well. If you take an hour out of your day to go through a lesson or two, you would be up and running in no time. 
+Well, I am proud to say that I have officially completed the [Python for Everybody](https://www.py4e.com/) course this past weekend, and, if you want to learn how to program, I would **highly recommend** taking this class. The videos are broken up into manageable chunks, the lessons aren't too long, and Chuck Severance goes through all the topics extremely well. If you take an hour out of your day to go through a lesson or two, you would be up and running in no time. 
 
 Topics Covered:
 - Functions, variables, expressions, loops, strings, & conditions (basics of programming)
