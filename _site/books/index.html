@@ -57,7 +57,8 @@
     <div class="c-article__main">
         <p>2018 has been a book-filled year so far.</p>
 
-<iframe src="https://shelftaught.com/bookshelves/kevinguebert?&amp;bookshelf_theme=minimal&amp;bookshelf_size=8&amp;bookshelf_reviews=false" width="100%" frameborder="0" onload="iFrameResize()"></iframe>
+<div id="loader" class="loader"></div>
+<iframe id="shelfTaughtIframe" src="https://shelftaught.com/bookshelves/kevinguebert?&amp;bookshelf_theme=minimal&amp;bookshelf_size=8&amp;bookshelf_reviews=false" width="100%" frameborder="0"></iframe>
 
     </div>
     <footer class="c-article__footer">
@@ -102,4 +103,13 @@
     
     </body>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.3/iframeResizer.min.js'></script>
+    <script>
+            var ifr=document.getElementById('shelfTaughtIframe');
+            ifr.onload=function(){
+                iFrameResize()
+                this.style.display='block';
+                document.getElementById('loader').style.display = 'none';
+                console.log('laod the iframe')
+            };
+</script>
 </html>

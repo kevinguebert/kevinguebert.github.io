@@ -133,4 +133,13 @@
     
     </body>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.3/iframeResizer.min.js'></script>
+    <script>
+            var ifr=document.getElementById('shelfTaughtIframe');
+            ifr.onload=function(){
+                iFrameResize()
+                this.style.display='block';
+                document.getElementById('loader').style.display = 'none';
+                console.log('laod the iframe')
+            };
+</script>
 </html>
