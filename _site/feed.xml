@@ -6,9 +6,30 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Apr 2018 06:43:01 -0600</pubDate>
-    <lastBuildDate>Tue, 10 Apr 2018 06:43:01 -0600</lastBuildDate>
+    <pubDate>Thu, 12 Apr 2018 06:24:52 -0600</pubDate>
+    <lastBuildDate>Thu, 12 Apr 2018 06:24:52 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Deskbound - Google Talk [Video]</title>
+        <description>&lt;p&gt;Don’t want to buy the book? I would still recommend it, but if not, check out this talk from Kelly Starrett brought to you by “Talks at Google.”&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kfg_e6YG37U&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 12 Apr 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/04/12/deskbound-video</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/04/12/deskbound-video</guid>
+        
+        <category>books</category>
+        
+        <category>personal-growth</category>
+        
+        <category>health</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Or Are You a Rebel?</title>
@@ -335,35 +356,6 @@
         <pubDate>Fri, 30 Mar 2018 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/blog/2018/03/30/design-with-empathy</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/03/30/design-with-empathy</guid>
-        
-        <category>books</category>
-        
-        <category>coding</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Fundamentals of Design Thinking</title>
-        <description>&lt;h6 id=&quot;post-inspired-from-design-it-from-programmer-to-software-architect-by-michael-keeling&quot;&gt;Post inspired from: &lt;strong&gt;Design It! From Programmer to Software Architect&lt;/strong&gt; by Michael Keeling&lt;/h6&gt;
-
-&lt;h3 id=&quot;human-rule&quot;&gt;Human Rule&lt;/h3&gt;
-&lt;p&gt;We design for people &amp;amp; with people. When designing, we must think about the stakeholders, the end users, the programmers, the testers, and the managers. Architects do not operate in a silo with no input or feedback, they work in a team.&lt;/p&gt;
-
-&lt;h3 id=&quot;ambiguity-rule&quot;&gt;Ambiguity Rule&lt;/h3&gt;
-&lt;p&gt;Design the architecture for the high-priority quality attributes and then leave all other design decisions for downstream designers and later thought. If the decisions do not directly influence the quality attributes or reduce risk, they are more designs than architecture.&lt;/p&gt;
-
-&lt;h3 id=&quot;redesign-rule&quot;&gt;Redesign Rule&lt;/h3&gt;
-&lt;p&gt;Look at what has already been built and explore these patterns and past designs. What can we learn from them? How can we improve them?&lt;/p&gt;
-
-&lt;h3 id=&quot;tangible-rule&quot;&gt;Tangible Rule&lt;/h3&gt;
-&lt;p&gt;If we want to share our design and architecture, we need to make it tangible through drawings, prototypes, models, and other tangible representations. This then helps the Human Rule in helping humans understand the architecture.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 29 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/03/29/design-thinking-fundamentals</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/29/design-thinking-fundamentals</guid>
         
         <category>books</category>
         
