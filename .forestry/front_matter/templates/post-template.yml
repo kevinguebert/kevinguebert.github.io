@@ -1,7 +1,9 @@
 ---
 pages:
+- _posts/price-s-law.md
 - _posts/2018-04-04-identify-your-tendency.md
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
