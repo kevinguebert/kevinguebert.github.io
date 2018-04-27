@@ -86,6 +86,11 @@ svg {
 
 /* Links */
 
+a.no-effect {
+  color: $c-accent__blue;
+  padding: 0;
+}
+
 a {
     color: $c-accent__blue;
     background-color: transparent;

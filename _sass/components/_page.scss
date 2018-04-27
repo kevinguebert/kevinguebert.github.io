@@ -44,15 +44,10 @@
 }
 
 .tags {
-    background: #f8f8f8;
-    border-radius:6px;
-    padding:20px;
     margin-bottom:20px;
     width: 100%;
     text-align: left;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    font-size: 18px;
+    font-size: 16px;
     overflow: hidden;
 }
 
@@ -78,3 +73,9 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+.post-date {
+    float:right;
+    display: inline-block;
+}
+

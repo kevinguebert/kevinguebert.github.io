@@ -1,28 +1,17 @@
-<header class="c-page__header">
+<header class="col-md-4">
+  <div class="c-page__header">
     <a name="top"></a>
-<!--     <h1 class="letter" data-letter="K">K</h1>
-    <h1 class="letter" data-letter="E">E</h1>
-    <h1 class="letter" data-letter="V">V</h1>
-    <h1 class="letter" data-letter="I">I</h1>
-    <h1 class="letter" data-letter="N">N</h1>
-    <h1 class="letter" data-letter="G">G</h1>
-    <h1 class="letter" data-letter="U">U</h1>
-    <h1 class="letter" data-letter="E">E</h1>
-    <h1 class="letter" data-letter="B">B</h1>
-    <h1 class="letter" data-letter="E">E</h1>
-    <h1 class="letter" data-letter="R">R</h1>
-    <h1 class="letter" data-letter="T">T</h1>
- -->    <h1><code class="code-h1">{{site.title}}</code></h1>
+    <h1><code class="code-h1">{{site.title}}</code></h1>
     <!-- <h1><code>Currently reading:</code></h1> -->
-<!--     <p><code><i>Design It! From Programmer to Software Architect,</i></code></p>
+    <!--     <p><code><i>Design It! From Programmer to Software Architect,</i></code></p>
     <p><code><i>The Four Tendencies,</i></code></p> 
     <p><code><i>Deskbound</i></code></p>
  -->
     {% if page.title == '' %}
-        <h1>{{ site.description }}</h1>
-    {% endif %}
+    <h1>{{ site.description }}</h1> {% endif %}
     <p>
-        <a href="{{ '/' | prepend: site.baseurl }}">Home</a><span
-          class="u-separate"></span><a href="#topics">Topics</a><span class="u-separate"></span><a href="{{ '/books/' | prepend: site.baseurl }}">Books</a><span class="u-separate"></span><a href="{{ '/blog/2018/04/05/python-learning-guide' | prepend: site.baseurl }}">Python Learning Guide</a><span class="u-separate"></span><a href="{{ '/stoic-wallpapers/' | prepend: site.baseurl }}">Stoic Wallpapers</a>
+      <a href="{{ '/' | prepend: site.baseurl }}">Home</a><span class="u-separate"></span><a href="{{ '/books/' | prepend: site.baseurl }}">Books</a><span class="u-separate"></span><a href="{{ '/blog/2018/04/05/python-learning-guide' | prepend: site.baseurl }}">Python Learning Guide</a><span class="u-separate"></span><a href="{{ '/stoic-wallpapers/' | prepend: site.baseurl }}">Stoic Wallpapers</a>
     </p>
+    {% include tags.html %}
+  </div>
 </header>

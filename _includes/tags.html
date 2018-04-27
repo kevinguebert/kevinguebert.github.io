@@ -1,6 +1,6 @@
 {% assign sorted_tags = site.tags | sort %}
-<a name="topics"></a><div class="tags">
+<hr />
+<div class="tags">
   <h3 id="header-3">Topics to Explore</h3>{% for tag in sorted_tags %}
   <a href="{{ '/tag/' | append:tag[0] }}.html" rel="tag" class="no-hov">{{tag[0]}}{% if forloop.last %}{% else %},{% endif %}</a>{% endfor %}
 </div>
-<p><a href="#top">Back to top</a></p>

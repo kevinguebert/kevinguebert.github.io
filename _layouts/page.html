@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<div class="c-page">
+<div class="c-page row">
     {% include header.html %}
+    <div class="col-md-8">
     <div class="c-page__main">
-    {{ content }}
-    {% include tags.html %}
+	    {{ content }}
+	    {% include footer.html %}
+	  </div>
     </div>
-    {% include footer.html %}
 </div>
