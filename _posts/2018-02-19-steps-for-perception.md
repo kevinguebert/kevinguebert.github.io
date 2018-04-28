@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **The Obstacle is the Way** by Ryan Holiday
+###### Post inspired from: **The Obstacle is the Way** by Ryan Holiday.
 > "Nothing *makes* us feel this way, we *choose* to give in to such feelings"
 
 How many of our obstacles, our problems, and our challenges today are based solely on our *perception*? In the new book on my reading list, *The Obstacle is the Way* by Ryan Holiday (see *The Ego is the Enemy*), the opening chapter starts with this idea. Our perception of a situation is what determines the severity of it. If we can turn an obstacle into a *learning experience* then it isn't an obstacle any longer.

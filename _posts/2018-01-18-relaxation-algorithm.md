@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-Post inspired from: **Algorithms to Live By** by Brian Christian and Tom Griffiths
+###### Post inspired from: **Algorithms to Live By** by Brian Christian and Tom Griffiths.
 
 How many decisions do we face in our lifetime that don't seem to have an answer? Every day we face hundreds if not thousands of decisions that guide us in a certain direction. But what about those hard questions? Those big life questions we are ask ourselves at some point?
 

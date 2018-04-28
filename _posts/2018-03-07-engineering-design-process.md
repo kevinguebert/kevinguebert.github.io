@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **Smarter Faster Better. The Secrets of Being Productive in Life and Business** by Charles Duhigg 
+###### Post inspired from: **Smarter Faster Better. The Secrets of Being Productive in Life and Business** by Charles Duhigg.
 > "But when we teach people a process for reframing choices, when we give them a series of steps that causes a decision to seem a little bit different than before, it helps them take more control of what's going on inside their heads" -  Eric Johnson, Columbia psychologist (262)
 
 We have so. much. data. From our phones to our watches to our computers to our cars, the amount of data that exists for a single person is enormous. However, when it comes times for big decisions we often struggle. Oftentimes, we don't even use the data we have at our finger tips! *Absorbing Data* is probably my favorite chapter in **Smarter Faster Better** as it outlines a very systematic process for decision making called the "engineering design process." You've probably heard or done something similar:

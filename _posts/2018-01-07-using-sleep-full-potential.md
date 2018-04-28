@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-Post inspired from: **Discipline Equals Freedom Field Manual** by Jocko Willink
+###### Post inspired from: **Discipline Equals Freedom Field Manual** by Jocko Willink.
 
 Sleep can be elusive. It can be frustrating. It can be restless. It can be tiring. But sleep can also be fruitful and it can re-energize. Everyone needs to sleep.
 

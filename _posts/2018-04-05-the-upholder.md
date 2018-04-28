@@ -8,7 +8,7 @@ comments: false
 categories:
 - blog
 ---
-###### Post inspired by _The Four Tendencies_ by Gretchen Rubin
+###### Post inspired by _The Four Tendencies_ by Gretchen Rubin.
 
 > "Upholders are those people who readily respond to outer and inner expectations alike. They meet the work deadline, and they keep the New Year's resolution, without much fuss." (27)
 

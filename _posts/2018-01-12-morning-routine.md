@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-If you Goole or search on Medium for "morning routine", you are bound to get thousands of pages of people describing their morning routine and why it is the best one out there. From article titles like "What the 5 Most Successful People Do Every Morning" to "Do these 10 Things Every Morning for Maximum Productivity", there are slew of habits, actions, and routines that people are willing to talk about and prescribe you.
+If you Google or search on Medium for "morning routine", you are bound to get thousands of pages of people describing their morning routine and why it is the best one out there. From article titles like "What the 5 Most Successful People Do Every Morning" to "Do these 10 Things Every Morning for Maximum Productivity", there are slew of habits, actions, and routines that people are willing to talk about and prescribe you.
 
 But, over the past 2 years of working on how I spend my morning, I have decided on one main point: *you pick the best way to start your day that fits you.*
 

@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **Smarter Faster Better. The Secrets of Being Productive in Life and Business** by Charles Duhigg 
+###### Post inspired from: **Smarter Faster Better. The Secrets of Being Productive in Life and Business** by Charles Duhigg. 
 > "To-do lists are great if you use them correctly, but when people say things like 'I sometimes write down easy items I can cross off right away, because it makes me feel good,' that's exactly the *wrong* way to create a to-do list" - Timothy Pychcyl (129)
 
 We've all heard of SMART Goals - **S**pecific **M**easureable **A**chievable **R**ealistic and **T**imeline. I think I recall first hearing about them when I was in school. I don't recall what age, but it may have been in middle or high school. In talking about SMART goals, we lay out a plan for a goal we want to achieve and break it down into those 5 pieces - Specific, Measurable, Achievable, Realistic, and Timeline. With these 5 parts created, we then have a plan laid out in front of us that helps us tackle any goal. Charles Duhigg in *Smarter Faster Better* argues that SMART goals are not enough. With SMART goals, one can get in this mindset of only focusing on the short term achievable goals. Like the quote above, if someone is just creating SMART goals and wanting to check off the items in the list, that person then loses sight of other aspects that can be improved. Setting a smart goal to improve sales by 20% this quarter is a good goal, but if in doing that goal one loses sight of a bigger picture, maybe building a network that will last many years to continue selling to, then the long term progress of SMART goals is missed. 

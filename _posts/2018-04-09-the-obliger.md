@@ -8,7 +8,7 @@ comments: false
 categories:
 - blog
 ---
-###### Post inspired by _The Four Tendencies_ by Gretchen Rubin
+###### Post inspired by _The Four Tendencies_ by Gretchen Rubin.
 
 > "The Obliger is the rock of the world. At work, at home, and in life, not only are Obligers the bigger groups, they're the ones whom people count on the most." (103)
 

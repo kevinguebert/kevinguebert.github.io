@@ -7,7 +7,7 @@ tags:
 comments: false
 categories: []
 ---
-###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson
+###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson.
 
 > "You are discovering who you are, and what you want, and what you are willing to do. You are finding that the solutions to your particular problems have to be tailored to you, personally and precisely. You are less concerned with the actions of other people, because you have plenty to do yourself." (110)
 

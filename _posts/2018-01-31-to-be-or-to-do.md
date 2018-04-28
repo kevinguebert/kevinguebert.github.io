@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-Post inspired from: **Ego is the Enemy** by Ryan Holiday
+###### Post inspired from: **Ego is the Enemy** by Ryan Holiday.
 
 > Which do you want: to be somebody or to do something?
 

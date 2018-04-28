@@ -8,7 +8,7 @@ tags:
 comments: true
 categories: []
 ---
-###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson
+###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson.
 
 > To those who have everything, more will be given; from those who have nothing, everything will be taken. -Matthew 25:29
 

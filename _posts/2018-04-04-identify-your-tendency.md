@@ -9,7 +9,7 @@ comments: false
 categories:
 - blog
 ---
-###### Post inspired by _The Four Tendencies_ by Gretchen Rubin
+###### Post inspired by _The Four Tendencies_ by Gretchen Rubin.
 
 Over the next couple posts, I will be talking about the Four Tendencies describe in Gretchen Rubin's _The Four Tendencies._ However, before I go into them, I want to give you the resources available to figure out your own tendency.
 

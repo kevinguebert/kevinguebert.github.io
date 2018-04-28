@@ -7,7 +7,7 @@ tags:
 comments: false
 categories: []
 ---
-###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson
+###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson.
 
 > "If you surround yourself with people who support your upward aim, they will not tolerate your cynicism and destructiveness. They will instead encourage you when you do good for yourself and others and punish you carefully when you do not." (82)
 

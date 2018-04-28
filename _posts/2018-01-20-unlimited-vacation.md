@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-Post inspired from: **Algorithms to Live By** by Brian Christian and Tom Griffiths
+###### Post inspired from: **Algorithms to Live By** by Brian Christian and Tom Griffiths.
 
 > Job Perks:
 - Unlimited Vacation Days

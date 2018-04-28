@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **Design It! From Programmer to Software Architect** by Michael Keeling
+###### Post inspired from: **Design It! From Programmer to Software Architect** by Michael Keeling.
 
 While reading this new book, my posts may become more programming based. I will try and throw in some other more personal-growth posts in along with it, but today's posts is from the verrrryyy first chapter of *Design It!*.
 

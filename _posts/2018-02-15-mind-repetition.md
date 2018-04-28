@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **Mind Hacking** by Sir John Hargrave
+###### Post inspired from: **Mind Hacking** by Sir John Hargrave.
 
 *Lather. Rinse. Repeat.* When working on personal-growth, getting better, and working towards out goals, repetition is key. It takes discipline and doing that task every day to form it into a habit which while hopefully lead to success. Sir John Hargrave proposes 3 different ways that can help "remind your mind" with these goals.
 

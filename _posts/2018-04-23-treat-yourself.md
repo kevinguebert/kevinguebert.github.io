@@ -7,7 +7,7 @@ tags:
 comments: false
 categories: []
 ---
-###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson
+###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson.
 
 > "We deserve some respect. You deserve some respect. You are important to other people, as much as to yourself. You are, therefore, morally obliged to take care of yourself." (62)
 

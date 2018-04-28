@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **Perennial Seller** by Ryan Holiday
+###### Post inspired from: **Perennial Seller** by Ryan Holiday.
 > "I don't want to hear your *idea*. The idea is the easy part" - Casey Neistat (21)
 
 > "The best way to increase a startup's growth rate is to make the product so good people recommend it to your friends." - Paul Graham (20)

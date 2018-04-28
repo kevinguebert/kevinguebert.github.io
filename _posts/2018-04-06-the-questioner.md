@@ -8,7 +8,7 @@ comments: false
 categories:
 - blog
 ---
-###### Post inspired by _The Four Tendencies_ by Gretchen Rubin
+###### Post inspired by _The Four Tendencies_ by Gretchen Rubin.
 
 > "Questioners show a deep commitment to information, logic, and efficiency. They want to gather their own facts, decide for themselves, and act with good reason; they object to anything they consider arbitrary, ill-reasoned, ill-informed, or ineffective." (61)
 

@@ -8,7 +8,7 @@ tags:
 comments: false
 categories: []
 ---
-###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson
+###### Post inspired by _12 Rules for Life: An Antidote to Chaos_ by Jordan B. Peterson.
 
 > "To stand up straight with your shoulders back is to accept the terrible responsibility of life, with eyes wide open. It means deciding to voluntarily transform the chaos of potential into the realities of habitable order." (27)
 

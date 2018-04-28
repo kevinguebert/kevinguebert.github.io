@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **Design It! From Programmer to Software Architect** by Michael Keeling
+###### Post inspired from: **Design It! From Programmer to Software Architect** by Michael Keeling.
 
 ### Human Rule
 We design for people & with people. When designing, we must think about the stakeholders, the end users, the programmers, the testers, and the managers. Architects do not operate in a silo with no input or feedback, they work in a team.

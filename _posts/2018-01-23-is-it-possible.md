@@ -5,7 +5,7 @@ tags: [books, health]
 categories:
 - blog
 ---
-Thoughts from finishing: **Living with a Seal: 31 Days Training with the Toughest Man on the Plane** by Jesse Itzler
+Thoughts from finishing: **Living with a Seal: 31 Days Training with the Toughest Man on the Plane** by Jesse Itzler.
 
 Before picking up *Living with a Seal*, I expected it to be a "note-taking" book as I call them: books where I actively write down thoughts I while reading. Don't get me wrong, there are a ton of valuable lessons in *Living with a Seal*, but, it isn't quite the same as *Algorithms to Live By* if you know what I'm saying. I flew through *Living with a Seal* because I couldn't put it down. The writing, the order, the humor - all of it crafted an entertaining book.
 

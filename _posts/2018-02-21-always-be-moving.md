@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-###### Post inspired from: **The Obstacle is the Way** by Ryan Holiday
+###### Post inspired from: **The Obstacle is the Way** by Ryan Holiday.
 > "So when you're frustrated in pursuit of your own goals, don't sit there and complain that you don't have what you want. If you haven't even tried yet, then of course you will still be in the exact same spot. You haven't pursued anything." (75)
 
 **Get Moving.** Ryan Holiday hits the nail on the head witht his chapter in *The Obstacle is the Way.* I could sit here and write out quote after quote of what I wrote down from the chapter - I would recommend just this chapter to anyone who needs that extra push.
