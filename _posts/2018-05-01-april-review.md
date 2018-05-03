@@ -13,7 +13,7 @@ April is over, May is here. Time to check in on those goals.
 If you want to learn more about this goal, check out [End of January Reflection](/blog/2018/01/31/z-month-1-recap.html).
 
 **Metrics**: In January, I completed exactly 20 blog posts. To meet my goal of 100 new posts by Memorial Day, I would have to average 20 posts a month(ish). In February, I completed 13 blog posts which put me 7 behind the pace. In March, after having a bit of a lapse in the middle of the month and also including this post, I had 32 blog posts. 
-
+****
 Now for April, I completed only **15 blog posts**.
 
 **Understanding the Data**: A little bit of a bummer for April. To be honest, I don't quite have a reason for this low number of 15. Fortunately in March, I had 5 extra to give...but I didn't expect to need them all in April. My total is now 80, so I have 20 blog posts to write by Memorial Day (which is the average for each month).
