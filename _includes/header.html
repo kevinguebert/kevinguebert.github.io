@@ -1,7 +1,7 @@
 <header class="col-md-4">
   <div class="c-page__header">
-    <a name="top"></a>
     <h1><code class="code-h1">{{site.title}}</code></h1>
+    <a name="top"></a>
     <!-- <h1><code>Currently reading:</code></h1> -->
     <!--     <p><code><i>Design It! From Programmer to Software Architect,</i></code></p>
     <p><code><i>The Four Tendencies,</i></code></p> 
@@ -10,8 +10,9 @@
     {% if page.title == '' %}
     <h1>{{ site.description }}</h1> {% endif %}
     <p>
-      <a href="{{ '/' | prepend: site.baseurl }}">Home</a><span class="u-separate"></span><a href="{{ '/books/' | prepend: site.baseurl }}">Books</a><span class="u-separate"></span><a href="{{ '/blog/2018/04/05/python-learning-guide' | prepend: site.baseurl }}">Python Learning Guide</a><span class="u-separate"></span><a href="{{ '/stoic-wallpapers/' | prepend: site.baseurl }}">Stoic Wallpapers</a>
+      <a href="{{ '/' | prepend: site.baseurl }}">Home</a><span class="u-separate"></span><a href="{{ '/blog/2018/04/05/python-learning-guide' | prepend: site.baseurl }}">Python Learning Guide</a><span class="u-separate"></span><a href="{{ '/stoic-wallpapers/' | prepend: site.baseurl }}">Stoic Wallpapers</a>
     </p>
     {% include tags.html %}
+    {% include books.html %}
   </div>
 </header>

@@ -51,7 +51,7 @@
     overflow: hidden;
 }
 
-.tags #header-3 {
+.header-3 {
     line-height: 1.5;
     font-size: 2rem;
 }
@@ -79,3 +79,15 @@
     display: inline-block;
 }
 
+.reading {
+    padding-top: 10px;
+}
+
+.reading u {
+    margin-bottom: 5px;
+}
+
+.book-heading {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

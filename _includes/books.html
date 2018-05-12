@@ -1,0 +1,44 @@
+<hr />
+<div class="column-header">
+  <h3 class="header-3">
+    Books of 2018
+  </h3>
+</div>
+<div class="reading">
+<u><p class="book-heading">Currently reading:</p></u>
+<p>
+  {{site.book_current.name}}<br />{{site.book_current.author}}
+</p>
+{% if site.secondary_book_current %}
+<p>
+  {{site.secondary_book_current.name}}<br />{{site.secondary_book_current.author}}
+</p>
+{% endif %}
+</div>
+<div class="reading">
+<p><u class="book-heading">
+  Previous Books:
+</u></p>
+<ul style="list-style:none;">
+  {% assign counter = 0 %}
+  {% for book in site.books reversed %}
+    <li>
+      {% if book.finished == false %}
+        <a href="{{ book.url }}" rel="book" class="not-finished">
+      {% else %}
+        <a href="{{ book.url }}" rel="book">
+      {% endif %}
+        {% if book.current == true %}{% endif %}
+        <p>{{book.name}}</p>
+      </a>
+      <!-- {% for urls in site.book_urls %} -->
+        <!-- {% if forloop.index0 == counter %} -->
+            <!-- {% if book[counter] == site.book_current.name %}*{% endif %} -->
+          <!-- </a>
+        {% endif %}
+      {% endfor %} -->
+    </li>
+    {% assign counter = counter | plus:1 %}
+  {% endfor %}
+</ul>
+</div>
