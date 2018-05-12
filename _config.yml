@@ -28,8 +28,8 @@ gems:
 exclude: [vendor]
 
 book_current:
-  name: "Way of the Peaceful Warrior"
-  author: "Millman Dan"
+  name: The Longevity Diet
+  author: Dr. Valter Longo
 
 # secondary_book_current:
 
@@ -127,6 +127,10 @@ books: [
     "name": "The Power of Moments",
     "author": "Chip Heath & Dan Heath",
     "url": "https://www.amazon.com/Power-Moments-Certain-Experiences-Extraordinary/dp/1501147765/ref=sr_1_3?s=books&ie=UTF8&qid=1526091694&sr=1-3&keywords=the+power+of+moments"
+  }, {
+    "name": "Way of the Peaceful Warrior",
+    "author": "Dan Millman",
+    "url": "https://www.amazon.com/Dan-Millman-Peaceful-Warrior-Paperback/dp/B01FOD5FNY/ref=sr_1_2?ie=UTF8&qid=1526133264&sr=8-2&keywords=way+of+the+peaceful+warrior"
   }
 ]
 

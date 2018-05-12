@@ -345,6 +345,10 @@
 <lastmod>2018-05-11T00:00:00-06:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/2018/05/12/accountability-idea</loc>
+<lastmod>2018-05-12T00:00:00-06:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/404</loc>
 </url>
 <url>
@@ -427,5 +431,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/video</loc>
+</url>
+<url>
+<loc>http://localhost:4000/accountability-calendar/index.html</loc>
+<lastmod>2018-05-12T17:03:29-06:00</lastmod>
 </url>
 </urlset>
