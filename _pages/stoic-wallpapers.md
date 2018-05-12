@@ -15,3 +15,11 @@ I've talked about [Stoicism](https://dailystoic.com/) a [couple of times](/tag/s
     <p markdown="1">[![Fac Si Facis](/wallpapers/do-it-fac-si-facis.png)](/wallpapers/do-it-fac-si-facis.png)</p>
   </div>
 </div>
+<div class="row">
+  <div class="col-6">
+    <p markdown="1">[![Seneca](/wallpapers/seneca.jpg)](/wallpapers/seneca.jpg)</p>
+  </div>
+  <div class="col-6">
+    <p markdown="1">[![First Say to YourSelf](/wallpapers/first-say.png)](/wallpapers/first-say.png)</p>
+  </div>
+</div>
