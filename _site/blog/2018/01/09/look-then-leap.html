@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" 
+      type="image/png" 
+      href="/favicon.png">
+
+    <title>Look-Then-Leap Rule - Explained - Kevin Guebert</title>
+    <meta name="description" content="Post inspired from: Algorithms to Live By by Brian Christian and Tom Griffiths.">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/blog/2018/01/09/look-then-leap">
+    <link rel="alternate" type="application/rss+xml" title="Kevin Guebert" href="http://localhost:4000/feed.xml">
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+        <main class="u-container">
+        <div class="c-page row">
+    <header class="col-md-4">
+  <div class="c-page__header">
+    <h1><code class="code-h1">Kevin Guebert</code></h1>
+    <a name="top"></a>
+    <!-- <h1><code>Currently reading:</code></h1> -->
+    <!--     <p><code><i>Design It! From Programmer to Software Architect,</i></code></p>
+    <p><code><i>The Four Tendencies,</i></code></p> 
+    <p><code><i>Deskbound</i></code></p>
+ -->
+    
+    <p>
+      <a href="/">Home</a><span class="u-separate"></span><a href="/blog/2018/04/05/python-learning-guide">Python Learning Guide</a><span class="u-separate"></span><a href="/stoic-wallpapers/">Stoic Wallpapers</a><span class="u-separate"></span><a href="/accountability-calendar/">Accountability Calendar</a>
+    </p>
+    
+<hr />
+<div class="tags">
+  <h3 class="header-3">Topics to Explore</h3>
+  <a href="/tag/algorithms.html" rel="tag" class="no-hov">algorithms,</a>
+  <a href="/tag/books.html" rel="tag" class="no-hov">books,</a>
+  <a href="/tag/coding.html" rel="tag" class="no-hov">coding,</a>
+  <a href="/tag/drupal.html" rel="tag" class="no-hov">drupal,</a>
+  <a href="/tag/fitness.html" rel="tag" class="no-hov">fitness,</a>
+  <a href="/tag/health.html" rel="tag" class="no-hov">health,</a>
+  <a href="/tag/ideas.html" rel="tag" class="no-hov">ideas,</a>
+  <a href="/tag/marketing.html" rel="tag" class="no-hov">marketing,</a>
+  <a href="/tag/mysql.html" rel="tag" class="no-hov">mysql,</a>
+  <a href="/tag/personal-growth.html" rel="tag" class="no-hov">personal-growth,</a>
+  <a href="/tag/py4e.html" rel="tag" class="no-hov">py4e,</a>
+  <a href="/tag/recap.html" rel="tag" class="no-hov">recap,</a>
+  <a href="/tag/recommendations.html" rel="tag" class="no-hov">recommendations,</a>
+  <a href="/tag/reflection.html" rel="tag" class="no-hov">reflection,</a>
+  <a href="/tag/running.html" rel="tag" class="no-hov">running,</a>
+  <a href="/tag/sleep.html" rel="tag" class="no-hov">sleep,</a>
+  <a href="/tag/startups.html" rel="tag" class="no-hov">startups,</a>
+  <a href="/tag/stoicism.html" rel="tag" class="no-hov">stoicism,</a>
+  <a href="/tag/tutorial.html" rel="tag" class="no-hov">tutorial,</a>
+  <a href="/tag/video.html" rel="tag" class="no-hov">video</a>
+</div>
+
+    <hr />
+<div class="column-header">
+  <h3 class="header-3">
+    Books of 2018
+  </h3>
+</div>
+<div class="reading">
+<u><p class="book-heading">Currently reading:</p></u>
+<p>
+  The Longevity Diet<br />Dr. Valter Longo
+</p>
+
+</div>
+<div class="reading">
+<p><u class="book-heading">
+  Previous Books:
+</u></p>
+<ul style="list-style:none;">
+  
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Dan-Millman-Peaceful-Warrior-Paperback/dp/B01FOD5FNY/ref=sr_1_2?ie=UTF8&qid=1526133264&sr=8-2&keywords=way+of+the+peaceful+warrior" rel="book">
+      
+        
+        <p>Way of the Peaceful Warrior</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Power-Moments-Certain-Experiences-Extraordinary/dp/1501147765/ref=sr_1_3?s=books&ie=UTF8&qid=1526091694&sr=1-3&keywords=the+power+of+moments" rel="book">
+      
+        
+        <p>The Power of Moments</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Summary-12-Rules-Life-Antidote-ebook/dp/B079XZ23BY/ref=sr_1_4?s=books&ie=UTF8&qid=1526091679&sr=1-4&keywords=12+rules+for+life+an+antidote+to+chaos" rel="book">
+      
+        
+        <p>12 Rules for Life: An Antidote to Chaos</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Walk-Woods-Rediscovering-America-Appalachian/dp/0307279464/ref=sr_1_1?s=books&ie=UTF8&qid=1526091635&sr=1-1&keywords=A+Walk+in+the+Woods" rel="book">
+      
+        
+        <p>A Walk in the Woods</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Deskbound-Standing-Up-Sitting-World/dp/1628600586" rel="book">
+      
+        
+        <p>Deskbound: Standing Up in a Sitting World</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="" rel="book">
+      
+        
+        <p>The Four Tendencies: The Indispendable Personality Profiles That Reveal How to Make Your Life Better (and Other People's Lives Better, Too)</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="https://www.amazon.com/Design-Programmer-Architect-Pragmatic-Programmers/dp/1680502093/ref=sr_1_1?ie=UTF8&qid=1522067658&sr=8-1&keywords=design+it+from+programmer+to+software+architect" rel="book">
+      
+        
+        <p>Design It! From Programmer to Software Architect</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2prqSML" rel="book">
+      
+        
+        <p>The $100 Startup</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2GpEShA" rel="book">
+      
+        
+        <p>Embrace the Suck</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2oW3ve1" rel="book">
+      
+        
+        <p>Perennial Seller. The Art of Making and Marketing Work that Lasts</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2GhiMOj" rel="book">
+      
+        
+        <p>Make Your Bed</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2FF5bzP" rel="book">
+      
+        
+        <p>Smarter Faster Better</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2ETqcsu" rel="book">
+      
+        
+        <p>The Obstacle is the Way</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2G305ws" rel="book">
+      
+        
+        <p>Mind Hacking</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2Gln2vR" rel="book">
+      
+        
+        <p>Ego is the Enemy</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2BwUziG" rel="book" class="not-finished">
+      
+        
+        <p>Wherever You Go, There You Are</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2E1hvJX" rel="book">
+      
+        
+        <p>Siddhartha</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2E2NidA" rel="book">
+      
+        
+        <p>Living with a Seal</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2DjvJ7W" rel="book">
+      
+        
+        <p>Altered Carbon</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2DnB9yQ" rel="book">
+      
+        
+        <p>Algorithms to Live By</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2DnjyXF" rel="book">
+      
+        
+        <p>Disciple Equals Freedom Field Manual</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+    <li>
+      
+        <a href="http://amzn.to/2FVDWkj" rel="book">
+      
+        
+        <p>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</p>
+      </a>
+      <!--  -->
+    </li>
+    
+  
+</ul>
+</div>
+  </div>
+</header>
+    <div class="col-md-8">
+    <div class="c-page__main">
+	    <article class="c-article">
+    <header class="c-article__header">
+        <h1 class="c-article__title">Look-Then-Leap Rule - Explained</h1>
+        <p class="c-article__time"><time datetime="2018-01-09T00:00:00-07:00" itemprop="datePublished">Jan 9, 2018</time></p>
+    </header>
+    
+    <!-- Post Tags -->
+    <ul class="c-tags">
+    
+      <li class="c-tag"><a href="/tag/algorithms">algorithms</a></li>
+    
+      <li class="c-tag"><a href="/tag/coding">coding</a></li>
+    
+      <li class="c-tag"><a href="/tag/books">books</a></li>
+    
+    </ul>
+    
+    <div class="c-article__main">
+        <h6 id="post-inspired-from-algorithms-to-live-by-by-brian-christian-and-tom-griffiths">Post inspired from: <strong>Algorithms to Live By</strong> by Brian Christian and Tom Griffiths.</h6>
+
+<blockquote>
+  <p><strong>Look-Then-Leap Rule:</strong> “You set a predetermined amount of time for ‘looking’ - that is, exploring your options, gathering data - in which you categorically don’t choose anyone, no matter how impressive. After that point, you enter the ‘leap’ phase, prepared to instantly commit to anyone who outshines the best applicant you saw in the look phase.” (13)</p>
+</blockquote>
+
+<h2 id="explanation">Explanation</h2>
+
+<p>Scenario: You are interviewing for a new secretary and want to pick the best applicant. Once you have passed on a candidate, you cannot go back and pick them. You are interviewing at random.</p>
+
+<h4 id="1-applicants">1 Applicants</h4>
+
+<p>Hire them!</p>
+
+<h4 id="2-applicants">2 Applicants</h4>
+
+<p>For 2 applicants, you have a 50/50 shot at hiring the best one. Either pick the first one, or, if you don’t, you have to pick the second one.</p>
+
+<h4 id="3-applicants">3 Applicants</h4>
+
+<p>Let’s say you have 3 applicants, ranked as the best being 1, second best being 2, and worst being 3. With 3 applicants, there are 6 possible scenarios in which you can interview:</p>
+
+<p>1-2-3 (that is: best, second best, worst)<br />
+1-3-2<br />
+2-1-3<br />
+2-3-1<br />
+3-1-2<br />
+3-2-1<br /></p>
+
+<p>With the 3 applicants, <em>we can actually do just as well as we did with just 2 applicants - a 50/50 shot.</em></p>
+
+<p>How?</p>
+
+<p>When we see the first applicant, we don’t have any baseline information so we pass up on them to gather more data (the “look”) phase. When we see the final applicant, we only have one person so we have to pick them.</p>
+
+<p>With the second option, there is more room. With the “Look-Then-Leap” Rule - <strong>if the second option is better than the first one, then you leap. If it is not, then you move to the next one.</strong></p>
+
+<p>Let’s visualize this - remember, you are on the second candidate because the first candidate was your “look” - or information gathering:</p>
+
+<div style="text-align:center;"><strong>1 -<u> 2 </u>- 3</strong></div>
+<p>In this scenario, we have already passed up on the best candidate (1), so this would be a Failure.
+<br /></p>
+<div style="text-align:center;"><strong>1 -<u> 3 </u>- 2</strong></div>
+<p>Similar to the one above, we have already passed up on the best candidate (1), so also a Failure.
+<br /></p>
+<div style="text-align:center;"><strong>2 -<u> 1 </u>- 3</strong></div>
+<p>In this scenario, the second candidate is better than the first one (1 is better than 2), so you would leap on this candidate - Success!
+<br /></p>
+<div style="text-align:center;"><strong>2 -<u> 3 </u>- 1</strong></div>
+<p>The second candidate is <em>not</em> better than the first one (3 is worse than 2), so you would then move on to the 3rd candidate. The 3rd candidate is better than the first one, so you would then leap - Success!
+<br /></p>
+<div style="text-align:center;"><strong>3 -<u> 1 </u>- 2</strong></div>
+<p>In this scenario, the second candidate is better than the first one (1 is better than 3), so you would leap on this candidate - Success!
+<br /></p>
+<div style="text-align:center;"><strong>3 -<u> 2 </u>- 1</strong></div>
+<p>In this last scenario, the second candidate is better than the first candidate (2 is better than 3), so that means we would leap by the rules. Unfortunately that means we miss out on the last candidate, the 1 - Failure.</p>
+
+<p>Looking at the data above we have 3 successes and 3 failures - thus a 50/50 chance when we have 3 candidates - tada!</p>
+
+<p>Successes: [2,1,3], [2,3,1], [3,1,2]<br />
+Failures: [1,2,3], [1,3,2], [3,2,1]</p>
+
+<hr />
+<p>To continue on an enumerate more candidates - 4, 5, 6, etc. - the place where you end up drawing the line between looking and leaping is actually 37% (the 37% Rule).</p>
+
+<h4 id="37-rule">37% Rule</h4>
+<p>When choosing the best candidate, you only have a 37% chance of hiring the best possible applicant.</p>
+
+<p><strong>How it works:</strong> You look at the first 37% of the applicants, not choosing any of them, then after that, leap for anyone that is better than all those you have seen so far.</p>
+
+<hr />
+<p>Next time you are making a decision over a large amount of data and you are trying to decide the “best”, it may be worth it to consider this algorithm!</p>
+
+<p>–
+Have any questions or comments? Let me know in the comments below.</p>
+
+    </div>
+  
+    <!-- Previous / Next Buttons -->
+    <div class="pagenav">
+		
+        <div class="wrapper" id="left">
+          <small><b>Previous</b> Jan 8, 2018</small>
+          <br>
+          <a class="no-hov" href="/blog/2018/01/08/whos-fault-is-it">&laquo; Who's Fault Is It?</a>
+        </div>
+		
+		
+        <div class="wrapper" id="right">
+          <small>Jan 10, 2018 <b>Next</b></small>
+          <br>
+          <a class="no-hov" href="/blog/2018/01/10/explore-exploit">Explore/Exploit Algorithm in Decisions & Regret &raquo;</a>
+        </div>
+		
+		</div>
+
+		<!-- Disqus comments view -->
+		
+		<div class="post-disqus">
+				<section id="disqus_thread"></section>
+				<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+  this.page.url = "http://localhost:4000/blog/2018/01/09/look-then-leap";  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = "/blog/2018/01/09/look-then-leap"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://kevin-guebert.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+		</div>
+		
+</article>
+
+	    <footer class="c-page__footer">
+    <p>&copy; Kevin Guebert 2018</p>
+    <p><a href="https://twitter.com/kevinguebert">Twitter</a><span class="u-separate"></span><a href="https://github.com/kevinguebert">Github</a></p>
+<p><a href="#top">Back to top</a></p>
+</footer>
+
+	  </div>
+    </div>
+</div>
+
+        </main>
+    
+    </body>
+</html>

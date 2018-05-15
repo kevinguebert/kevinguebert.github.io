@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <style>
+    html {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    li {
+      float: left;
+      display: block;
+      width: 14.2857%;
+      text-align: center;
+      list-style-type: none;
+    }
+
+    li:nth-child(n+1):nth-child(-n+7) {
+      font-weight: 900;
+      color: #e67e22;
+    }
+
+    .active {
+      border-radius: 5px;
+      background-color: #1abc9c;
+      color: #ecf0f1;
+    }
+
+    .active-cal-1 {
+      border-radius: 5px;
+      background-color: #1abc9c;
+      color: #ecf0f1;
+    }
+
+    .active-cal-2 {
+      border-radius: 5px;
+      background-color: #B71C1C;
+      color: #ecf0f1;
+    }
+
+    .title {
+      text-align: center;
+      margin-top:20px;
+    }
+  </style>
+
+  <title>Hello, world!</title>
+</head>
+
+<body class="container">
+  <div class="row">
+    <div class="col title">
+      <h3>Personal Accountability Calendar //
+        <strong>May 2018</strong>
+      </h3>
+    </div>
+  </div>
+
+  <div class="row" id="goals"></div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+    crossorigin="anonymous"></script>
+  <script>
+
+    function loadJSON(callback) {
+      $.ajax({ 
+          url: 'https://api.github.com/gists/a31a2e8a09d7054dccca805ee05cb8f3',
+          type: 'GET',
+      }).done(function(response) {
+        var data = response;
+        var url = data.files['accountability.json'].raw_url;
+        $.ajax({ 
+          url: url,
+          type: 'GET',
+        }).done(function(response) {
+          callback(response);
+        });
+      });
+    }
+
+    // Call to function with anonymous callback
+    loadJSON(function(response) {
+      var data = JSON.parse(response);
+      for( var i = 0; i < data.length; i++) {
+        var goal = data[i];
+        var name = goal.goal;
+        createMonth(goal);
+        console.log(name);
+      }
+        // Do Something with the response e.g.
+        //jsonresponse = JSON.parse(response);
+
+        // Assuming json data is wrapped in square brackets as Drew suggests
+        //console.log(jsonresponse[0].name);
+
+    });
+
+    function createMonth(data) {
+      var row = document.createElement('div');
+          row.className="col-6";
+      var goal = document.createElement('p');
+          goal.className = 'heading-3 title';
+
+      var goalName = document.createTextNode(data.goal);
+
+      var status = data.status;
+      goal.appendChild(goalName);
+      row.appendChild(goal);
+      for(var i = 0; i < status.length; i++) {
+        var dayList = document.createElement('ul');
+
+        var sun = document.createElement('li');
+            sun.appendChild(document.createTextNode('SUN'));
+            dayList.appendChild(sun);
+
+        var mon = document.createElement('li');
+            mon.appendChild(document.createTextNode('MON'));
+            dayList.appendChild(mon);
+
+        var tues = document.createElement('li');
+            tues.appendChild(document.createTextNode('TUE'));
+            dayList.appendChild(tues);
+
+        var wed = document.createElement('li');
+            wed.appendChild(document.createTextNode('WED'));
+            dayList.appendChild(wed);
+
+        var thur = document.createElement('li');
+            thur.appendChild(document.createTextNode('THUR'));
+            dayList.appendChild(thur);
+
+        var fri = document.createElement('li');
+            fri.appendChild(document.createTextNode('FRI'));
+            dayList.appendChild(fri);
+
+        var sat = document.createElement('li');
+            sat.appendChild(document.createTextNode('SAT'));
+            dayList.appendChild(sat);
+        var month = status[i];
+        var days = month.days;
+        var startDate = month.start;
+        for(var j = 0; j < startDate; j++) {
+          dayList.appendChild(document.createElement('li'))
+        }
+
+        for(var key in days) {
+          var d = document.createElement('li');
+          var num = document.createTextNode(key);
+          var active = days[key];
+          if (active == 1) {
+            d.className = 'active';
+          } else if (active == 2) {
+            d.className = 'active times';
+          }
+          d.appendChild(num);
+          dayList.appendChild(d);
+        }
+        row.appendChild(dayList);
+      }
+      document.getElementById('goals').appendChild(row);
+
+      var winHeight = $(window).height() / 2;
+      var height = (winHeight * 16.6666) / 100;
+      var lineHeight = height + "px";
+
+      $("li").css("line-height", lineHeight);
+      $("li").css("height", height);
+    }
+  </script>
+</body>
+
+</html>
