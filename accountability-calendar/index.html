@@ -12,6 +12,11 @@
   <style>
     html {
       font-family: 'Open Sans', sans-serif;
+      background: #f5f5f5;
+    }
+    
+    body {
+      background: none;
     }
 
     li {
@@ -49,6 +54,76 @@
       text-align: center;
       margin-top:20px;
     }
+
+    .months {
+      text-align: center;
+    }
+
+    #goals {
+      margin-top: 40px;
+    }
+
+    ul {
+      -webkit-padding-start: 0;
+    }
+
+    .heading-3 {
+      border-top: 1px solid #f5f5f5;
+      padding:10px;
+      font-size:110%;
+      font-weight:600;
+      border-bottom: 1px solid #f5f5f5;
+    }
+
+    select { 
+      padding: 10px 80px 10px 13px !important; 
+      max-width: 100%; 
+      height: auto !important;
+      border: 2px solid #1abc9ca3;
+      border-radius: 3px; 
+      /* background: url("https://image.ibb.co/iMeAJv/selectbox_arrow.png") right center no-repeat;  */
+      background-image:
+        linear-gradient(45deg, transparent 50%, white 50%),
+        linear-gradient(135deg, white 50%, transparent 50%);
+        /* linear-gradient(to right, #ccc, #ccc); */
+      background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+      background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+      background-repeat: no-repeat;
+      background-color: #1abc9c; 
+      color: #fff; 
+      font-size: 16px; 
+      font-weight:600;
+      line-height: 20px !important; 
+      appearance: none; /* this is must */ 
+      -webkit-appearance: none; 
+      -moz-appearance: none; 
+    } 
+    select option { 
+      padding: 0 4px;
+    } 
+    /* for IE and Edge */ 
+    select::-ms-expand { 
+      display: none; 
+    } 
+    select:disabled::-ms-expand { 
+      background: #f60;
+    }
+
+    .card {
+      padding: 10px;
+      border-radius: .5rem;
+      border: none;
+      -webkit-box-shadow: 0 10px 10px -6px #dcd7d7;
+      -moz-box-shadow: 0 10px 10px -6px #dcd7d7;
+      box-shadow: 0 10px 10px -6px #dcd7d7;
+    }
+
   </style>
 
   <title>Hello, world!</title>
@@ -57,11 +132,11 @@
 <body class="container">
   <div class="row">
     <div class="col title">
-      <h3>Personal Accountability Calendar //
-        <strong>May 2018</strong>
-      </h3>
+      <h3>Personal Accountability Calendar</h3>
     </div>
   </div>
+
+  <div class="row" id="months"></div>
 
   <div class="row" id="goals"></div>
 
@@ -90,12 +165,44 @@
     // Call to function with anonymous callback
     loadJSON(function(response) {
       var data = JSON.parse(response);
+
       for( var i = 0; i < data.length; i++) {
         var goal = data[i];
         var name = goal.goal;
         createMonth(goal);
-        console.log(name);
       }
+
+      var firstNode = data[0].status;
+      var row = document.createElement('div');
+          row.className = 'col months';
+
+      var d = new Date();
+      var n = d.getMonth();
+
+      var select = document.createElement('select');
+          select.className = 'select';
+      for(var j = 0; j < firstNode.length; j++) {
+        var opt = document.createElement('option');
+        if (firstNode[j].monthInt == n) {
+          opt.selected = 'selected';
+          $('.' + firstNode[j]['month']).removeClass('d-none');
+          $('.' + firstNode[j]['month']).addClass('active-month');
+        }
+        opt.appendChild(document.createTextNode(firstNode[j]['month']));
+        select.appendChild(opt);
+      }
+
+      row.appendChild(select);
+      document.getElementById('months').appendChild(row);
+
+      $('select').change(function() {
+        var m = $(this).find(":selected").val();
+        $('.active-month').addClass('d-none');
+        $('.active-month').removeClass('active-month');
+        $('.' + m).addClass('active-month');
+        $('.' + m).removeClass('d-none');
+      });
+
         // Do Something with the response e.g.
         //jsonresponse = JSON.parse(response);
 
@@ -105,18 +212,22 @@
     });
 
     function createMonth(data) {
-      var row = document.createElement('div');
-          row.className="col-6";
-      var goal = document.createElement('p');
-          goal.className = 'heading-3 title';
-
-      var goalName = document.createTextNode(data.goal);
-
       var status = data.status;
-      goal.appendChild(goalName);
-      row.appendChild(goal);
       for(var i = 0; i < status.length; i++) {
+        var row = document.createElement('div');
+            row.className = "col-6 d-none";
+        var card = document.createElement('div');
+            card.className = 'card';
+
+        var goal = document.createElement('p');
+            goal.className = 'heading-3 title';
+
+        var goalName = document.createTextNode(data.goal);
+
+        goal.appendChild(goalName);
+        card.appendChild(goal);
         var dayList = document.createElement('ul');
+            dayList.className = status[i].month;
 
         var sun = document.createElement('li');
             sun.appendChild(document.createTextNode('SUN'));
@@ -146,6 +257,7 @@
             sat.appendChild(document.createTextNode('SAT'));
             dayList.appendChild(sat);
         var month = status[i];
+        row.className = row.className + " " + month.month;
         var days = month.days;
         var startDate = month.start;
         for(var j = 0; j < startDate; j++) {
@@ -164,9 +276,10 @@
           d.appendChild(num);
           dayList.appendChild(d);
         }
-        row.appendChild(dayList);
+        card.appendChild(dayList);
+        row.appendChild(card);
+        document.getElementById('goals').appendChild(row);
       }
-      document.getElementById('goals').appendChild(row);
 
       var winHeight = $(window).height() / 2;
       var height = (winHeight * 16.6666) / 100;
@@ -175,6 +288,8 @@
       $("li").css("line-height", lineHeight);
       $("li").css("height", height);
     }
+
+
   </script>
 </body>
 
