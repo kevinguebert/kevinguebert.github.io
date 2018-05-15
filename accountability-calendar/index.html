@@ -67,24 +67,24 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
     crossorigin="anonymous"></script>
   <script>
 
-
     function loadJSON(callback) {
-      var xobj = new XMLHttpRequest();
-      xobj.overrideMimeType("application/json");
-      xobj.open('GET', 'https://gist.githubusercontent.com/kevinguebert/a31a2e8a09d7054dccca805ee05cb8f3/raw/ec58a7031dc16052250f3a413cb5eda002e000d8/accountability.json', true);
-      xobj.onreadystatechange = function() {
-          if (xobj.readyState == 4 && xobj.status == "200") {
-
-              // .open will NOT return a value but simply returns undefined in async mode so use a callback
-              callback(xobj.responseText);
-
-          }
-      }
-      xobj.send(null);
+      $.ajax({ 
+          url: 'https://api.github.com/gists/a31a2e8a09d7054dccca805ee05cb8f3',
+          type: 'GET',
+      }).done(function(response) {
+        var data = response;
+        var url = data.files['accountability.json'].raw_url;
+        $.ajax({ 
+          url: url,
+          type: 'GET',
+        }).done(function(response) {
+          callback(response);
+        });
+      });
     }
 
     // Call to function with anonymous callback
@@ -147,14 +147,12 @@
             dayList.appendChild(sat);
         var month = status[i];
         var days = month.days;
-          console.log(days);
         var startDate = month.start;
         for(var j = 0; j < startDate; j++) {
           dayList.appendChild(document.createElement('li'))
         }
 
         for(var key in days) {
-          console.log(key);
           var d = document.createElement('li');
           var num = document.createTextNode(key);
           var active = days[key];
@@ -168,7 +166,6 @@
         }
         row.appendChild(dayList);
       }
-      console.log(row);
       document.getElementById('goals').appendChild(row);
 
       var winHeight = $(window).height() / 2;
