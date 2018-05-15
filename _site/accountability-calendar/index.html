@@ -27,6 +27,12 @@
       color: #e67e22;
     }
 
+    .active {
+      border-radius: 5px;
+      background-color: #1abc9c;
+      color: #ecf0f1;
+    }
+
     .active-cal-1 {
       border-radius: 5px;
       background-color: #1abc9c;
@@ -56,114 +62,122 @@
       </h3>
     </div>
   </div>
-  <div class="row">
-    <div class="col-6">
-      <p class="heading-3 title">
-        <strong>Hit the Gym</strong>
-      </p>
-      <ul>
-        <li>SUN</li>
-        <li>MON</li>
-        <li>TUE</li>
-        <li>WED</li>
-        <li>THUR</li>
-        <li>FRI</li>
-        <li>SAT</li>
-        <li></li>
-        <li></li>
-        <li>1</li>
-        <li class="active-cal-1">2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li class="active-cal-1">7</li>
-        <li>8</li>
-        <li class="active-cal-1">9</li>
-        <li>10</li>
-        <li class="active-cal-1">11</li>
-        <li>12</li>
-        <li>13</li>
-        <li>14</li>
-        <li>15</li>
-        <li>16</li>
-        <li>17</li>
-        <li>18</li>
-        <li>19</li>
-        <li>20</li>
-        <li>21</li>
-        <li>22</li>
-        <li>23</li>
-        <li>24</li>
-        <li>25</li>
-        <li>26</li>
-        <li>27</li>
-        <li>28</li>
-        <li>29</li>
-        <li>30</li>
-        <li>31</li>
-      </ul>
-    </div>
-    <div class="col-6">
-      <p class="heading-3 title">
-        <strong>Bloggin'</strong>
-      </p>
-      <ul>
-        <li>SUN</li>
-        <li>MON</li>
-        <li>TUE</li>
-        <li>WED</li>
-        <li>THUR</li>
-        <li>FRI</li>
-        <li>SAT</li>
-        <li></li>
-        <li></li>
-        <li class="active-cal-2">1</li>
-        <li class="active-cal-2">2</li>
-        <li class="active-cal-2">3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li class="active-cal-2">7</li>
-        <li class="active-cal-2">8</li>
-        <li>9</li>
-        <li class="active-cal-2">10</li>
-        <li class="active-cal-2">11</li>
-        <li>12</li>
-        <li>13</li>
-        <li>14</li>
-        <li>15</li>
-        <li>16</li>
-        <li>17</li>
-        <li>18</li>
-        <li>19</li>
-        <li>20</li>
-        <li>21</li>
-        <li>22</li>
-        <li>23</li>
-        <li>24</li>
-        <li>25</li>
-        <li>26</li>
-        <li>27</li>
-        <li>28</li>
-        <li>29</li>
-        <li>30</li>
-        <li>31</li>
-      </ul>
-    </div>
-  </div>
+
+  <div class="row" id="goals"></div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script>
-    var winHeight = $(window).height() / 2;
-    var height = (winHeight * 16.6666) / 100;
-    var lineHeight = height + "px";
 
-    $("li").css("line-height", lineHeight);
-    $("li").css("height", height);
+
+    function loadJSON(callback) {
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', 'https://gist.githubusercontent.com/kevinguebert/a31a2e8a09d7054dccca805ee05cb8f3/raw/ec58a7031dc16052250f3a413cb5eda002e000d8/accountability.json', true);
+      xobj.onreadystatechange = function() {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+
+              // .open will NOT return a value but simply returns undefined in async mode so use a callback
+              callback(xobj.responseText);
+
+          }
+      }
+      xobj.send(null);
+    }
+
+    // Call to function with anonymous callback
+    loadJSON(function(response) {
+      var data = JSON.parse(response);
+      for( var i = 0; i < data.length; i++) {
+        var goal = data[i];
+        var name = goal.goal;
+        createMonth(goal);
+        console.log(name);
+      }
+        // Do Something with the response e.g.
+        //jsonresponse = JSON.parse(response);
+
+        // Assuming json data is wrapped in square brackets as Drew suggests
+        //console.log(jsonresponse[0].name);
+
+    });
+
+    function createMonth(data) {
+      var row = document.createElement('div');
+          row.className="col-6";
+      var goal = document.createElement('p');
+          goal.className = 'heading-3 title';
+
+      var goalName = document.createTextNode(data.goal);
+
+      var status = data.status;
+      goal.appendChild(goalName);
+      row.appendChild(goal);
+      for(var i = 0; i < status.length; i++) {
+        var dayList = document.createElement('ul');
+
+        var sun = document.createElement('li');
+            sun.appendChild(document.createTextNode('SUN'));
+            dayList.appendChild(sun);
+
+        var mon = document.createElement('li');
+            mon.appendChild(document.createTextNode('MON'));
+            dayList.appendChild(mon);
+
+        var tues = document.createElement('li');
+            tues.appendChild(document.createTextNode('TUE'));
+            dayList.appendChild(tues);
+
+        var wed = document.createElement('li');
+            wed.appendChild(document.createTextNode('WED'));
+            dayList.appendChild(wed);
+
+        var thur = document.createElement('li');
+            thur.appendChild(document.createTextNode('THUR'));
+            dayList.appendChild(thur);
+
+        var fri = document.createElement('li');
+            fri.appendChild(document.createTextNode('FRI'));
+            dayList.appendChild(fri);
+
+        var sat = document.createElement('li');
+            sat.appendChild(document.createTextNode('SAT'));
+            dayList.appendChild(sat);
+        var month = status[i];
+        var days = month.days;
+          console.log(days);
+        var startDate = month.start;
+        for(var j = 0; j < startDate; j++) {
+          dayList.appendChild(document.createElement('li'))
+        }
+
+        for(var key in days) {
+          console.log(key);
+          var d = document.createElement('li');
+          var num = document.createTextNode(key);
+          var active = days[key];
+          if (active == 1) {
+            d.className = 'active';
+          } else if (active == 2) {
+            d.className = 'active times';
+          }
+          d.appendChild(num);
+          dayList.appendChild(d);
+        }
+        row.appendChild(dayList);
+      }
+      console.log(row);
+      document.getElementById('goals').appendChild(row);
+
+      var winHeight = $(window).height() / 2;
+      var height = (winHeight * 16.6666) / 100;
+      var lineHeight = height + "px";
+
+      $("li").css("line-height", lineHeight);
+      $("li").css("height", height);
+    }
   </script>
 </body>
 
