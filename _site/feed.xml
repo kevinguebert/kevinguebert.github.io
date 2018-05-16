@@ -6,9 +6,48 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 May 2018 20:22:18 -0600</pubDate>
-    <lastBuildDate>Tue, 15 May 2018 20:22:18 -0600</lastBuildDate>
+    <pubDate>Wed, 16 May 2018 07:14:52 -0600</pubDate>
+    <lastBuildDate>Wed, 16 May 2018 07:14:52 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Accountability MVP Part 3</title>
+        <description>&lt;p&gt;Okay so I’ve become a bit wrapped up in the &lt;a href=&quot;/accountability-calendar/&quot;&gt;Accountability Calendar&lt;/a&gt; - and by wrapped up I mean working on it because it is fun.&lt;/p&gt;
+
+&lt;p&gt;Some new features:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Streaks: See what the longest streak for each month was.&lt;/li&gt;
+  &lt;li&gt;Overall totals: see how many days out of the month I actually completed the goal&lt;/li&gt;
+  &lt;li&gt;Shades of green: if I completed more than 1 that day, the shade is a little darker&lt;/li&gt;
+  &lt;li&gt;Multiple Months! (Big one!) You can now view my previous months, back to January when I started&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What other features would be cool? My thoughts have been&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Some sort of chart to show progress&lt;/li&gt;
+  &lt;li&gt;More data per day - if you hover over a day, it shows what activities or when the event was completed. For example, on “Exercise” it shows what exercise I completed, how far, etc.&lt;/li&gt;
+  &lt;li&gt;Integration with other services (like Strava) so you dont have to actually input the data. But, that is also a nice feeling of “checking” off a day, maybe not.&lt;/li&gt;
+  &lt;li&gt;Milestones and goal setting - my goal was set towards Memorial Day, so maybe a countdown?&lt;/li&gt;
+  &lt;li&gt;Personal profile - create a web app and you could find an individual user like “someurl.com/@kevinguebert” (okay this is a bigger undertaking…)&lt;/li&gt;
+  &lt;li&gt;Multiple layouts&lt;/li&gt;
+  &lt;li&gt;Emails when someone is going “streaking” - highlight someone currently streaking&lt;/li&gt;
+  &lt;li&gt;Public/social accountability when someone misses more than 1 day in a row? (or more than X days that are set)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Would other people be interested in this?&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 May 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/05/16/mvp-updates</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/16/mvp-updates</guid>
+        
+        <category>personal-growth</category>
+        
+        <category>coding</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Accountability MVP Part 2</title>
@@ -244,31 +283,6 @@
         <guid isPermaLink="true">http://localhost:4000/blog/2018/05/03/rules-of-life-review</guid>
         
         <category>books</category>
-        
-        <category>personal-growth</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Create, Not Consume</title>
-        <description>&lt;p&gt;Close out of Reddit. Close out of Facebook. Close out of Twitter.&lt;/p&gt;
-
-&lt;p&gt;10 minutes later, back on Reddit, back on Facebook, back on Twitter.&lt;/p&gt;
-
-&lt;p&gt;Ever have one of those days? The days where you are consuming information, refreshing the same websites hoping for something new? The days where you scroll through your Instagram feed, close out of the app, only to open it 5 minutes later to see what’s new?&lt;/p&gt;
-
-&lt;p&gt;Those are the Consuming Days. Days where all you are doing in taking in information, taking in photos, statuses, news links, and tweets. You know those studies where they look at people using social media and determine their mental health? Consuming Days are the days where one’s mental health declines. Consuming Days are the highlight of those studies. Consuming Days are days where you take in the outside world and apply it to yourself. Consuming Days are the days where you start comparing - comparing yourself to the highlight reel of others.&lt;/p&gt;
-
-&lt;p&gt;You want Creating Days. On Creating Days, you’re giving back. Creating Days you’re helping others, interacting with friends and family, building new tools, progressing on your work, and making a difference in the world. Creating Days give you that internal boost of “feeling good.” You’ve done something productive, healthy, and beneficial with your day. You’re Creating, not Consuming. Aim for Creative Days. Code a little. Help others online. Sketch the idea. Raise your hand. Contribute in a meeting. Build that momentum. Create a little, then Create more.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 02 May 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/05/02/create-not-consume</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/02/create-not-consume</guid>
-        
-        <category>reflection</category>
         
         <category>personal-growth</category>
         

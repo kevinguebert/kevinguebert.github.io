@@ -162,7 +162,7 @@
 
   </style>
 
-  <title>Hello, world!</title>
+  <title>Personal Accountability Calendar!</title>
 </head>
 
 <body class="container">
@@ -239,19 +239,13 @@
         $('.' + m).removeClass('d-none');
       });
 
-        // Do Something with the response e.g.
-        //jsonresponse = JSON.parse(response);
-
-        // Assuming json data is wrapped in square brackets as Drew suggests
-        //console.log(jsonresponse[0].name);
-
     });
 
     function createMonth(data) {
       var status = data.status;
       for(var i = 0; i < status.length; i++) {
         var row = document.createElement('div');
-            row.className = "col-6 d-none";
+            row.className = "col-md-6 d-none";
         var card = document.createElement('div');
             card.className = 'card';
 
@@ -341,6 +335,8 @@
           dayList.appendChild(d);
         }
         card.appendChild(dayList);
+        var streaks = createStreaks(status[i]);
+        card.appendChild(streaks);
         row.appendChild(card);
         document.getElementById('goals').appendChild(row);
       }
@@ -351,6 +347,77 @@
 
       $("li").css("line-height", lineHeight);
       $("li").css("height", height);
+    }
+
+    function createStreaks(data) {
+      var days = data.days;
+      var totalStreak = 0;
+      var streak = 0;
+      var total = 0;
+      var num = 0;
+      var isStreaking = false;
+      for(var key in days) {
+        num++;
+        var active = days[key];
+        if (active != 0) {
+          total++;
+          if (isStreaking) {
+            streak++;
+          }
+          if (streak == 0) {
+            isStreaking = true;
+            streak++;
+          }
+
+        } else {
+          if(streak > totalStreak) {
+            totalStreak = streak;
+          }
+          streak = 0;
+          isStreaking = false;
+        }
+      }
+
+      var container = document.createElement('div');
+          container.className = 'row';
+      var row = document.createElement('div');
+          row.className = 'col';
+
+      var title = document.createElement('h6');
+          title.appendChild(document.createTextNode('Stats'));
+
+      var totalTitle = document.createElement('span');
+          totalTitle.appendChild(document.createTextNode("Total # of Days Completed"));
+      
+      var progress = document.createElement('div');
+          progress.className = 'progress';
+      
+      var percent = Math.round(total / num * 100);
+      $('<div/>', {
+        class: "progress-bar",
+        css: {
+          "width": percent + "%",
+          "background": "#e67e22"
+        },
+        text: percent + "%",
+        role: "progressBar",
+        "aria-valuenow": total,
+        "aria-valuemin": 0,
+        "aria-valuemax": num 
+      }).appendTo(progress);
+
+      var s = document.createElement('div');
+      var sp = document.createElement('p');
+          sp.appendChild(document.createTextNode('Longest Streak: ' + "🔥".repeat(totalStreak)));
+      s.appendChild(sp);
+        
+      row.appendChild(title);
+      row.appendChild(totalTitle);
+      row.appendChild(progress);
+      row.appendChild(s);
+      container.appendChild(row);
+      
+      return container;
     }
 
 
