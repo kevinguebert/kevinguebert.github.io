@@ -63,8 +63,21 @@
       color: #ecf0f1;
     }
 
+    .today {
+      background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+      background-image: -moz-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+      background-image: -o-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+      background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+      -webkit-background-size: 4px 4px;
+      -moz-background-size: 4px 4px;
+      background-size: 4px 4px;
+    }
+
     .title {
+      border-top: 1px solid #f5f5f5;
       text-align: center;
+      border-bottom: 1px solid #f5f5f5;
+      padding:10px;
       margin-top:20px;
     }
 
@@ -81,11 +94,9 @@
     }
 
     .heading-3 {
-      border-top: 1px solid #f5f5f5;
-      padding:10px;
       font-size:110%;
       font-weight:600;
-      border-bottom: 1px solid #f5f5f5;
+      margin-bottom: 0;
     }
 
     select { 
@@ -143,6 +154,10 @@
       line-height: 2;
       bottom: 0;
       right: 5%;
+    }
+
+    .future {
+      color: #e3e3e3;
     }
 
   </style>
@@ -240,13 +255,21 @@
         var card = document.createElement('div');
             card.className = 'card';
 
+        var title = document.createElement('div');
+            title.className = 'title';
+
         var goal = document.createElement('p');
-            goal.className = 'heading-3 title';
+            goal.className = 'heading-3';
 
         var goalName = document.createTextNode(data.goal);
 
+        var desc = document.createElement('small');
+            desc.appendChild(document.createTextNode(data.description));
+
         goal.appendChild(goalName);
-        card.appendChild(goal);
+        title.appendChild(goal);
+        title.appendChild(desc);
+        card.appendChild(title);
         var dayList = document.createElement('ul');
             dayList.className = status[i].month;
 
@@ -285,11 +308,17 @@
           dayList.appendChild(document.createElement('li'))
         }
 
+        var d = new Date();
+        var n = d.getDate();
+        var m = d.getMonth();
+
         for(var key in days) {
           var d = document.createElement('li');
           var num = document.createTextNode(key);
           var active = days[key];
           d.appendChild(num);
+          d.className = "";
+
           if (active == 0) {
           }
           else if (active == 1) {
@@ -302,6 +331,13 @@
             times.appendChild(t);
             d.appendChild(times);
           }
+          
+          if (key == n && status[i].monthInt == m) {
+            d.className += " today";
+          } else if (status[i].monthInt == m && key > n) {
+            d.className += " future";
+          }
+
           dayList.appendChild(d);
         }
         card.appendChild(dayList);
