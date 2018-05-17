@@ -377,6 +377,9 @@
           isStreaking = false;
         }
       }
+      if(streak > totalStreak) {
+        totalStreak = streak;
+      }
 
       var container = document.createElement('div');
           container.className = 'row';
