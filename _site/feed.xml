@@ -6,9 +6,30 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 May 2018 06:02:58 -0600</pubDate>
-    <lastBuildDate>Thu, 17 May 2018 06:02:58 -0600</lastBuildDate>
+    <pubDate>Fri, 18 May 2018 06:25:05 -0600</pubDate>
+    <lastBuildDate>Fri, 18 May 2018 06:25:05 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Run an Empire App</title>
+        <description>&lt;p&gt;Today’s post is a small break from my regular-like posts. I’m a big fan of running, and I’m a big fan of discipline and tools that help people reach their goals. Over a year ago (maybe even two?), I came across &lt;a href=&quot;http://www.runanempire.com/&quot;&gt;Run an Empire&lt;/a&gt; to help combine those two passions of mine. What is Run an Empire? You know those games where you build settlements, collect coins, protect your village, and all that jazz? Well those games don’t require you to do anything besides stay glued to your phone as much as possible. Run an Empire takes a different approach - if you want to advance in the game, you &lt;strong&gt;have to run&lt;/strong&gt;. You collect territories (hexes) but running through them. The more you run, the more coins you collect, the more you are able to build. Run an Empire promotes running to build your “empire” and not sitting around tapping a million times.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kickstarter.com/projects/panstudio/run-an-empire-the-real-world-territory-control-gam&quot;&gt;Originally launched as a Kickstarter in 2014&lt;/a&gt;, Run an Empire released the first early access version of their app for both &lt;a href=&quot;http://www.runanempire.com/beta/&quot;&gt;Android and iOS&lt;/a&gt; this past January. Now that my training schedule has been/will be starting to pick up, I’m using Run an Empire as a companion app to tracking my runs. The app is in early access , still being built, and it still has some bugs to work out, but I would still recommend downloading it and trying it out. I haven’t even experienced the whole gameplay as no one around me has the app yet, so it will be fun when empires start battling it out!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.runanempire.com/&quot;&gt;Official Site&lt;/a&gt; // &lt;a href=&quot;http://www.runanempire.com/beta/&quot;&gt;Get Access&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 May 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/05/18/run-an-empire</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/18/run-an-empire</guid>
+        
+        <category>health</category>
+        
+        <category>fitness</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Accountability MVP Part 3</title>
@@ -264,27 +285,6 @@
         <category>books</category>
         
         <category>marketing</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>12 Rules for Life - A Must Read</title>
-        <description>&lt;p&gt;If you asked me to recommend you a book to read right now, I would recommend you 2 books. The first one is &lt;em&gt;Extreme Ownership&lt;/em&gt; by Jocko Willink. The second one is &lt;em&gt;12 Rules for Life: An Antidote to Chaos&lt;/em&gt; by Jordan B. Peterson. These two books are battling it out for the top spot on my list of favorite books of this year.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;12 Rules for Life&lt;/em&gt; is dense, it’s philosophical, it’s a tough read, but it drives the lesson home hard and impactfully. Are some chapters or pages or stories hard to understand sometimes? Yes. But if you take the time, rewind a bit in, go back a page or two, and start over, the meaning will come to life. I mentioned a couple rules here on this blog, the last one being &lt;a href=&quot;/blog/2018/04/29/set-your-house&quot;&gt;Rule 6&lt;/a&gt;, but I would recommend taking the time to go through all 12 Rules. In theory you could read the title of the chapter and get the quick understanding, but Dr. Peterson goes through and provides the backstory, the build up, and the reasoning for all his rules. If you are looking for a book to read, I would highly recommend it. This book is one that you will want to read once a year as a reminder to yourself of how to act and how to live.&lt;/p&gt;
-
-&lt;p&gt;Check out Dr. Peterson on &lt;a href=&quot;https://jordanbpeterson.com/&quot;&gt;his personal website&lt;/a&gt;, on &lt;a href=&quot;https://twitter.com/jordanbpeterson&quot;&gt;Twitter&lt;/a&gt;, and on &lt;a href=&quot;https://www.youtube.com/c/jordanpetersonvideos&quot;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 May 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/05/03/rules-of-life-review</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/03/rules-of-life-review</guid>
-        
-        <category>books</category>
-        
-        <category>personal-growth</category>
         
         
         <category>blog</category>
