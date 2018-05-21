@@ -162,7 +162,7 @@
 
   </style>
 
-  <title>Hello, world!</title>
+  <title>Personal Accountability Calendar!</title>
 </head>
 
 <body class="container">
@@ -180,6 +180,7 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
     crossorigin="anonymous"></script>
+  <script src="moment.js"></script> 
   <script>
 
     function loadJSON(callback) {
@@ -239,19 +240,66 @@
         $('.' + m).removeClass('d-none');
       });
 
-        // Do Something with the response e.g.
-        //jsonresponse = JSON.parse(response);
-
-        // Assuming json data is wrapped in square brackets as Drew suggests
-        //console.log(jsonresponse[0].name);
-
     });
+
+    function createStats(goal, total) {
+      var name = goal.goal;
+      var start = goal.start;
+      var end = goal.end;
+
+      start = start.split("/");
+      var startMoment = moment([start[2], start[0], start[1]]);
+
+      end = end.split("/");
+      var endMoment = moment([end[2], end[0], end[1]]);
+
+      var now = new Date();
+      var m = now.getMonth() + 1;
+      var d = now.getDate();
+      var y = now.getFullYear();
+      var nowMoment = moment([y, m, d]);
+
+      var elapsedTime = endMoment.diff(startMoment, 'days');
+      var timeLeft = endMoment.diff(nowMoment, 'days');
+      console.log(elapsedTime);
+      console.log(timeLeft);
+      var row = document.createElement('div');
+          row.className = 'col-sm-12';
+
+      var title = document.createElement('h6');
+          title.appendChild(document.createTextNode('Goal Stats'));
+
+      var subRow = document.createElement('div');
+          subRow.className = 'row';
+      
+      var leftCol = document.createElement('div');
+          leftCol.className = 'col';
+
+      var daysRem = document.createElement('p');
+          daysRem.appendChild(document.createTextNode(timeLeft + ' days remaining'));
+
+      var rightCol = document.createElement('div');
+          rightCol.className = 'col';
+
+      var elapsedDays = document.createElement('p');
+          elapsedDays.appendChild(document.createTextNode(elapsedTime + ' total days'));
+      
+      leftCol.appendChild(daysRem);
+      rightCol.appendChild(elapsedDays);
+
+      subRow.appendChild(leftCol);
+      subRow.appendChild(rightCol);
+
+      row.appendChild(title);
+      row.appendChild(subRow);
+      return row;
+    }
 
     function createMonth(data) {
       var status = data.status;
       for(var i = 0; i < status.length; i++) {
         var row = document.createElement('div');
-            row.className = "col-6 d-none";
+            row.className = "col-md-6 d-none";
         var card = document.createElement('div');
             card.className = 'card';
 
@@ -341,6 +389,8 @@
           dayList.appendChild(d);
         }
         card.appendChild(dayList);
+        var streaks = createStreaks(status[i], data);
+        card.appendChild(streaks);
         row.appendChild(card);
         document.getElementById('goals').appendChild(row);
       }
@@ -351,6 +401,86 @@
 
       $("li").css("line-height", lineHeight);
       $("li").css("height", height);
+    }
+
+    function createStreaks(status, data) {
+      var days = status.days;
+      var totalStreak = 0;
+      var streak = 0;
+      var total = 0;
+      var num = 0;
+      var isStreaking = false;
+      for(var key in days) {
+        num++;
+        var active = days[key];
+        if (active != 0) {
+          total++;
+          if (isStreaking) {
+            streak++;
+          }
+          if (streak == 0) {
+            isStreaking = true;
+            streak++;
+          }
+
+        } else {
+          if(streak > totalStreak) {
+            totalStreak = streak;
+          }
+          streak = 0;
+          isStreaking = false;
+        }
+      }
+      if(streak > totalStreak) {
+        totalStreak = streak;
+      }
+
+      var container = document.createElement('div');
+          container.className = 'row';
+          container.id = "streaks";
+      var row = document.createElement('div');
+          row.className = 'col';
+
+      var title = document.createElement('h6');
+          title.appendChild(document.createTextNode('Monthly Stats'));
+
+      var totalTitle = document.createElement('span');
+          totalTitle.appendChild(document.createTextNode("Total # of Days Completed"));
+      
+      var progress = document.createElement('div');
+          progress.className = 'progress';
+      
+      var percent = Math.round(total / num * 100);
+      $('<div/>', {
+        class: "progress-bar",
+        css: {
+          "width": percent + "%",
+          "background": "#e67e22"
+        },
+        text: percent + "%",
+        role: "progressBar",
+        "aria-valuenow": total,
+        "aria-valuemin": 0,
+        "aria-valuemax": num 
+      }).appendTo(progress);
+
+      var s = document.createElement('div');
+      var sp = document.createElement('p');
+          sp.appendChild(document.createTextNode('Longest Streak: ' + "🔥".repeat(totalStreak)));
+      s.appendChild(sp);
+
+        
+      row.appendChild(title);
+      row.appendChild(totalTitle);
+      row.appendChild(progress);
+      row.appendChild(s);
+
+      var stats = createStats(data, total);
+
+      container.appendChild(row);
+      container.appendChild(stats);
+      
+      return container;
     }
 
 
