@@ -6,9 +6,30 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 May 2018 06:58:30 -0600</pubDate>
-    <lastBuildDate>Mon, 21 May 2018 06:58:30 -0600</lastBuildDate>
+    <pubDate>Tue, 22 May 2018 06:29:29 -0600</pubDate>
+    <lastBuildDate>Tue, 22 May 2018 06:29:29 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Dr. Valter Longo &amp; Rich Roll [Video]</title>
+        <description>&lt;p&gt;Last week, I finished &lt;em&gt;The Longevity Diet&lt;/em&gt; by Dr. Valter Longo. I was introduced to this book and to Dr. Longo by a guest on the Rich Roll podcast, one of my favorite podcasts. With lots of people asking Rich to bring Dr. Longo onto the podcast, he was finally able to make it happen. If you don’t want to or don’t have the time to read the book, at least listen to the podcast, it’ll be worth it.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Odpt9afBlYY&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Tue, 22 May 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/05/22/rich-longo</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/22/rich-longo</guid>
+        
+        <category>video</category>
+        
+        <category>personal-growth</category>
+        
+        <category>health</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Own Your Day, Own Your Life</title>
@@ -253,34 +274,6 @@
         <pubDate>Thu, 10 May 2018 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/blog/2018/05/10/create-meaningful-relationships</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/05/10/create-meaningful-relationships</guid>
-        
-        <category>books</category>
-        
-        <category>marketing</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>How have you failed today?</title>
-        <description>&lt;h6 id=&quot;post-inspired-by-the-power-of-moments-by-chip-heath--dan-heath&quot;&gt;Post inspired by &lt;em&gt;The Power of Moments&lt;/em&gt; by Chip Heath &amp;amp; Dan Heath&lt;/h6&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“What did you guys fail at this week?” (130)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What a powerful question. What have you failed at this week? The founder of Spanxx, Sara Blakely, was asked this question at the dinner table every night from her father. What have you done this week that lead to failure…and then what did you learn from it? This question has two solid reasons behind why you should ask yourself it:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;It normalizes failures. If you ask yourself this question every day, failing doesn’t seem like that big of a deal. It “loses some of its menace.”&lt;/li&gt;
-  &lt;li&gt;It requires you to stretch. When you are pushed to fail every day or every week, it requires you to get outside your comfort zone, outside your box, and push yourself to do something you hadn’t before. If you fail, you learn. And when you’ve been failing every day, it doesn’t seem like that big of a deal when you fail again - you know how to get yourself back up and push forward.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 08 May 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/05/08/how-have-you-failed</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/08/how-have-you-failed</guid>
         
         <category>books</category>
         
