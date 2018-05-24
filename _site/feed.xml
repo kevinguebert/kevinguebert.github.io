@@ -6,9 +6,32 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 May 2018 06:37:34 -0600</pubDate>
-    <lastBuildDate>Wed, 23 May 2018 06:37:34 -0600</lastBuildDate>
+    <pubDate>Thu, 24 May 2018 07:52:28 -0600</pubDate>
+    <lastBuildDate>Thu, 24 May 2018 07:52:28 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Book Trackers</title>
+        <description>&lt;p&gt;If you’ve been following along with this site for a bit, you’ve noticed a couple design changes. I’m not going to lie, there will probably be another one coming soon, but I wanted to highlight one of the pain points I’ve been struggling with in creating this - where to list, keep track of, and showcase books. So far this year, I’ve read more than I expected to and I want to be able to keep track of these books and share my thoughts on them.&lt;/p&gt;
+
+&lt;p&gt;A while back, I was using an app called &lt;a href=&quot;https://shelftaught.com/&quot;&gt;ShelfTaught&lt;/a&gt;. The application is fairly simple, you add books to your “shelf”, rate them, organize them, and move them around however you see fit. A big bonus of that was that I could embed those books into this site without someone having to leave here. Unfortunately though, through unknown reasons, it was slow. You probably saw the blue loading spinner for a bit and I just wasn’t the biggest fan of that while it loads. I don’t mind ShelfTaught, it just isn’t 100% what I’m looking for.&lt;/p&gt;
+
+&lt;p&gt;Before that actually thought, I was using &lt;a href=&quot;http://trello.com&quot;&gt;Trello&lt;/a&gt; boards to organize my books. This wasn’t a bad solution as it actually had the ability to other people to add books to my shelf to recommend to me. The interface however, was not up to par. Cluttered would be the best word I would describe it as.&lt;/p&gt;
+
+&lt;p&gt;Most recently, I’ve been looking at &lt;a href=&quot;https://bookclub.cool/&quot;&gt;BookClub&lt;/a&gt; which I discovered on ProductHunt’s Ship page. The biggest pro to this is the design - I’m a big fan. But at the same time, it is early in the stages, so I haven’t been able to fully commit to it.&lt;/p&gt;
+
+&lt;p&gt;That sounds like a lot of complaining, yeah? The last solution is to build something or make something myself, and, unsurprisingly, I kind of like that idea. I built the &lt;a href=&quot;/accountability-calendar/&quot;&gt;Accountability Calendar&lt;/a&gt; on a whim and fairly quickly, so I’ll see what I can cook up next. I would also like the ability to get all posts for each book I’ve read, and, this would be an “extra” feature if other people could use it, allow people to use their own Amazon affiliate links. So maybe be on the lookout for that? Who knows, there is a lot to do.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 May 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/05/24/track-books</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/24/track-books</guid>
+        
+        <category>books</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Forgive Yourself</title>
@@ -22,7 +45,6 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;“Your day is never going to be perfect…But that doesn’t mean I don’t wake up and do my best the next day” (365)&lt;/p&gt;
-
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 23 May 2018 00:00:00 -0600</pubDate>
@@ -254,23 +276,6 @@
         <guid isPermaLink="true">http://localhost:4000/blog/2018/05/12/accountability-idea</guid>
         
         <category>personal-growth</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Why You Should Make Useless Things [Video]</title>
-        <description>&lt;p&gt;A reminder that not everything has to be perfect, sometimes asking the right questions is better.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c0bsKc4tiuY&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Fri, 11 May 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/05/11/create-useless-things</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/11/create-useless-things</guid>
-        
-        <category>video</category>
         
         
         <category>blog</category>
