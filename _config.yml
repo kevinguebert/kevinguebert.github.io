@@ -28,8 +28,8 @@ gems:
 exclude: [vendor]
 
 book_current:
-  name: Own the Day, Own Your Life
-  author: Aubrey Marcus
+  name: The 5 Love Languages
+  author: Gary Chapman
 
 # secondary_book_current:
 
@@ -135,6 +135,10 @@ books: [
     "name": "The Longevity Diet",
     "author": "Dr. Valter Longo",
     "url": "https://www.amazon.com/Longevity-Diet-Discover-Activation-Regeneration/dp/0525534075"
+  }, {
+    "name": "Own the Day, Own Your Life",
+    "author": "Aubrey Marcus",
+    "url": "https://www.amazon.com/Your-Feelings-Accomplish-Anything-Significant/dp/1983468878/ref=sr_1_4?ie=UTF8&qid=1527079032&sr=8-4&keywords=own+the+day+own+your+life"
   }
 ]
 
