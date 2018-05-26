@@ -6,9 +6,28 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 May 2018 07:52:28 -0600</pubDate>
-    <lastBuildDate>Thu, 24 May 2018 07:52:28 -0600</lastBuildDate>
+    <pubDate>Sat, 26 May 2018 06:47:32 -0600</pubDate>
+    <lastBuildDate>Sat, 26 May 2018 06:47:32 -0600</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Discover Your Love Language</title>
+        <description>&lt;p&gt;&lt;em&gt;The 5 Love Languages&lt;/em&gt; by Gary Chapman has been on my list of “to reads” for the past couple of months. After reading it though, I wish I had spent the day (yes, it is a ‘read in a day’ kind of length) to read it and understand more about it all. The interesting part about &lt;em&gt;The 5 Love Languages&lt;/em&gt; is that it does necessarily have to apply to a romantic relationship. The book is definitely centered around those and marriages, but learning the languages can help you with other relationships. Thus, I would put &lt;em&gt;The 5 Love Languages&lt;/em&gt; on my recommended list - a must read for everyone who is looking to learn more about themselves and others.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.5lovelanguages.com/&quot;&gt;You can also learn about your love language online&lt;/a&gt; - if you don’t feel like reading.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 May 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/blog/2018/05/26/love-languages</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/26/love-languages</guid>
+        
+        <category>books</category>
+        
+        <category>personal-growth</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Book Trackers</title>
@@ -247,35 +266,6 @@
         <category>personal-growth</category>
         
         <category>health</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>A Simple Accountability Idea/MVP</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/blog/2018/03/04/march-tracking&quot;&gt;A while back&lt;/a&gt; I wrote about how I use IFTTT and Zapier to do some basic accountability tracking. By using a Google Calendar and the two mentioned services, every time I completed a task that I set up as one I wanted to track, it would post to my calendar. Thinking more about it today, it could be fairly simple to get a service together to have a user highlight 2-3 top priority habits and create a visual system to keep them accountable. On my wall right now, I have 3 calendars set up so I can cross off the tasks I complete every day. The idea is to transfer that to a publicily accountable place.&lt;/p&gt;
-
-&lt;p&gt;Brainstorm:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Reminder every day at user determined time to have them review their tasks&lt;/li&gt;
-  &lt;li&gt;A simple Google Form for them to check “yes” or “no” if completed&lt;/li&gt;
-  &lt;li&gt;Google Form updates a spreadsheet&lt;/li&gt;
-  &lt;li&gt;IFTTT/Zapier checks if a new row has been added to the spreadsheet&lt;/li&gt;
-  &lt;li&gt;If a habit was completed that day, update a calendar online by crossing off that day&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;—- UPDATE 5:05PM —-&lt;/p&gt;
-
-&lt;p&gt;I liked the idea. Even though I posted this less than an hour ago since this update, I did some work. &lt;a href=&quot;/accountability-calendar/&quot; target=&quot;_blank&quot;&gt;Check out my accountability progress in May&lt;/a&gt; and let me know what you think of the idea.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 12 May 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2018/05/12/accountability-idea</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/05/12/accountability-idea</guid>
-        
-        <category>personal-growth</category>
         
         
         <category>blog</category>

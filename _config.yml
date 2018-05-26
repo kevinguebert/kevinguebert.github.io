@@ -28,8 +28,8 @@ gems:
 exclude: [vendor]
 
 book_current:
-  name: The 5 Love Languages
-  author: Gary Chapman
+  name: SuperBetter
+  author: Jane McGonigal
 
 # secondary_book_current:
 
@@ -139,6 +139,10 @@ books: [
     "name": "Own the Day, Own Your Life",
     "author": "Aubrey Marcus",
     "url": "https://www.amazon.com/Your-Feelings-Accomplish-Anything-Significant/dp/1983468878/ref=sr_1_4?ie=UTF8&qid=1527079032&sr=8-4&keywords=own+the+day+own+your+life"
+  }, {
+    "name": "The 5 Love Languages",
+    "author": "Gary Chapman",
+    "url": "https://www.amazon.com/Love-Languages-Secret-that-Lasts/dp/080241270X/ref=sr_1_1?s=books&ie=UTF8&qid=1527338541&sr=1-1&keywords=the+5+love+languages"
   }
 ]
 
