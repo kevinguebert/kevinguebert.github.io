@@ -14,7 +14,7 @@ Are you a beginner looking to start programming? Are you past the beginner stage
 
 ## Beginning Python
 
-### [Python For Everybody](py4e.com)
+### [Python For Everybody](http://py4e.com)
 I can't say enough about how [great this course is](/blog/2018/04/02/learn-python), if you are new to Python or new to programming in general, I would recommend this course by Chuck Severance.
 
 ### [Practice Python for Beginners](https://www.practicepython.org/)

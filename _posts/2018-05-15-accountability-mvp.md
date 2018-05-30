@@ -19,6 +19,6 @@ Basically what was changed is that instead of manually creating a calendar for e
 6. Create the UI elements for those days
 7. Add it to the webpage.
 
-Suppperr simple, but I love it. Why? Well, I actually won't have to get into the code if I want to update a day. I can just edit the [Gist]((https://gist.github.com/kevinguebert/a31a2e8a09d7054dccca805ee05cb8f3)), hit save, and then it will update the calendar!
+Suppperr simple, but I love it. Why? Well, I actually won't have to get into the code if I want to update a day. I can just edit the [Gist](https://gist.github.com/kevinguebert/a31a2e8a09d7054dccca805ee05cb8f3), hit save, and then it will update the calendar!
 
 Next up, multiple months!

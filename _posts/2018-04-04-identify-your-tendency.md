@@ -19,6 +19,6 @@ To get started, check out her [online quiz](http://www.bit.ly/HabitsQuiz) to hel
 
 [Take the quiz here!](http://www.bit.ly/HabitsQuiz)
 
-![](/uploads/2018/04/04/four-tendencies.jpg)
+![Four Tendencies](/uploads/2018/04/04/four-tendencies.jpg)
 
 ###### Image from GretchenRubin.com

@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-Curious about how to automate some of your accountability? This month for my tracking, I implemented a version 1 plan to automate my tracking by using two services: [IFTTT](ifttt.com) and [Zapier](zapier.com/apps). IFTTT is "If this then that" and Zapier is a very similar service more focused on the business aspect of tasks. What you can do is set up certain "triggers" which then create an output. The way I use it is by using the triggers to add events to a shared Google Calendar.
+Curious about how to automate some of your accountability? This month for my tracking, I implemented a version 1 plan to automate my tracking by using two services: [IFTTT](http://ifttt.com) and [Zapier](http://zapier.com/apps). IFTTT is "If this then that" and Zapier is a very similar service more focused on the business aspect of tasks. What you can do is set up certain "triggers" which then create an output. The way I use it is by using the triggers to add events to a shared Google Calendar.
 
 For example:
 Every time I have a workout on Strava, it creates an event on the calendar.

@@ -18,7 +18,7 @@ Well, I've come to realize and understand that I am more of a morning person. 10
 
 Here's what a typical morning looks like for me:
 
-- 5:30AM Wakeup alarm by Jocko Willink (See [Sleep & Discipline to learn more](/blog/2017/01/07/using-sleep-full-potential.html))
+- 5:30AM Wakeup alarm by Jocko Willink (See [Sleep & Discipline to learn more](/blog/2018/01/07/using-sleep-full-potential))
 - Downstairs to start my kettle for coffee & I make sure to have about half of my Nalgene of water
 - Aeropress Coffee (if you are looking for a good, quick, coffee system, I highly recommend Aeropress. Learning about it and the science behind it was enlightening)
 - Get out my regular looking journal - it is one of those notebooks you see in school, spiral bound, where if you mess up the spirals then the thing is a pain - mine right now is blue and wide ruled. Sometimes I have college ruled, but I like wide as it seems to be the right amount of time

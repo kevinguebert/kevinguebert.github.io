@@ -16,6 +16,6 @@ You have heard of this **Price's Law** before without realizing there was a name
 
 This idea permeates multiple areas of our life - below is a chart from Reddit, a popular online website. It even shows that a small number of users have the most karma (fake internet points) over the vast majority. It makes you wonder - where else is this occurring? 
 
-![](/uploads/2018/04/19/ZJwEgaH.png)
+![Price's Law](/uploads/2018/04/19/ZJwEgaH.png)
 
 ###### [(Source)](https://www.reddit.com/r/JordanPeterson/comments/6dhbbg/prices_law_and_pareto_distributions_everywhere/?st=jg6iebzx&sh=50a5f792 "Source")
