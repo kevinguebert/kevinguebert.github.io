@@ -7,10 +7,6 @@ before_script:
 
 script: ./script/cibuild
 
-branches:
-  only:
-    - master
-
 exclude: [vendor]
 
 env:
