@@ -14,7 +14,6 @@ class TemplateWrapper extends React.Component {
 
     return (
       <div className="template-wrapper">
-        <h1>HELLO</h1>
         <Helmet
           title="Kevin Guebert"
           meta={[
