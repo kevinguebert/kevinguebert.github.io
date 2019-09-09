@@ -1,11 +1,10 @@
 ---
-title: "Derek Sivers' "Hell Yeah" Test"
+title: "Derek Sivers' 'Hell Yeah' Test"
 path: "/2018/03/24/derek-sivers-hell-yeah-test"
 date: "2018-03-24T21:55:00.000Z"
 tags: ["$100 Startup","Marketing","Startups","Books"]
-excerpt: "> "If you’re not saying “HELL YEAH!” about something, say “no”." -Derek Sivers
+excerpt: "If you’re not saying 'HELL YEAH!' about something, say 'no'.'"
 
-I wish I could heed my own advice! OFten times, we as humans have too many things on our plates. Projects, events, and..."
 ---
 
 > "If you’re not saying “HELL YEAH!” about something, say “no”." -Derek Sivers

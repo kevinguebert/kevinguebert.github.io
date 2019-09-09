@@ -32,7 +32,7 @@ $aside-width: 35%;
 
     width: $main-width;
     margin-right: $main-margin-right; 
-    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+    padding: $vertical-padding 0% $vertical-padding 10%;
   }
   @include media('>=medium', '<large') {
     $main-width: 70%;
@@ -110,7 +110,7 @@ $aside-width: 35%;
 
   // Setting the width and padding sizes
   @include media('>=large') {
-    $aside-width: 35%;
+    $aside-width: 25%;
     $vertical-padding: 50px;
     $horizontal-padding: 64px;
 

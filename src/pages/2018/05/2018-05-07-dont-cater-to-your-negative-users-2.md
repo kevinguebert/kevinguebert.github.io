@@ -3,7 +3,7 @@ title: "Don't Cater to Your Negative Users"
 path: "/2018/05/07/dont-cater-to-your-negative-users-2"
 date: "2018-05-08T00:16:00.000Z"
 tags: ["The Power of Moments","Books"]
-excerpt: "> "Research has shown, again and again, that we tend to obsess about problems and negative information...Negative feedback packs a heavier punch than positive; we obsess about 1 negative comment in a..."
+excerpt: "> 'Research has shown, again and again, that we tend to obsess about problems and negative information...Negative feedback packs a heavier punch than positive; we obsess about 1 negative comment in a..."
 ---
 
 > "Research has shown, again and again, that we tend to obsess about problems and negative information...Negative feedback packs a heavier punch than positive; we obsess about 1 negative comment in a collection of 10 supportive ones." (60)

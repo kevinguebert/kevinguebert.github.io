@@ -3,7 +3,7 @@ title: "Don't think design is a priority? Look at this."
 path: "/2018/09/30/dont-think-design-is-a-priority-look-at-this"
 date: "2018-09-30T11:40:27.000Z"
 tags: ["Coding","Technology","Harvy Dev"]
-excerpt: "Let me preface this by saying I am not a designer, I am a developer at heart. My "design process" is usually taking Bootstrap or Foundation and applying it to my latest project to get a pretty basic..."
+excerpt: "Let me preface this by saying I am not a designer, I am a developer at heart. My 'design process' is usually taking Bootstrap or Foundation and applying it to my latest project to get a pretty basic..."
 ---
 
 Let me preface this by saying I am not a designer, I am a developer at heart. My "design process" is usually taking Bootstrap or Foundation and applying it to my latest project to get a pretty basic design. This process more or less gets the job done but never has anything that makes you say "wow." For my latest project [Harvy](https://harvy.app/), I decided I wanted to take it further than I had with any other project. What this meant was I was spending more time doing research, development, and marketing...but I still kept my generic Bootstrap theme.

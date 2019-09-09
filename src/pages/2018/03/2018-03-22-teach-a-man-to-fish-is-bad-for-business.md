@@ -3,9 +3,8 @@ title: "Teach a Man to Fish is Bad for Business"
 path: "/2018/03/22/teach-a-man-to-fish-is-bad-for-business"
 date: "2018-03-22T21:48:00.000Z"
 tags: ["Marketing","Startups","$100 Startup","Books"]
-excerpt: "> "This might be a good idea for hungry fisherman, but it's a terrible idea in business. Most customer's don't want to learn how to fish." (32)
+excerpt: "> 'This might be a good idea for hungry fisherman, but it's a terrible idea in business. Most customer's don't want to learn how to fish.' (32)"
 
-When determining your next app or product you want to..."
 ---
 
 > "This might be a good idea for hungry fisherman, but it's a terrible idea in business. Most customer's don't want to learn how to fish." (32)

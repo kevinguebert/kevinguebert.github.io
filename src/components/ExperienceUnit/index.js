@@ -6,9 +6,9 @@ class ExperienceUnit extends Component {
   render() {
     return (
       <div className="experience-unit col-xs-12 col-sm-6 col-md-4">
-        <a href={this.props.link} target="_blank">
+        <a href={this.props.link} target="_blank" rel="noopener noreferrer">
           <div
-            className="image"
+            className={this.props.cover ? 'image image-cover' : "image"}
             style={{
               backgroundImage: `url(${this.props.logo})`,
               backgroundColor: this.props.colour

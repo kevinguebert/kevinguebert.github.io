@@ -3,7 +3,7 @@ title: "Making Better Decisions"
 path: "/2018/03/07/making-better-decisions"
 date: "2018-03-07T21:42:00.000Z"
 tags: ["Smarter Faster Better","Books","Personal Growth"]
-excerpt: "> "But when we teach people a process for reframing choices, when we give them a series of steps that causes a decision to seem a little bit different than before, it helps them take more control of..."
+excerpt: "> 'But when we teach people a process for reframing choices, when we give them a series of steps that causes a decision to seem a little bit different than before, it helps them take more control of..."
 ---
 
 > "But when we teach people a process for reframing choices, when we give them a series of steps that causes a decision to seem a little bit different than before, it helps them take more control of what's going on inside their heads" -  Eric Johnson, Columbia psychologist (262)

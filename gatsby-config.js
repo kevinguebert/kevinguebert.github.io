@@ -27,8 +27,8 @@ module.exports = {
   ],
   siteMetadata: {
     title: 'Kevin Guebert',
-    description: 'Full stack product enginner',
-    keywords: 'full stack, product enginner, portfolio, personal website',
-    url: 'https://www..com'
+    description: 'Full stack developer',
+    keywords: 'full stack, developer, portfolio, personal website',
+    url: 'https://www.kevinguebert.com'
   }
 };

@@ -3,37 +3,7 @@ title: "Passion, Don't Be Mislead"
 path: "/2018/02/05/passion-dont-be-mislead"
 date: "2018-02-06T02:49:00.000Z"
 tags: ["Books","Personal Growth","Stoicism"]
-excerpt: "---
-
-layout: post
-
-title: Passion, Don't Be Mislead
-
-tags: [books, personal-growth, stoicism]
-
-categories:
-
-- blog
-
----
-
-###### Post inspired from: **Ego is the Enemy** by Ryan Holiday.
-
-> "We hear..."
----
-
----
-
-layout: post
-
-title: Passion, Don't Be Mislead
-
-tags: [books, personal-growth, stoicism]
-
-categories:
-
-- blog
-
+excerpt: "In this day in age, it's all about passion."
 ---
 
 ###### Post inspired from: **Ego is the Enemy** by Ryan Holiday.

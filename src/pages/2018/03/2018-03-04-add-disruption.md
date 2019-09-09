@@ -3,7 +3,7 @@ title: "Add Disruption"
 path: "/2018/03/04/add-disruption"
 date: "2018-03-04T21:39:00.000Z"
 tags: ["Smarter Faster Better","Books","Personal Growth"]
-excerpt: "> "When strong ideas take root, they can sometimes crowd out competitors so thoroughly that alternatives can't prosper. Sometimes the best way to spark creativity is by disturbing things just enough..."
+excerpt: "> 'When strong ideas take root, they can sometimes crowd out competitors so thoroughly that alternatives can't prosper. Sometimes the best way to spark creativity is by disturbing things just enough..."
 ---
 
 > "When strong ideas take root, they can sometimes crowd out competitors so thoroughly that alternatives can't prosper. Sometimes the best way to spark creativity is by disturbing things just enough to let some light through." (231)

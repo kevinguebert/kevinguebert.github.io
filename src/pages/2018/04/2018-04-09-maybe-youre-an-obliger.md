@@ -3,9 +3,7 @@ title: "Maybe You're an Obliger?"
 path: "/2018/04/09/maybe-youre-an-obliger"
 date: "2018-04-09T21:44:00.000Z"
 tags: ["The Four Tendencies","Books"]
-excerpt: "> "The Obliger is the rock of the world. At work, at home, and in life, not only are Obligers the bigger groups, they're the ones whom people count on the most." (103)
-
-In today's topic under *The..."
+excerpt: "> 'The Obliger is the rock of the world. At work, at home, and in life, not only are Obligers the bigger groups, they're the ones whom people count on the most.' (103) In today's topic under *The..."
 ---
 
 > "The Obliger is the rock of the world. At work, at home, and in life, not only are Obligers the bigger groups, they're the ones whom people count on the most." (103)

@@ -3,7 +3,7 @@ title: "Stop Wasting Time and Start Today"
 path: "/2018/04/29/set-your-house"
 date: "2018-04-29T21:49:00.000Z"
 tags: ["12 Rules for Life","Books"]
-excerpt: "> "*Start to stop doing what you know to be wrong.* Start stopping today. Don't waste time questioning how you know that what you're doing is wrong, if you are certain that it is." (158)
+excerpt: "> '*Start to stop doing what you know to be wrong.* Start stopping today. Don't waste time questioning how you know that what you're doing is wrong, if you are certain that it is.' (158)
 
 **Rule 6:..."
 ---

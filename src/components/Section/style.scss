@@ -10,3 +10,14 @@
     margin-bottom: 10px;
   }
 }
+
+.inline {
+  display: inline-block;
+}
+
+.more-link {
+  float: right;
+  padding-top: 7px;
+  font-size:1.5rem;
+  color:$grey-color;
+}

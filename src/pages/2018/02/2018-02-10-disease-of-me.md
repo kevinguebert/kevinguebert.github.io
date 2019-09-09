@@ -3,7 +3,7 @@ title: "Disease of Me"
 path: "/2018/02/10/disease-of-me"
 date: "2018-02-11T02:51:00.000Z"
 tags: ["Books","Personal Growth","Stoicism","Ego is the Enemy"]
-excerpt: "> "Play for the name on the front of the jersey and they'll remember the name on the back" - Tony Adams
+excerpt: "> 'Play for the name on the front of the jersey and they'll remember the name on the back' - Tony Adams
 
 Ponder on that quote a little - it's pretty profound when you think about it. Many of us are..."
 ---

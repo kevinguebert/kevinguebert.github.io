@@ -3,7 +3,7 @@ title: "Anticipate"
 path: "/2018/02/27/anticipate"
 date: "2018-02-28T02:57:00.000Z"
 tags: ["Books","Personal Growth","Stoicism","The Obstacle is the Way"]
-excerpt: "> "If you're not humble, life will visit humbleness upon you" - Mike Tyson
+excerpt: "> 'If you're not humble, life will visit humbleness upon you' - Mike Tyson
 
 Fear setting. Premortems.
 

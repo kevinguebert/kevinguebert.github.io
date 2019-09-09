@@ -3,7 +3,7 @@ title: "Who Are Your Friends"
 path: "/2018/04/24/who-are-your-friends"
 date: "2018-04-24T21:47:00.000Z"
 tags: ["12 Rules for Life","Books"]
-excerpt: "> "If you surround yourself with people who support your upward aim, they will not tolerate your cynicism and destructiveness. They will instead encourage you when you do good for yourself and others..."
+excerpt: "> 'If you surround yourself with people who support your upward aim, they will not tolerate your cynicism and destructiveness. They will instead encourage you when you do good for yourself and others..."
 ---
 
 > "If you surround yourself with people who support your upward aim, they will not tolerate your cynicism and destructiveness. They will instead encourage you when you do good for yourself and others and punish you carefully when you do not." (82)

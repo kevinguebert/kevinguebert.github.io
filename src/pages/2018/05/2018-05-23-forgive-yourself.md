@@ -3,7 +3,7 @@ title: "Forgive Yourself"
 path: "/2018/05/23/forgive-yourself"
 date: "2018-05-24T00:24:00.000Z"
 tags: ["Own the Day, Own Your Life","Books"]
-excerpt: "> "If we don't forgive ourselves, all that knowledge from our past failures will instead petrify into useless information, and we will continue to believe deep down that we deserve to get beaten down..."
+excerpt: "> 'If we don't forgive ourselves, all that knowledge from our past failures will instead petrify into useless information, and we will continue to believe deep down that we deserve to get beaten down..."
 ---
 
 > "If we don't forgive ourselves, all that knowledge from our past failures will instead petrify into useless information, and we will continue to believe deep down that we deserve to get beaten down by life." (365)

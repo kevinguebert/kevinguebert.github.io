@@ -3,7 +3,7 @@ title: "React Meetup Recap"
 path: "/2018/03/28/react-meetup-recap"
 date: "2018-03-28T21:59:00.000Z"
 tags: ["Coding"]
-excerpt: "This past Monday I had the great opportunity to attend a "Intro to React" Meetup. At this Meetup we discussed some of starting blocks to get you going with React - I wanted to share some of the notes..."
+excerpt: "This past Monday I had the great opportunity to attend a 'Intro to React' Meetup. At this Meetup we discussed some of starting blocks to get you going with React - I wanted to share some of the notes..."
 ---
 
 This past Monday I had the great opportunity to attend a "Intro to React" Meetup. At this Meetup we discussed some of starting blocks to get you going with React - I wanted to share some of the notes I took and recap a bit of what was discussed.

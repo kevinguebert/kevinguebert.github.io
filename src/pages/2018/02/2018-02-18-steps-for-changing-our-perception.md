@@ -3,7 +3,7 @@ title: "Steps for Changing our Perception"
 path: "/2018/02/18/steps-for-changing-our-perception"
 date: "2018-02-19T02:54:00.000Z"
 tags: ["Books","Personal Growth","Stoicism","The Obstacle is the Way"]
-excerpt: "> "Nothing *makes* us feel this way, we *choose* to give in to such feelings"
+excerpt: "> 'Nothing *makes* us feel this way, we *choose* to give in to such feelings'
 
 How many of our obstacles, our problems, and our challenges today are based solely on our *perception*? In the new book..."
 ---

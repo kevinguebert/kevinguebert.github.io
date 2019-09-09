@@ -3,7 +3,7 @@ title: "Do. Your. Job."
 path: "/2018/02/21/do-your-job"
 date: "2018-02-22T02:57:00.000Z"
 tags: ["Books","Personal Growth","Stoicism","The Obstacle is the Way"]
-excerpt: "> "Everything we do matters...Everything is a chance to do and be your best. Only self-absorbed assholes think they are too good for whatever their current station requires." (94)
+excerpt: "> 'Everything we do matters...Everything is a chance to do and be your best. Only self-absorbed assholes think they are too good for whatever their current station requires.' (94)
 
 What a powerful..."
 ---

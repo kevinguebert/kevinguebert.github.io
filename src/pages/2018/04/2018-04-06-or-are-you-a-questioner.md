@@ -3,7 +3,7 @@ title: "Or Are You an Questioner?"
 path: "/2018/04/06/or-are-you-a-questioner"
 date: "2018-04-06T21:43:00.000Z"
 tags: ["The Four Tendencies","Books"]
-excerpt: "> "Questioners show a deep commitment to information, logic, and efficiency. They want to gather their own facts, decide for themselves, and act with good reason; they object to anything they consider..."
+excerpt: "> 'Questioners show a deep commitment to information, logic, and efficiency. They want to gather their own facts, decide for themselves, and act with good reason; they object to anything they consider..."
 ---
 
 > "Questioners show a deep commitment to information, logic, and efficiency. They want to gather their own facts, decide for themselves, and act with good reason; they object to anything they consider arbitrary, ill-reasoned, ill-informed, or ineffective." (61)

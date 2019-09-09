@@ -2,9 +2,9 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import zomatoLogo from '../../assets/images/experience/zomato-logo.svg'
-import fitsoLogo from '../../assets/images/experience/fitso-logo.jpg'
-import kayakoLogo from '../../assets/images/experience/kayako-logo-2.jpg'
+import outside from '../../assets/images/experience/outside.png'
+import srLogo from '../../assets/images/experience/sr.jpg'
+import activityBuzz from '../../assets/images/experience/ab.png'
 
 class ExperienceSection extends React.Component {
   render() {
@@ -12,41 +12,28 @@ class ExperienceSection extends React.Component {
       <Section title="Experience">
         <div className="row">
           <ExperienceUnit
-            logo={zomatoLogo}
-            colour='#CB202D'
+            logo={outside}
+            colour='#FFF'
             title='Outside'
-            link='https://www.zomato.com/'
-            timeperiod='2014 - 2015'
-            subtitle='Learnt the 
-              built various featciures including a completely new product.'
+            link='https://www.outsideonline.com/'
+            timeperiod='2017 - Present'
+            subtitle='Helping bring the outdoors online. Web development with Drupal - PHP, JS, MySQL.'
           />
           <ExperienceUnit
-            logo={fitsoLogo}
-            colour='#FFFFFF'
-            title='Fitso'
-            link='https://www.getfitso.com/'
-            timeperiod='2016'
-            subtitle='Built real time GPS tracking on the iOS app,
-              all consumer facing web modules and external APIs in
-              this early stage startup.'
+            logo={srLogo}
+            colour='#1a1a1a'
+            title='SapientRazorfish_'
+            link='https://www.publicissapient.com'
+            timeperiod='2016-2017'
+            subtitle='iOS Mobile App Developer. Created a new hire training program, worked on large-scale client teams'
           />
           <ExperienceUnit
-            logo={kayakoLogo}
-            colour='#403949'
-            title='Kayako'
-            link='https://www.kayako.com/'
+            logo={activityBuzz}
+            colour='#fc895a'
+            title='ActivityBuzz'
+            link=''
             timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
-          />
-          <ExperienceUnit
-            logo={kayakoLogo}
-            colour='#403949'
-            title='Kayako'
-            link='https://www.kayako.com/'
-            timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
+            subtitle='Lead developer (Ruby on Rails + iOS) for a now failed startup in Atlanta'
           />
         </div>
       </Section>

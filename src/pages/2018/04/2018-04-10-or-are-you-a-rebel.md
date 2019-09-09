@@ -3,7 +3,7 @@ title: "Or Are You A Rebel?"
 path: "/2018/04/10/or-are-you-a-rebel"
 date: "2018-04-10T21:44:00.000Z"
 tags: ["The Four Tendencies","Books"]
-excerpt: "> "For Rebels, the ability to choose is so important that sometimes they make a choice--even when it's against their own self-interest or it's not what they prefer--just to reassure themselves that..."
+excerpt: "> 'For Rebels, the ability to choose is so important that sometimes they make a choice--even when it's against their own self-interest or it's not what they prefer--just to reassure themselves that..."
 ---
 
 > "For Rebels, the ability to choose is so important that sometimes they make a choice--even when it's against their own self-interest or it's not what they prefer--just to reassure themselves that they *can* make that choice. (156)

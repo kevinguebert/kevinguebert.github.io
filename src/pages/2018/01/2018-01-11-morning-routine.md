@@ -3,7 +3,7 @@ title: "Finding Your Peak Time - My Morning Routine"
 path: "/2018/01/11/morning-routine"
 date: "2018-01-12T02:37:00.000Z"
 tags: ["Health","Personal Growth"]
-excerpt: "If you Google or search on Medium for "morning routine", you are bound to get thousands of pages of people describing their morning routine and why it is the best one out there. From article titles..."
+excerpt: "If you Google or search on Medium for 'morning routine', you are bound to get thousands of pages of people describing their morning routine and why it is the best one out there. From article titles..."
 ---
 
 If you Google or search on Medium for "morning routine", you are bound to get thousands of pages of people describing their morning routine and why it is the best one out there. From article titles like "What the 5 Most Successful People Do Every Morning" to "Do these 10 Things Every Morning for Maximum Productivity", there are slew of habits, actions, and routines that people are willing to talk about and prescribe you.
