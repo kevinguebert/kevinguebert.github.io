@@ -30,7 +30,7 @@ const BlogPage = ({ data }) => {
           ]}
         />
       <div className="main">
-        <a href="/" className="back">{`< Back`}</a>
+        <a href="/" className="back">{`← Back`}</a>
         <h2 className="blog-title">Writings</h2>
         {posts.map(({ node: post }) => {
           const { frontmatter } = post;

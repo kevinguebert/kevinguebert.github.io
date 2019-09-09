@@ -36,7 +36,7 @@ const Template = ({data, location, pathContext}) => {
         />
       <div className="index">
         <div className="main">
-          <a href="/blog" className="back">{`< Blog`}</a>
+          <a href="/blog" className="back">{`← Blog`}</a>
           <div>
             <h1>{title}</h1>
             <div dangerouslySetInnerHTML={{__html: html}} />
