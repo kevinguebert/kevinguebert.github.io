@@ -1,7 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import get from 'lodash/get'
 
 import './style.scss'
 
@@ -11,28 +9,25 @@ import favicon32 from '../assets/favicons/favicon-32x32.png'
 
 class TemplateWrapper extends React.Component {
   render () {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const siteKeywords = get(this, 'props.data.site.siteMetadata.keywords')
-    const siteURL = get(this, 'props.data.site.siteMetadata.url')
-    const siteDescription = get(this, 'props.data.site.siteMetadata.description')
 
     const { children } = this.props
 
     return (
       <div className="template-wrapper">
+        <h1>HELLO</h1>
         <Helmet
-          title={siteTitle}
+          title="Kevin Guebert"
           meta={[
-            { name: 'description', content: siteDescription },
-            { name: 'keywords', content: siteKeywords },
-            { property: 'og:url', content: siteURL },
+            { name: 'description', content: "Full Stack Developer"},
+            { name: 'keywords', content: 'full stack, developer, portfolio, personal website' },
+            { property: 'og:url', content: "https://www.kevinguebert.com"},
             { property: 'og:image', content: profileImage },
-            { property: 'og:title', content: siteTitle },
-            { property: 'og:description', content: siteDescription },
+            { property: 'og:title', content: "Kevin Guebert"},
+            { property: 'og:description', content: "Full Stack Developer"},
           ]}
           link={[
-            { rel: 'icon', type: 'image/png', sizes: '16x16', href: favicon16 },
-            { rel: 'icon', type: 'image/png', sizes: '32x32', href: favicon32 }
+            { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${favicon16}` },
+            { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${favicon32}` }
           ]}
         />
         <div className="template-wrapper-children">
@@ -44,16 +39,4 @@ class TemplateWrapper extends React.Component {
 }
 
 export default TemplateWrapper
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
-        description
-        url
-        keywords
-      }
-    }
-  }
 `
