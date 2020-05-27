@@ -22,12 +22,12 @@ const Template = ({data, location, pathContext}) => {
         <Helmet
           title={`${title} - Kevin Guebert`}
           meta={[
-            { name: 'description', content: "Full Stack Developer"},
-            { name: 'keywords', content: 'full stack, developer, portfolio, personal website' },
-            { property: 'og:url', content: "https://www.kevinguebert.com"},
+            { name: 'description', content: frontmatter.title},
+            { name: 'keywords', content: frontmatter.excerpt },
+            { property: 'og:url', content: `https://www.kevinguebert.com${frontmatter.path}`},
             { property: 'og:image', content: profileImage },
-            { property: 'og:title', content: "Kevin Guebert"},
-            { property: 'og:description', content: "Full Stack Developer"},
+            { property: 'og:title', content: frontmatter.title},
+            { property: 'og:description', content: frontmatter.excerpt},
           ]}
           link={[
             { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${favicon16}` },

@@ -20,11 +20,12 @@ What makes [Emoodji special?](https://coda.io/d/Emoodji_d2tRkelpm2c/History_suC_
 > And the Maker-in-Chief is none other than [@kevinguebert](https://twitter.com/kevinguebert?ref_src=twsrc%5Etfw), who created Emoodji, a personal mood tracker complete with randomized GIFs, automated reminders, and mobile-friendly buttons. Congratulations! 👏[https://t.co/Gvnu4b6Oer](https://t.co/Gvnu4b6Oer)[pic.twitter.com/rIrEnV5aYl](https://t.co/rIrEnV5aYl)
 > &mdash; Coda (@coda_hq) [April 9, 2019](https://twitter.com/coda_hq/status/1115683821871980544?ref_src=twsrc%5Etfw)
 
-![](../../../static/content/images/2019/06/Screen-Shot-2019-06-07-at-2.52.06-PM.png)![](../../../static/content/images/2019/06/Screen-Shot-2019-06-07-at-2.52.16-PM.png)
+![](./Screen-Shot-2019-06-07-at-2.52.06-PM.png)
+![](./Screen-Shot-2019-06-07-at-2.52.16-PM.png)
 > Thank you [@coda_hq](https://twitter.com/coda_hq?ref_src=twsrc%5Etfw) and [@ProductHunt](https://twitter.com/ProductHunt?ref_src=twsrc%5Etfw) for the great [#makersfestival](https://twitter.com/hashtag/makersfestival?src=hash&amp;ref_src=twsrc%5Etfw)! Loved all the fun and seeing what everyone built! 🙌🙌🙌 [https://t.co/ZlIe5aGSpP](https://t.co/ZlIe5aGSpP)
 > &mdash; Kevin Guebert (@kevinguebert) [April 9, 2019](https://twitter.com/kevinguebert/status/1115688820643586048?ref_src=twsrc%5Etfw)
 
 > All the swag! Thank you [@coda_hq](https://twitter.com/coda_hq?ref_src=twsrc%5Etfw) 🙏 🎉🎉
-> 
+>
 > Thanks to Coda and [@ProductHunt](https://twitter.com/ProductHunt?ref_src=twsrc%5Etfw) for the awesome Makers Festival! 🙌 [pic.twitter.com/9JSIw2DFqM](https://t.co/9JSIw2DFqM)
 > &mdash; Kevin Guebert (@kevinguebert) [May 23, 2019](https://twitter.com/kevinguebert/status/1131644977744760832?ref_src=twsrc%5Etfw)

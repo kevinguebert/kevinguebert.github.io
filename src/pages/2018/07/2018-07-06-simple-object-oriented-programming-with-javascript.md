@@ -18,9 +18,9 @@ Previously, for creating classes before ES6 we would do it this way:
         this.type = type;
         this.name = name;
     }
-    
+
     var winnie = new Pet('cat', 'Winnie');
-    
+
 
 Now with ES6, we can use the `class` syntax:
 
@@ -31,7 +31,7 @@ Now with ES6, we can use the `class` syntax:
         }
     }
     var toby = new Pet('dog', 'Toby');
-    
+
 
 If you want to check and see whether these are the same, you can run a `typeof` on both of them and you will see that both are of type `function`!
 
@@ -47,7 +47,7 @@ Inheritance with Javascript works very similarly to other languages:
             console.log(`Feeding ${this.name}`);
         }
     }
-    
+
     class Cat extends Pet {
         constructor(name) {
             super(name);
@@ -57,7 +57,7 @@ Inheritance with Javascript works very similarly to other languages:
             console.log('Meow!');
         }
     }
-    
+
     class Dog extends Pet {
         constructor(name) {
             super(name);
@@ -67,24 +67,24 @@ Inheritance with Javascript works very similarly to other languages:
             console.log('Woof!');
         }
     }
-    
+
     const winnie = new Cat('Winnie'); // Cat created
     const toby = new Dog('Toby'); // Dog created
-    
+
     winnie.name // "Winnie"
     toby.name // "Toby"
-    
+
     winnie.meow() // "Meow!"
     winnie.bark() // Uncaught TypeError: winnie.bark is not a function
-    
+
     toby.bark() // "Woof!"
     toby.meow() // Uncaught TypeError: toby.meow is not a function
-    
+
     winnie.feed() // Feeding Winnie
     toby.feed() // Feeding Toby
-    
+
 
 As you can see above, both `Cat` and `Dog` inherit the same `feed()` method, but they both have their own methods `meow()` and `bark()` that only those instances can reference!
 
 Hope you enjoy this little JS snippet!
-![tenor-186846798](../../../static/content/images/2018/07/tenor-186846798.gif)
+![tenor-186846798](./tenor-186846798.gif)

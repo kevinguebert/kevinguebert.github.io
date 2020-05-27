@@ -12,4 +12,4 @@ The user flow now requires one more steps for users to input before picking a pl
 
 [Meet Harvy](http://harvy.app)
 
-![Example of User Flow](../../../static/content/images/2018/06/qWNkuATJ3K.gif)
+![Example of User Flow](./qWNkuATJ3K.gif)

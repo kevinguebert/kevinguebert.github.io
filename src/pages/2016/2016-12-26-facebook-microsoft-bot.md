@@ -37,22 +37,22 @@ Note, Facebook does have their own instructions, to follow their instructions yo
 #### Creating a Facebook Page
 
 1. Create a Facebook Page at [https://www.facebook.com/pages/create](https://www.facebook.com/pages/create). Feel free to create whatever you like, you do not need to make it public or publish yet! For this tutorial we are going to make a basic Weather Page.
-2. I decided that the WeatherBot is a Brand or Product and named it "WeatherBot" ![Screen-Shot-2016-05-20-at-10.14.08-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.14.08-AM.png)
+2. I decided that the WeatherBot is a Brand or Product and named it "WeatherBot" ![Screen-Shot-2016-05-20-at-10.14.08-AM](./Screen-Shot-2016-05-20-at-10.14.08-AM.png)
 3. Clicking **Get Started** asks me to set up more information about this page, so let's fill a couple things out:
 
-- About: 'This is a simple demonstration of finding the weather!' ![Screen-Shot-2016-05-20-at-10.15.23-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.15.23-AM.png)
-- Profile Picture: I just found a random one that I decided to put up, nothing important. ![Screen-Shot-2016-05-20-at-10.16.49-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.16.49-AM.png)
+- About: 'This is a simple demonstration of finding the weather!' ![Screen-Shot-2016-05-20-at-10.15.23-AM](./Screen-Shot-2016-05-20-at-10.15.23-AM.png)
+- Profile Picture: I just found a random one that I decided to put up, nothing important. ![Screen-Shot-2016-05-20-at-10.16.49-AM](./Screen-Shot-2016-05-20-at-10.16.49-AM.png)
 - Add to Favorites: I skipped this
 - Preferred Page Audience: I skipped this also
 
-4. Our page is successfully created! Take a look at it below: ![Screen-Shot-2016-05-20-at-10.17.45-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.17.45-AM.png)
-5. Let's head over to the "Settings" in the upper right, and under General -> Page Visibility, I unpublished my page. It isn't important right now and doesn't need to be published to test. Hit save and we should be good! ![Screen-Shot-2016-05-20-at-10.19.09-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.19.09-AM.png)
+4. Our page is successfully created! Take a look at it below: ![Screen-Shot-2016-05-20-at-10.17.45-AM](./Screen-Shot-2016-05-20-at-10.17.45-AM.png)
+5. Let's head over to the "Settings" in the upper right, and under General -> Page Visibility, I unpublished my page. It isn't important right now and doesn't need to be published to test. Hit save and we should be good! ![Screen-Shot-2016-05-20-at-10.19.09-AM](./Screen-Shot-2016-05-20-at-10.19.09-AM.png)
 
 #### Creating a Facebook APP
 
 1. Head over to the [Facebook Developer's site](https://developers.facebook.com/quickstarts/?platform=web) to get started.
-2. Unless you have an existing app, in the top right click on "Skip and Create App ID". Put in the necessary information for your bot/app (don't forget your email) ![Screen-Shot-2016-05-20-at-10.26.43-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.26.43-AM.png)
-3. Our app is officially set up - you should see a dashboard like this: ![Screen-Shot-2016-05-25-at-3.34.41-PM](../../../static/content/images/2018/06/Screen-Shot-2016-05-25-at-3.34.41-PM.png)
+2. Unless you have an existing app, in the top right click on "Skip and Create App ID". Put in the necessary information for your bot/app (don't forget your email) ![Screen-Shot-2016-05-20-at-10.26.43-AM](./Screen-Shot-2016-05-20-at-10.26.43-AM.png)
+3. Our app is officially set up - you should see a dashboard like this: ![Screen-Shot-2016-05-25-at-3.34.41-PM](./Screen-Shot-2016-05-25-at-3.34.41-PM.png)
 
 Next up, we need to get some code up and running so we can connect Facebook!
 
@@ -66,8 +66,8 @@ Okay, less words, I know I know. Let's get back to the steps.
 
 1. Open up your terminal and navigate to where you want your development folder to live. I have a folder in my Documents folder called Development where I store all my development. Feel free to do whatever you prefer.
 2. `mkdir weatherbot && cd weatherbot` - weatherbot is the name of the folder you want your bot to live in/the name of your app, call it whatever you like
-3. You should be inside the folder (that's what `cd weatherbot` did), you can now run `npm init` and follow the prompts. I usually type in the name and description, then hit Enter for everything else ![Screen-Shot-2016-05-20-at-10.47.02-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.47.02-AM.png)
-4. Okay awesome, if you type `ls` you should see a `package.json` file in your folder and that's it. ![Screen-Shot-2016-05-20-at-10.47.54-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-10.47.54-AM.png)
+3. You should be inside the folder (that's what `cd weatherbot` did), you can now run `npm init` and follow the prompts. I usually type in the name and description, then hit Enter for everything else ![Screen-Shot-2016-05-20-at-10.47.02-AM](./Screen-Shot-2016-05-20-at-10.47.02-AM.png)
+4. Okay awesome, if you type `ls` you should see a `package.json` file in your folder and that's it. ![Screen-Shot-2016-05-20-at-10.47.54-AM](./Screen-Shot-2016-05-20-at-10.47.54-AM.png)
 5. Now it is time to install all the packages we are going to be using for this project, I'll list them below and then the commands to install them
 
 - BodyParser
@@ -91,18 +91,18 @@ Okay, less words, I know I know. Let's get back to the steps.
     var Botkit    = require('botkit');
     var os        = require('os');
     var _         = require('underscore');
-    
+
 
 #### Setting up Botkit
 
 1. With your packages included, it is now (finally) time to get into using Botkit and setting everything up.
 2. However, before we get there we need 3 important variables from Facebook. So let's head back to the browser and go to the Facebook page you created.
-3. Click on "About" (look to the right of the profile picture) and scroll all the way down to the bottom until you find "Facebook Page ID" ![Screen-Shot-2016-05-20-at-11.06.16-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-11.06.16-AM.png)
+3. Click on "About" (look to the right of the profile picture) and scroll all the way down to the bottom until you find "Facebook Page ID" ![Screen-Shot-2016-05-20-at-11.06.16-AM](./Screen-Shot-2016-05-20-at-11.06.16-AM.png)
 4. Save that ID for later use/write it down/remember it/keep the browser open
 5. Open up a new tab and go to your Facebook App you created at the [Developers Center for Facebook](https://developers.facebook.com) - if it doesn't automatically populate, go to the top right corner where it says "My Apps" and click on the one you created
 6. On the left hand side, click on "+Add Product" and then chose "Get Started" for "Messenger"
-7. Click Getting Started on the next screen ![Screen-Shot-2016-05-20-at-11.09.41-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-11.09.41-AM.png)
-8. Now you should see a screen that has "Token Generation" in the top middle section ![Screen-Shot-2016-05-20-at-11.11.38-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-11.11.38-AM.png)
+7. Click Getting Started on the next screen ![Screen-Shot-2016-05-20-at-11.09.41-AM](./Screen-Shot-2016-05-20-at-11.09.41-AM.png)
+8. Now you should see a screen that has "Token Generation" in the top middle section ![Screen-Shot-2016-05-20-at-11.11.38-AM](./Screen-Shot-2016-05-20-at-11.11.38-AM.png)
 9. In the "Token Generation" section, under "Page" do the "Select Page" and find the page you created above. You may get a login message from Facebook make sure you allow access to the WeatherBot page you just created, go ahead an click 'Okay' for all of them. You own the page, it isn't published, nothing bad will come of it.
 10. It should have created a unique "Page Access Token" for you to now use. This is also very important to save for later/write down/remember it/keep the browser open.
 11. Lastly, for Facebook, we need a "Verify Token" so when you are communicating with the app, Facebook knows it is you and not someone else. You can have it be whatever you like, I just went to [Random.org/strings](https://www.random.org/strings) and generated a random one. Or it can be something unique to the app or you. Whatever it is, *remember it for later*
@@ -120,19 +120,19 @@ Okay, less words, I know I know. Let's get back to the steps.
         	console.log('Error: Specify verify_token in environment');
         	process.exit(1);
     }
-    
 
-1. 
+
+1.
 Now **please note, if you are distrubuting this software you would not want these tokens to be in your code. You would save them in your environment variables on your server, but for now we are just going to hard code them in**
 
-2. 
+2.
 Anyways, moving on as this is only a demo. With these tokens in there, let's add the code to setup our bot.
 
     var controller = Botkit.facebookbot({
         	access_token: FB_PAGE_TOKEN,
         	verify_token: FB_VERIFY_TOKEN
     });
-    
+
 
 Your code show now totally look like this:
 
@@ -140,7 +140,7 @@ Your code show now totally look like this:
     var Botkit    = require('botkit');
     var os        = require('os');
     var _         = require('underscore');
-    
+
     // const FB_PAGE_ID = process.env.FB_PAGE_ID && Number(process.env.FB_PAGE_ID);
     var FB_PAGE_ID      = "<INSERT PAGE_ID>";
     var FB_PAGE_TOKEN   = process.env.FB_PAGE_TOKEN || "<INSERT PAGE TOKEN>";
@@ -153,17 +153,17 @@ Your code show now totally look like this:
     	console.log('Error: Specify verify_token in environment');
        	process.exit(1);
     }
-    
+
     var controller = Botkit.facebookbot({
         access_token: FB_PAGE_TOKEN,
         verify_token: FB_VERIFY_TOKEN
     });
-    
 
-3. 
+
+3.
 Next up, let's create ("spawn") the bot with `var bot = controller.spawn({});`
 
-4. 
+4.
 And setup our webserver with:
 
     controller.setupWebserver(process.env.port || 8445, function(err, webserver) {
@@ -171,93 +171,93 @@ And setup our webserver with:
        		console.log('ONLINE!');
     	});
     });
-    
+
 
 Note, both of these functions come **prebuilt with the Botkit framework! Woo!**
 
-5. 
+5.
 Lastly, we are going to add some code in so the bot can respond whenever we talk to it. Something simple!
 
     // reply to any incoming message
     controller.on('message_received', function(bot, message) {
     	bot.reply(message, 'I heard... something!');
     });
-    
+
 
 What this code does is just repond with "I heard...something" anytime the bot gets a message/a user sends  amessage.
 
-6. 
+6.
 Alright, so our code is setup, the next question is how do we get Facebook to see it? Welcome **ngrok**. Ngrok is a secure tunnel to localhost, i.e. you don't actually have to have a server setup right now to deploy too! Makes testing and debugging **much, much easier**
 
-7. 
+7.
 Head over to the [Ngrok website](https://ngrok.com/) and click Download to download the one for your computer.
 
-8. 
+8.
 Back in your terminal, make sure you are still in the directory of your project, unzip nrok with `unzip ~/Downloads/ngrok-stable-darwin-amd64.zip` Hopefully it will have unzip ngrok into your weatherbot directory
 
-9. 
-With ngrok unzipped, go ahead and run `./ngrok http 8445`![Screen-Shot-2016-05-20-at-11.57.54-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-20-at-11.57.54-AM.png)
+9.
+With ngrok unzipped, go ahead and run `./ngrok http 8445`![Screen-Shot-2016-05-20-at-11.57.54-AM](./Screen-Shot-2016-05-20-at-11.57.54-AM.png)
 
-10. 
-ngrok will now start up the local tunnel - it should look something like this: ![Screen-Shot-2016-05-25-at-9.26.55-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-25-at-9.26.55-AM.png)
+10.
+ngrok will now start up the local tunnel - it should look something like this: ![Screen-Shot-2016-05-25-at-9.26.55-AM](./Screen-Shot-2016-05-25-at-9.26.55-AM.png)
 
-11. 
-You will see there is a new unique url in the terminal window now next to Forwarding. This is your ngrok url that you can now access on any webpage as long as ngrok is running. One is secured (SSL/https) and the other is not. We will need the secure one for Facebook. **Note, mine is different than yours! Don't just type in what you see!**![Microsoft_-ngrok_http_8445-_160-48](../../../static/content/images/2018/06/Microsoft_-_ngrok_http_8445_-_160-48.png)
+11.
+You will see there is a new unique url in the terminal window now next to Forwarding. This is your ngrok url that you can now access on any webpage as long as ngrok is running. One is secured (SSL/https) and the other is not. We will need the secure one for Facebook. **Note, mine is different than yours! Don't just type in what you see!**![Microsoft_-ngrok_http_8445-_160-48](./Microsoft_-_ngrok_http_8445_-_160-48.png)
 
-12. 
-Go ahead an open up a new tab in your terminal (or new terminal however you like), `cd` into the bot director and run `node index.js`![wBTmFFWsN5](../../../static/content/images/2018/06/wBTmFFWsN5.gif)
+12.
+Go ahead an open up a new tab in your terminal (or new terminal however you like), `cd` into the bot director and run `node index.js`![wBTmFFWsN5](./wBTmFFWsN5.gif)
 
-13. 
+13.
 If all goes well, you should see `info` statements bring printed to the terminal. Congratulations, it is running! We are so close to getting it set up.
 
-14. 
+14.
 Go back to your ngrok tab/terminal and copy that `https` url.
 
-15. 
+15.
 Open a new browser window (or go back to your other ones), and head back to your Facebook app you created in the developer site.
 
-16. 
-On the left hand side, click on "Messenger" then on "Setup Webhooks" ![WeatherBot_-Messenger-_Facebook_for_Developers](../../../static/content/images/2018/06/WeatherBot_-_Messenger_-_Facebook_for_Developers.png)
+16.
+On the left hand side, click on "Messenger" then on "Setup Webhooks" ![WeatherBot_-Messenger-_Facebook_for_Developers](./WeatherBot_-_Messenger_-_Facebook_for_Developers.png)
 
-17. 
+17.
 Where is says "Callback URL", paste in your ngrok https url.
 
-18. 
+18.
 For Verify Token, remember that token we created at **step 11**, go ahead and paste it in there too.
 
-19. 
-Lastly, check all the boxes for Subscription Fields. ![Screen-Shot-2016-05-25-at-9.41.32-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-25-at-9.41.32-AM.png)
+19.
+Lastly, check all the boxes for Subscription Fields. ![Screen-Shot-2016-05-25-at-9.41.32-AM](./Screen-Shot-2016-05-25-at-9.41.32-AM.png)
 
-20. 
+20.
 If you hit "Verify and Save" now, you will get an error for the Callback URL. Hover over the red triangle and it will have a 404 error. That is because Facebook is looking for a specific callback url to hit and get the information we need.
 
-21. 
+21.
 Go back to your callback url and add at the end `facebook/receive` to the end of it. So it should look something like: `https://edafe0a0.ngrok.io/facebook/receive`
 
 -Note, make sure that ngrok is running and you have your app running with `node index.js`
 
-22. 
+22.
 Now, go ahead and hit "Verify and Save" to get it to work. You will notice on the left hand side Facebook added the section 'Webhooks' under Products. If you ever need to change the url or verify token, this is where you would do it. Example use case would be when you stop and restart ngrok.
 
-23. 
+23.
 If all has gone according to plan, we are very close! Just a quick recap to make sure we've checked everything off of the list: 1. Setup Facebook Page & App 2. Have our bot running with `node index.js` and have ngrok running 3. Placed our Callback URLs (ngrok), Verify Tokens, and App Id's in the correct spots
 
 #### Interacting with WeatherBot
 
 Hopefully at this point you have done the steps above. Let's start interacting with our bot.
 
-1. 
+1.
 Head over to your Facebook Page that you created for Weatherbot. At the bottom of the banner image you should see a button that says "Message" (right next to Like). Click that button and a chat window should open up with Weatherbot. If it doesn't, click on the Message button again for the dropdown, and click "Copy Messenger Link". Then go to Messenger, start a new conversation, and paste that link in at the top.
 
-2. 
-Let's see if it works - go ahead and send the message **Hello** to WeatherBot. Hopefully WeatherBot responded with "I heard...something!" ![Screen-Shot-2016-05-25-at-3.42.07-PM](../../../static/content/images/2018/06/Screen-Shot-2016-05-25-at-3.42.07-PM.png)
+2.
+Let's see if it works - go ahead and send the message **Hello** to WeatherBot. Hopefully WeatherBot responded with "I heard...something!" ![Screen-Shot-2016-05-25-at-3.42.07-PM](./Screen-Shot-2016-05-25-at-3.42.07-PM.png)
 
-3. 
+3.
 Congratulations! You have your first bot set up!
 
 ![WeatherBot](http://i.giphy.com/BQAk13taTaKYw.gif)
 
-4. 
+4.
 You may be thinking now "Well that's kind of cool...but it only does one thing." Yes I know, but we have to start somewhere!
 
 ### Working with LUIS
@@ -265,9 +265,9 @@ You may be thinking now "Well that's kind of cool...but it only does one thing."
 LUIS is a beast within itself, so be patient and let's get started. If you're curious about more information and the LUIS Help documentation, [check it out here](https://www.luis.ai/Help)
 
 1. First off, go to [the LUIS Website](https://www.luis.ai) and sign in with your Microsoft Account.
-2. You'll be directed to a sceren that says "My Applications" at the top. Click on "+New App" and then on "New Application" ![LUIS__My_Applications](../../../static/content/images/2018/06/LUIS__My_Applications.png)
-3. Let's fill out this information with our basic information for the WeatherBot and then click "Add App" at the bottom ![LUIS__My_Application](../../../static/content/images/2018/06/LUIS__My_Application.png)
-4. It may take a couple seconds for Microsoft to process your request, so be a bit patient, but once it does, you should be taken to a screen that looks like this: ![LUIS__Edit_Application](../../../static/content/images/2018/06/LUIS__Edit_Application.png)
+2. You'll be directed to a sceren that says "My Applications" at the top. Click on "+New App" and then on "New Application" ![LUIS__My_Applications](./LUIS__My_Applications.png)
+3. Let's fill out this information with our basic information for the WeatherBot and then click "Add App" at the bottom ![LUIS__My_Application](./LUIS__My_Application.png)
+4. It may take a couple seconds for Microsoft to process your request, so be a bit patient, but once it does, you should be taken to a screen that looks like this: ![LUIS__Edit_Application](./LUIS__Edit_Application.png)
 
 Now would be a good time to do a quick timeout to understand some basic terminology.
 
@@ -285,9 +285,9 @@ Now would be a good time to do a quick timeout to understand some basic terminol
 
 For our WeatherBot, we are going to keep it simple. Because of that, we are going to be setting up a two or three intents and entities in LUIS. Let's get started.
 
-1. Let's add a new Entity. On the left hand side, hit the plus button next to "Pre-Built Entities", and in the dialog box click on "Geography" ![LUIS__Edit_Application_1](../../../static/content/images/2018/06/LUIS__Edit_Application_1.png)![LUIS__Edit_Application_2](../../../static/content/images/2018/06/LUIS__Edit_Application_2.png)
-2. Next up, let's create an new Intent. Hit the plus button next to Intents, called it "FindWeather" and we are going to type in an utterance. Let's do something simple: "weather in Atlanta". ![Screen-Shot-2016-05-27-at-9.01.47-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-27-at-9.01.47-AM.png)
-3. Go ahead and hit save and you should get something like this (note **do not** click submit): ![Screen-Shot-2016-05-27-at-9.04.12-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-27-at-9.04.12-AM.png)
+1. Let's add a new Entity. On the left hand side, hit the plus button next to "Pre-Built Entities", and in the dialog box click on "Geography" ![LUIS__Edit_Application_1](./LUIS__Edit_Application_1.png)![LUIS__Edit_Application_2](./LUIS__Edit_Application_2.png)
+2. Next up, let's create an new Intent. Hit the plus button next to Intents, called it "FindWeather" and we are going to type in an utterance. Let's do something simple: "weather in Atlanta". ![Screen-Shot-2016-05-27-at-9.01.47-AM](./Screen-Shot-2016-05-27-at-9.01.47-AM.png)
+3. Go ahead and hit save and you should get something like this (note **do not** click submit): ![Screen-Shot-2016-05-27-at-9.04.12-AM](./Screen-Shot-2016-05-27-at-9.04.12-AM.png)
 4. Right now, we have the word 'Atlanta' highlighted and hopefully LUIS has recognized this as a datetime and geography entity!
 5. Now that we have one down, let's go ahead and add a couple more phrases that could be classified under the 'FindWeather' intent.
 
@@ -307,38 +307,38 @@ For our WeatherBot, we are going to keep it simple. Because of that, we are goin
 
 Let's head back to our code editor, open up the folder, and get started with integration. Go ahead and open `index.js`
 
-1. 
+1.
 To integrate LUIS, let's create a new function that handles all requests. We are going to call it `requestLUIS` and it is going to take our `bot` and the `message` as arguments
 
     function requestLUIS(bot, message) {
     });
-    
 
-2. 
+
+2.
 Earlier we created the `controller.on('message_received'...` in our code. What this statement did was listen to anytime a message received and then just reply with "I heard... something". So let's change that up so anytime we get a message, we request it to LUIS.
 
     controller.on('message_received', function(bot, message) {
     	requestLUIS(bot, message);
     });
-    
 
-3. 
+
+3.
 Now we need to send the message to LUIS to try and understand it. Luckily, that url we clicked under "Query" in LUIS is just what we need. So let's go back to LUIS.
 
-4. 
+4.
 When you go back to your LUIS app, you will see at the top a button for "Go to Preview", click on that INSERT IMAGE
 
-5. 
+5.
 Then, on the left hand side, click "Publish" again, then again "Update Published Application". Copy that URL. The only difference between the Preview and Production URL is that the Preview URL predicts and returns only what you need instead of us, as developers, trying to figure out what intent it found. If you want to see the change, do the same Query step from above. INSERT IMAGE
 
-6. 
+6.
 Near the top of our code, where we definded our FB_PAGE_ID and FB_PAGE_TOKEN, let's go ahead and create a variable for our LUIS Url:
 
     var LUIS_API_URL = "INSERT_URL_HERE";
     var FB_PAGE_ID ...
-    
 
-7. 
+
+7.
 Now head back to the `requestLUIS` function and get started with making a request"
 
     function requestLUIS(bot, message) {
@@ -351,18 +351,18 @@ Now head back to the `requestLUIS` function and get started with making a reques
     		}
     	});
     }
-    
 
-8. 
+
+8.
 Now go back to your terminal, go to the one that has `node index.js` running (**not ngrok**), hit Ctrl-C to stop the process, then again type in `node index.js` to start it back up.
 
-9. 
+9.
 Hopefully, if all went well, we can head back over to Messenger and send another message to WeatherBot. Let's do one of the ones we know: "will it rain tomorrow" (note, if it seems slow to respond or you are not getting anything in your console, try restarting it again)
 
-10. 
+10.
 In our console you should see the response returned from LUIS:  INSERT IMAGE
 
-11. 
+11.
 Alright, so we successfully got data back from LUIS, let's manipulate the data now.
 
     ...
@@ -377,7 +377,7 @@ Alright, so we successfully got data back from LUIS, let's manipulate the data n
     		break;
     }
     ...
-    
+
 
 What did we just do? Well we took the JSON data that was returned from LUIS, figured out what the topScoringIntent was (the one that matched closest with the user's message), then created a `switch` statement on the intent. You may notice I called a new function `findWeather(bot, message, data)` that we haven't created yet. We will do that next. The whole `requestLUIS` function should look like this:
 
@@ -399,9 +399,9 @@ What did we just do? Well we took the JSON data that was returned from LUIS, fig
     		}
     	});
     }
-    
 
-12. 
+
+12.
 Let's create our `findWeather` function now:
 
     function findWeather(bot, message, data) {
@@ -417,27 +417,27 @@ Let's create our `findWeather` function now:
             if(dateTime) {
                 bot.reply(message, "Okay, I'm going to check the weather in " + location.entity + " for " + dateTime);
             } else {
-                bot.reply(message, "Okay, I'm going to check the wather in " + location.entity); 
+                bot.reply(message, "Okay, I'm going to check the wather in " + location.entity);
             }
             requestWeather(bot, message, location, dateTime, state);
         }
     }
-    
+
 
 *Important Note* Alright, let's back up a smidge. If you look at the LUIS documentation, you will see that there is not **just one** type of datetime. There is a datetime.date, datetime.time, and more. So if we put in "will it rain tomorrow" - tomorrow is a datetime.date. If we put in "will it rain at 6:00" - 6:00 is a datetime.time. So if you build this out more, that is something you will need to think about! So above we are just getting the datetime entity based off of that it is not the weathertype entity, thus the other entity in the entities array will be the datetime one. Confusing, I know. This is also the same for builtin.geography. However, it only works for the US...limitations.
 
 Also, I created another new function `requestWeather` which will be get our weather data.
 
-13. 
+13.
 Let's create `requestWeather`. However, to get weather data we are actually going to install another npm module. So go back to your terminal, you can Ctrl-C the `node index.js` process, and then type `npm install weather-js`. *Note, I have no relation with this module and cannot garuantee it will work when you try it out. It is just for tutorial purposes. You can [view the code here](https://github.com/fatihcode/weather)
 
-14. 
+14.
 With it now installed, go back to our code to add it to the `require` statements:
 
     ...
     var _         = require('underscore');
     var weather   = require('weather-js');
-    
+
 
     function requestWeather(bot, message, location, dateTime, state) {
         var loc = location.entity;
@@ -449,17 +449,17 @@ With it now installed, go back to our code to add it to the `require` statements
                 console.log(err);
             } else {
                 var currentWeather = result[0].current;
-    
+
                 var temperature = currentWeather.temperature;
                 var weatherText = currentWeather.skytext;
                 var day         = currentWeather.day;
                 var image       = currentWeather.imageUrl;
-    
+
                 var temp = {};
                     temp.title = weatherText;
                     temp.image_url = image;
                     temp.subtitle = day + ": " + temperature;
-    
+
                 var weatherArray = [];
                     weatherArray.push(temp);
                     console.log(temp);
@@ -468,7 +468,7 @@ With it now installed, go back to our code to add it to the `require` statements
             }
         });
     }
-    
+
 
 Let's look at the code above. First off, if the state exists in the query i.e. if a user types in "weather in Atlanta, GA", we want to add it onto the location search. We then use the weather-js library we juts downloaded to get data back. We get the first result from the returned data (this could be improved later but works for now), then we capture the temperature, text, day, and image from the returned data.
 
@@ -480,19 +480,19 @@ With the release of the Messenger platform, Facebook also allowed developers to 
 
 There are three main types:
 
-1. Button Template ![Untitled-4](../../../static/content/images/2018/06/Untitled-4.png)
-2. Generic Template ![Untitled-3](../../../static/content/images/2018/06/Untitled-3.png)
-3. Receipt Template ![Untitled-2](../../../static/content/images/2018/06/Untitled-2.png)\	
+1. Button Template ![Untitled-4](./Untitled-4.png)
+2. Generic Template ![Untitled-3](./Untitled-3.png)
+3. Receipt Template ![Untitled-2](./Untitled-2.png)\
 
 //end timeout
 
-15. 
+15.
 Back to the code, you will see that I created a `temp` object to hold the data, we are going to create a Generic template to send back which will contain a) the image b) the text of the weather c) a subtitle of the day and the temperature. It'll look something like this: INSERT IMAGE
 
-16. 
+16.
 I created a helper function called `fbMessageTemplate` which takes in 4 arguments (could be condensed but that's okay). The 4 arguments are the template type (generic, button, or receipt), the element type (elements or buttons), a title (for the buttons template), and then the data. **Note**, the data passed through has to be **an array** that conforms to the template type structure you are passing through. If you have a Button Template, the data array needs to have all the requirements to be a button (url, title, etc.). To view the full documentation on this, [go to the Facebook Developer's Website](https://developers.facebook.com/docs/messenger-platform/implementation)
 
-17. 
+17.
 Here is the code for the `fbMessageTemplate` function
 
     function fbMessageTemplate(template, elementType, text, data) {
@@ -512,9 +512,9 @@ Here is the code for the `fbMessageTemplate` function
         }
         return messageData;
     }
-    
 
-18. 
+
+18.
 Alright, so if we combine it all together, this is what your whole `index.js` file should look like:
 
     var request   = require('request');
@@ -522,8 +522,8 @@ Alright, so if we combine it all together, this is what your whole `index.js` fi
     var os        = require('os');
     var _         = require('underscore');
     var weather   = require('weather-js');
-    
-    
+
+
     var LUIS_API_URL    = "<LUIS_API_URL>";
     var FB_PAGE_ID      = "<FB_PAGE_ID>";
     var FB_PAGE_TOKEN   = process.env.FB_PAGE_TOKEN || "<FB_PAGE_TOKEN>";
@@ -536,25 +536,25 @@ Alright, so if we combine it all together, this is what your whole `index.js` fi
         console.log('Error: Specify verify_token in environment');
         process.exit(1);
     }
-    
+
     var controller = Botkit.facebookbot({
         access_token: FB_PAGE_TOKEN,
         verify_token: FB_VERIFY_TOKEN
     });
-    
+
     var bot = controller.spawn({});
-    
+
     controller.setupWebserver(process.env.port || 8445, function(err, webserver) {
         controller.createWebhookEndpoints(webserver, bot, function() {
             console.log('ONLINE!');
         });
     });
-    
+
     // reply to any incoming message
     controller.on('message_received', function(bot, message) {
         requestLUIS(bot, message);
     });
-    
+
     function requestLUIS(bot, message) {
         request(LUIS_API_URL + "&q=" + message.text, function(error, response, body) {
             if(!error && response.statusCode == 200) {
@@ -586,12 +586,12 @@ Alright, so if we combine it all together, this is what your whole `index.js` fi
             if(dateTime) {
                 bot.reply(message, "Okay, I'm going to check the weather in " + location.entity + " for " + dateTime);
             } else {
-                bot.reply(message, "Okay, I'm going to check the wather in " + location.entity); 
+                bot.reply(message, "Okay, I'm going to check the wather in " + location.entity);
             }
             requestWeather(bot, message, location, dateTime, state);
         }
     }
-    
+
     function requestWeather(bot, message, location, dateTime, state) {
         var loc = location.entity;
         if(state) {
@@ -602,17 +602,17 @@ Alright, so if we combine it all together, this is what your whole `index.js` fi
                 console.log(err);
             } else {
                 var currentWeather = result[0].current;
-    
+
                 var temperature = currentWeather.temperature;
                 var weatherText = currentWeather.skytext;
                 var day         = currentWeather.day;
                 var image       = currentWeather.imageUrl;
-    
+
                 var temp = {};
                     temp.title = weatherText;
                     temp.image_url = image;
                     temp.subtitle = day + ": " + temperature;
-    
+
                 var weatherArray = [];
                     weatherArray.push(temp);
                     console.log(temp);
@@ -621,7 +621,7 @@ Alright, so if we combine it all together, this is what your whole `index.js` fi
             }
         });
     }
-    
+
     function fbMessageTemplate(template, elementType, text, data) {
         var messageData = {
             "attachment": {
@@ -639,15 +639,15 @@ Alright, so if we combine it all together, this is what your whole `index.js` fi
         }
         return messageData;
     }
-    
 
-19. 
+
+19.
 Alrighty, so we have `index.js` all set up, let's head back to the terminal, Ctrl-C if you already have `node index.js` running, then go ahead and run it again with `node index.js`
 
-20. 
-Now we can head back to our WeatherBot Facebook message and type out on of our commands. Let's try "weather in Atlanta, GA"  ![Screen-Shot-2016-05-27-at-8.46.07-AM](../../../static/content/images/2018/06/Screen-Shot-2016-05-27-at-8.46.07-AM.png)
+20.
+Now we can head back to our WeatherBot Facebook message and type out on of our commands. Let's try "weather in Atlanta, GA"  ![Screen-Shot-2016-05-27-at-8.46.07-AM](./Screen-Shot-2016-05-27-at-8.46.07-AM.png)
 
-21. 
+21.
 Congratulations! Hopefully you got back something like I did! Your first bot is a success :) Go ahead and try out some other cities, "weather in seattle" or "weather in New york". Every once in a while you may get one of our default responsese "Opps, didn't quite understand you." If your text was correct, maybe LUIS just doesn't understand it yet. All it takes is you going back to LUIS, typing in the utterance, and then training it. It should catch on pretty quickly.
 
 ## Where to go from here

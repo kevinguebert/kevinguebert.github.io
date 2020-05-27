@@ -26,4 +26,4 @@ Printing off and crossing each day off is similar to [Jerry Seinfeld's Productiv
 
 Below is a calendar from Numbers for the month of July. I've got 4 up in my place right now to work on - eating healthy, blogging, running, and going to the gym. At the end of the month I'll be able to reevaluate it all, see what went well, see what didn't, and then go forward with the next month.
 
-![Screen-Shot-2018-07-03-at-9.03.58-AM](../../../static/content/images/2018/07/Screen-Shot-2018-07-03-at-9.03.58-AM.png)
+![Screen-Shot-2018-07-03-at-9.03.58-AM](./Screen-Shot-2018-07-03-at-9.03.58-AM.png)
